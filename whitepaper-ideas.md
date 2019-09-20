@@ -13,6 +13,7 @@ Users and implementers are very much invited to collaborate on this white paper!
 - Identified user communities of linked geo data
 - Real world examples / success stories of linked geo data
 - Geospatial support in triple stores, including treatments of level of GeoSPARQL support, and things GeoSPARQL is lacking
+- Overview and discussion of GeoSPARQL change requests
 
 ## Questions to treat in the white paper
 (examples)
