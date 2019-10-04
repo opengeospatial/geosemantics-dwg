@@ -13,6 +13,7 @@ Users and implementers are very much invited to collaborate on this white paper!
 - Identified user communities of linked geo data
 - Real world examples / success stories of linked geo data
 - Geospatial support in triple stores, including treatments of level of GeoSPARQL support, and things GeoSPARQL is lacking
+- Existing implementations of geospatial extensions superseding GeoSPARQL capabilities
 - Overview and discussion of GeoSPARQL change requests
 
 ## Questions to treat in the white paper
@@ -38,4 +39,5 @@ I can see the following reasons for that:
 * A lack of proper geospatial query capabilities: GeoSPARQL only allows to relate geometries to each other but does not allow
 geometry modifications, raster data processing and algebra and further tasks which are common in state of the art SQL databases
 * A lack of connectivity to other OGC webservices: Why not allow OGC webservices with a linked data backend?
+
 Taking into account this aspect I would argue that providing these query capabilities and developing plugins for major platforms such as QGIS would enable the geospatial community to use linked data in a proper way. Unless the geospatial community can use linked data in a way they use traditional geospatial webservices, linked data will remain unattractive. However, by defining a new GeoSPARQL standard, these prerequisites can be fulfilled and can lead to implementations such as plugins, triple store backends to OGC webservices and therefore to a greater interest in the geospatial community.
