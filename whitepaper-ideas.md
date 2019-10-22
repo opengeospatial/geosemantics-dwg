@@ -12,6 +12,7 @@ Users and implementers are very much invited to collaborate on this white paper!
 - Business reasons for linked data / knowledge graphs.
 - Identified user communities of linked geo data.
 - Real world examples / success stories of linked geodata.
+- Using GeoSPARQL definitions as a general means of disambiguating and explain semantics of any relevant terms in any Web API definition
 - Geospatial support in triple stores, including treatments of level of GeoSPARQL support, and things GeoSPARQL is lacking.
 - Existing implementations of geospatial extensions superseding GeoSPARQL capabilities.
 - Overview and discussion of GeoSPARQL change requests.
@@ -27,7 +28,7 @@ Users and implementers are very much invited to collaborate on this white paper!
 - Should GeoSPARQL move towards an ontology of space positions, regions, and relations, rather than being rooted in the General Feature Model?
 - Could GeoSPARQL offer basic datatypes necessary for storing and processing general spatial data, regardless of the Semweb/RDF?
 - How great is the need for cross-domain interoperability (e.g. using bits of (geo)spatial data in information systems that do not emphasise spatial information)?
-- Is it possible to develop or endorse a web model voor Coordinate Reference Systems to go with GeoSPARQL?
+- Is it possible to develop or endorse a web model for Coordinate Reference Systems to go with GeoSPARQL?
 - Is it possible to define common ground for vector and coverage data within GeoSPARQL?
 - Is there a need to seek collaboration with non-OGC parties for further development of GeoSPARQL?
 
@@ -51,3 +52,6 @@ geometry modifications, raster data processing and algebra and further tasks whi
 * A lack of connectivity to other OGC webservices: Why not allow OGC webservices with a linked data backend?
 
 Taking into account this aspect I would argue that providing these query capabilities and developing plugins for major platforms such as QGIS would enable the geospatial community to use linked data in a proper way. Unless the geospatial community can use linked data in a way they use traditional geospatial webservices, linked data will remain unattractive. However, by defining a new GeoSPARQL standard, these prerequisites can be fulfilled and can lead to implementations such as plugins, triple store backends to OGC webservices and therefore to a greater interest in the geospatial community.
+
+### Relationship API data access and Linked Data 
+In addition to the "I want to use SPARQL" model of the semantic Web, there is a more general requirement facing every data exchange and API publication process of passing information about what terms mean to the end user.  Using Linked Data for the terminology space (models) allows data and APIs to be unambiguoulsy defined using dereferenceable terms. This does not require users to know or care about RDF or SPARQL.  This use case overlaps with a bigger question about the semantic architecture - how geoSPARQL fits in with a semantic web friendly version of the General Feature Model, CRS and other key semantics. GeoSPARQL design and resources should then be optimised ot fit into that bigger architecture.
