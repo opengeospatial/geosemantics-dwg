@@ -1,0 +1,12 @@
+== Introduction
+//write text in as many clauses as necessary. Use one document or many, your choice!
+
+Geospatial data is being recognised as a core data dimension. It provides the capability to answer the question "Where", providing additional context to whatever it relates to. The authors of this white paper believe that semantic and graph technologies will increase the value that can be extracted from geospatial data. This paper has two purposes. Firstly, it will describe the benefits of representing geospatial data using semantics and graph technologies. Secondly, it will outline some shortcomings of the existing GeoSPARQL implementation specification that, if addressed, would unlock this potential to a greater extent.
+
+== Semantic Technologies
+
+Semantic technologies, in the scope of this document, relate to the use of ontologies to describe concepts, relationships between "things", and categories of "things". There are a number of goals for using these technologies, which often relate to providing the capability to reason over the data and simplifying dealing with heterogeneous data sources. Example goals include enabling machine readability, and federated searching.
+
+== Graph Technologies
+
+Graph technologies, in the scope of this document, relate to storage and querying of data items as nodes and edges. Each node represents entities or instances (e.g., a person, place, or thing). Each edge represents a relationship between nodes. Graph related technologies, such as graph databases, are optimised for querying relationships making them useful for goals like computing the shortest path between two nodes. The strict schema of the relational model imposes limitations on how relationships can be queried.

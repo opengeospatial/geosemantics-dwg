@@ -1,0 +1,49 @@
+== Discussion
+
+This section describes the benefits and beneficiaries of representing data, including geospatial data, using semantic and graph technologies.
+
+=== Beneficiaries
+
+==== 1. Data Consumers
+
+Data consumers use data, including geospatial data. They key needs are:
+
+1. to access and understand data from multiple sources; and
+2. to integrate data.
+
+==== 2. Data Publishers
+
+Data publishers have data, including geospatial data. Their key needs are:
+
+1. to maximise use of their data; and
+2. to manage their data as simply as possible.
+
+=== Benefits
+
+The benefits of semantic and graph technologies are outlined below.
+
+==== 1. Disambiguation
+
+Using ontologies to describe entities and their relationships enables greater ability to publish and reuse descriptions, registers of items, etc., This reuse, when coupled with uniform resource identifiers, enables humans and machines to know with certainty that two entities are unambiguously the same.
+
+==== 2. Dereferenceability
+
+OWL and RDF compliant ontologies enable graphs to be entirely composed of uniform resource identifiers, enabling each entity and relationship to have its own metadata, and for that metadata to be dereferenced as required by a data consumer.
+
+==== 3. Reasoning
+
+
+
+==== 4. Extendability
+
+
+
+=== Use Cases
+
+==== Use Case 1: Data access and integration
+
+
+==== Use Case 2: Data Product metadata
+
+
+==== Use Case 3: Modelling Genealogy
