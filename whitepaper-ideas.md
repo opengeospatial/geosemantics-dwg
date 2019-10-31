@@ -46,7 +46,8 @@ However, the geospatial community has not adopted Linked Data to a large extent.
 
 I can see the following reasons for that:
 
-* A lack of software support: Neither QGIS, ArcGIS or any other major software package includes options to access a triple store
+* A lack of software support: Neither QGIS, ArcGIS or any other major software package includes options to access a triple store.
+  (Update: A QGIS plugin is now in development: [SPARQLUnicorn](https://plugins.qgis.org/plugins/sparqlunicorn/) )
 * A lack of awareness of Linked Data and its benefits
 * A lack of proper geospatial query capabilities: GeoSPARQL only allows to relate geometries to each other but does not allow
 geometry modifications, raster data processing and algebra and further tasks which are common in state of the art SQL databases
