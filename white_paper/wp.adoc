@@ -80,6 +80,10 @@ include::clause_1.adoc[]
 
 include::clause_2.adoc[]
 
+include::clause_3.adoc[]
+
+include::clause_4.adoc[]
+
 <<<
 //use annexes as needed
 //include::annex-n.adoc[]
