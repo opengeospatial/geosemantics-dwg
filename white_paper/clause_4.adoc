@@ -4,3 +4,158 @@ This section largely relates to providing feedback on what is currently availabl
 
 === GeoSPARQL
 
+==== Extension 1: Extend expressive power of ontology for encountered use cases
+
+===== Standards Tracker Change Request URI
+
+===== Github Issue URI
+https://
+
+===== Category
+
+Semantic improvement
+
+===== Description
+
+==== Extension 2: Make underlying definitions available on the semantic web
+
+===== Standards Tracker Change Request URI
+
+===== Github Issue URI
+https://
+
+===== Category
+
+Accessibility
+
+===== Description
+
+==== Extension 3: Include all functions already described in Simple Features for SQL
+
+===== Standards Tracker Change Request URI
+
+===== Github Issue URI
+https://
+
+===== Category
+
+Geospatial Processing
+
+===== Description
+
+==== Extension 4: Add semantics for CRS
+
+===== Standards Tracker Change Request URI
+
+===== Github Issue URI
+https://
+
+===== Category
+
+Semantic Improvement
+
+===== Description
+
+==== Extension 5: Explicitly expect significant digits in numerical data
+
+===== Standards Tracker Change Request URI
+
+===== Github Issue URI
+https://
+
+===== Category
+
+Semantic Improvement
+
+===== Description
+
+==== Extension 6: Widen the scope to all spatial data
+
+===== Standards Tracker Change Request URI
+
+===== Github Issue URI
+https://
+
+===== Category
+
+????
+
+===== Description
+
+==== Extension 7: Availability in JSON-LD format
+
+===== Standards Tracker Change Request URI
+
+===== Github Issue URI
+https://
+
+===== Category
+
+Result Encoding
+
+===== Description
+
+==== Extension 8: Extend expressive power of ontology for encountered use cases
+
+===== Standards Tracker Change Request URI
+
+===== Github Issue URI
+https://
+
+===== Category
+
+Semantic Improvement
+
+===== Description
+
+==== Extension 9: Extending GeoSPARQL by defining more vector literal types
+
+===== Standards Tracker Change Request URI
+
+===== Github Issue URI
+https://
+
+===== Category
+
+Geospatial Encoding
+
+===== Description
+
+==== Extension 10: GeoSPARQL Schema v1.0.1: hasDefaultGeometry
+
+===== Standards Tracker Change Request URI
+
+===== Github Issue URI
+https://
+
+===== Category
+
+Semantic Improvement
+
+===== Description
+
+==== Bug 1: Corrections of example data and queries
+
+===== Standards Tracker Change Request URI
+
+===== Github Issue URI
+https://
+
+===== Category
+
+Documentation Improvement
+
+===== Description
+
+==== Change 1: Decouple CRS and WKT
+
+===== Standards Tracker Change Request URI
+
+===== Github Issue URI
+https://
+
+===== Category
+
+Coordinate Reference System Support
+
+===== Description
