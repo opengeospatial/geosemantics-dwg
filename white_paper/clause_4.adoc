@@ -1,0 +1,260 @@
+== Learnings from use
+
+This section largely relates to providing feedback on what is currently available, to help identify some of the barriers to use, and to outline requirements that have not been addressed that may encourage greater uptake.
+
+=== GeoSPARQL
+
+==== Extension 1: Extend expressive power of ontology for encountered use cases
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=601
+
+===== Github Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/15
+
+===== Category
+
+Semantic improvement
+
+===== Description
+
+We request extensions to the GeoSPARQL OWL ontology that includes details it doesn't cater for such as indicating spatial resolution, areas, proportional relations (e.g. area overlaps) and roles for multiple Geometry objects relating to a single Feature.
+
+We have packaged the extensions we are already using in an ontology that is mostly built on GeoSPARQL but it also uses elements from QUDT and the some supporting datatype vocabularies.
+
+The "GeoSPARQL Extensions Ontology" is online, and can be found here: https://github.com/CSIRO-enviro-informatics/geosparql-ext-ont/.
+
+==== Extension 2: Make underlying definitions available on the semantic web
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=600
+
+===== Github Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/14
+
+===== Category
+
+Accessibility
+
+===== Description
+
+GeoSPARQL is currently lacking in semantics that are available on the semantic web. For example, the concept of Geometry is not explained in GeoSPARQL itself, but has in its text definition a pointer to ISO 19107: "This class is equivalent to the UML class GM_Object defined in ISO 19107". Should one look up that document on the web, a paywall from ISO is hit. Such fundamental definitions should be directly accessible to consumers, both human and machine, on the semantic web, either as part of GeoSPARQL or as another web vocabulary.
+
+==== Extension 3: Include all functions already described in Simple Features for SQL
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=599
+
+===== Github Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/13
+
+===== Category
+
+Geospatial Processing
+
+===== Description
+
+GeoSPARQL describes a number of SPARQL functions that can be implemented by developers of SPARQL endpoints. It would be beneficial for working with spatial data in SPARQL if more ways of interacting with spatial data were available. The routines and functions described in the Simple Features for SQL specification (06-104r4) are well known and have been implemented in different libraries and data storage systems. It could be a relatively simple effort to transpose the existing definitions to RDFS/OWL, so developers of SPARQL systems can implement those often very useful functions, either by using existing libraries, or by new development.
+
+==== Extension 4: Add semantics for CRS
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=598
+
+===== Github Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/12
+
+===== Category
+
+Semantic Improvement
+
+===== Description
+
+Descriptions of Coordinate Reference Systems (CRS) are important in correct interpretation of spatial data, and in working with that kind of data. However, CRS descriptions are not readily available as Linked Data. Therefore, it would be good to have GeoSPARQL use a standard ontology for describing CRS, either as an extension or module of GeoSPARQL itself, or an endorsed external ontology.
+
+==== Extension 5: Explicitly expect significant digits in numerical data
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=597
+
+===== Github Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/11
+
+===== Category
+
+Semantic Improvement
+
+===== Description
+
+Numerical data published using GeoSPARQL often have an unrealistic amount of digits. At the same time, there is no standardized way to express spatial resolution yet. Both these problems can be addressed when numerical data, published using GeoSPARQL, are explicitly expected to have only significant digits.
+
+==== Extension 6: Widen the scope to all spatial data
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=594
+
+===== Github Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/9
+
+===== Category
+
+Increased Scope
+
+===== Description
+
+GeoSPARQL's scope is geographic data, as the name says. Less explicit, GeoSPARQL is only about vector data. However, there is a need for a web ontology that can be used to work with all kinds of spatial data. GeoSPARQL seems to be the best candidate for realization of a domain independent ontology for spatial data.
+
+A universal, or domain independent ontology for spatial data is needed because space is a phenomenon that exists everywhere and is present in many kinds of human endeavour. Traditionally, universal phenomena like time and space have been modelled in different domains, according to domain specific requirements. Linked Data and the semantic web now offer a way to share data with many different perspectives, in a domain independent way. A domain independent ontology for time already exists: 0 . The time has now come for space to have a similar ontology. Practically, this will greatly increase interoperability of spatial data. Not only on the web: offline systems (e.g storage systems and libraries) could also benefit from having a single root model to depend on.
+
+GeoSPARQL is a good candidate for evolving into a general ontology for spatial data because:
+1. The Semantic Web allows direct open and modular access to all definitions.
+2. OGC has a large canon for spatial data modelling ready for re-use. Existing OGC models have sound mathematical foundations that are applicable outside the geography domain.
+3. OGC has been broadening its scope. Broadening the scope of GeoSPARQL should fit in nicely with that development. Examples of domains that are using different ways of working with spatial data, but increasingly do need to interoperate with geographic data are building information modelling (BIM) and 3D visualization.
+4. OGC is an esteemed authority for standard specifications (although further collaboration with W3C would be beneficial). Widening the scope of GeoSPARQL would certainly mean the ontology becoming much bigger. Further modularization should prevent the ontology becoming unwieldy and users becoming overwhelmed with information which is not required for their purposes. Modularization can also be used to make distinctions between vector and coverage data, where required, but to share fundamentals too.
+
+This subject has been discussed in the Spatial Data on the Web Working Group and is a project proposal in the Spatial Data on the Web Interest Group, found here: https://github.com/w3c/sdw/issues/1095
+
+==== Extension 7: Availability in JSON-LD format
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=591
+
+===== Github Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/8
+
+===== Category
+
+Accessibility
+
+===== Description
+
+The GeoSPARQL ontology is available online in XML and TTL formats. JSON-LD could be added as an additional publication format, supported by content negotiation of course. This will allow easier consumption of the ontology by web pages. This, in turn, allows easier consultation of the ontology by humans. For example, parts of the ontology could be visualized as diagrams, or definitions of terms could be rendered as tooltips on web pages.
+
+==== Extension 8: Extending GeoSPARQL by defining more vector literal types
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=585
+
+===== Github Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/6
+
+===== Category
+
+Geospatial Encoding
+
+===== Description
+
+GeoSPARQL currently offers WKT and GML literal types which can be used to encode vector geometries. However, geospatial data formats are very heterogeneous and a variety of other data formats deserve to be encodable in GeoSPARQL in our opinion.
+
+In the following we list the most likely candidates:
+- GeoJSON: Very common throughout the Web
+- GeoHash: Common has representations of vector data
+- GPX: GPX Format used in GPS trackers
+- KML Format by Google
+- (H)(E)WKB/TWKB: Binary serializations of WKT often used as an internal storage format in databases
+
+The following formats could be considered, but are in our opinion optional:
+- LatLonText: Common format to display points in e.g. Wikidata or OSM
+- GeoURI: Defacto standard for mobile phone geo urls
+- Geobuf Format
+- OSM Format: OSM XML
+- Polyshape/EncodedPolyline: Format developed by Google to encode polylines/polyshapes
+- SVG: Web standard for graphics in general
+- X3D: Standard to visualize 3D geometries
+
+Implementations of most of the described literals can be seen in an extension for rdf4j and an extension for Jena, and in a proposed ontology here: https://github.com/i3mainz/geosparql2.0
+
+Possibly, other literal implementations are useful and could be discussed.
+
+This PDF provides links to all the dataformat specifications and proposes how literal representations could look like: https://github.com/opengeospatial/geosemantics-dwg/blob/master/CR585attachment.pdf.
+
+==== Bug 1: Corrections of example data and queries
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=173
+
+===== Github Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/4
+
+===== Category
+
+Documentation Bug
+
+===== Description
+
+Errors in example data and queries might lead to wrong implementations. In the given example data in B.1. (page 51) the LineString start with (( and ends with )), although it must be single brackets.
+
+In the third example query in B.2 (page 52) the subject of the fifth triple pattern is a variable called ?my:D although is should be no variable (my:D).
+
+In the fourth example query in B.2 (page 54) the URL given in the prefix definition for geof is wrong. Instead of < 0 > it must be < 1 >
+
+==== Bug 2: GeoSPARQL Schema v1.0.1: hasDefaultGeometry
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=548
+
+===== Github Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/5
+
+===== Category
+
+Documentation Bug
+
+===== Description
+
+There is a mismatch between the published GeoSPARQL standard v1.0 (11-052r4) and the schema v1.0.1 ( 0 ).
+
+On 8.3.12, page 13, of the standard is defined the property hasDefaultGeometry.
+The schema defines the property instead as defaultGeometry but with an otherwise equivalent definition. The schema does not contain a hadDefaultGeometry property.
+
+This mismatch prevents RDFS and OWL inferencing being performed correctly on a dataset written to comply with the standard.
+
+Please can the schema be updated and new version issued.
+
+==== Change 1: Decouple CRS and WKT
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=595
+
+===== Github Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/10
+
+===== Category
+
+Coordinate Reference System Support
+
+===== Description
+
+WKT seems a good way to easily encode geographic geometry, but the datatype geo:wktLiteral makes it hard to work with GeoSPARQL. In a next version, there should be an option to use only a WKT literal and use a different way to express the CRS of a geometry. Reasons why concatenation of CRS URI and WKT can be considered bad design are:
+
+- GeoSPARQL deviates from the WKT standard, resulting in poor software support.
+- Allowing not to specify a CRS and defaulting to CRS84 may be useful in North America, but is of little value for serious usage in other parts of the world.
+- The proper data type for expression of CRS is an IRI. Therefore it should be defined as such, not as part of a string literal.
+
+Especially when non-geographical geometry is considered, CRS is not necessarily a known property. Therefore it should be possible to leave out CRS data in publications, without this resulting in wrong interpretations.
+
+CRS can be considered an intrinsic or fundamental aspect of geometry, but so are other properties like dimensionality or accuracy. This does not mean all of this information should be lumped together in one literal.
+
+It seems better to introduce a new property for CRS and to let WKT literals be just WKT literals. Should a new property for indicating CRS be introduced, it would be good to allow it to be applied not only to individual geometries, but to geometry collections too.
