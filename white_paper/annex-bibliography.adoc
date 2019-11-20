@@ -38,3 +38,6 @@ Springer LNCS is widely used in technical and computer science journals and othe
 
 [[PROV DM]]
 [6] Web: W3C: PROV-DM The PROV Data Model, https://www.w3.org/TR/prov-dm/
+
+[[BioregionalAssessments]]
+[7] Web: Australian Government: https://www.bioregionalassessments.gov.au
