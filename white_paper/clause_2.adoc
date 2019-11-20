@@ -77,7 +77,7 @@ The Italian Public Debt Directorate is responsible for various matters, such as 
 
 ==== Use Case 3: Recording Provenance
 
-
+Many systems record events in custom logs so data processing steps can often be understood but sometimes with great difficulty, especially when multiple, different, processing systems are used together. Data is often processed both by humans and machines which will record processing at different levels of granularity. A standard model of provenance is needed if all steps in data lineage are to be recorded in an interoperable form. The PROV Data Model [6] presentes a generic but easily extensible/specializable provenance model for multi-system and also multi-scale provenance recording and querying. PROV information can be sampled (queried) to aggregate detailed low-level provenance, or drilled into for deeper details where they exist. It's flexible as any graph model is so any kind of workflow can be recorded using it. The standard RDF format used by ontology variants of PROV allow for its storage in standard Semantic Web systems and accessibility via standard SPARQL queries. The strong definitions within PROV prevent unknown log formats being encountered in the future.
 
 ==== Use Case 4: Data analysis (Oil and Gas Industry)
 
