@@ -28,16 +28,16 @@ Using formal ontologies to describe entities and their relationships removes def
 
 ==== Benefit 2: Dereferenceability
 
-OWL and RDF-compliant graphs are composed entirely of nodes and edges identified by URIs or literal values, enabling any entity or relationship to have its own metadata, and for that metadata to be downloaded as required by a data consumer, whether human or machine. This 'dereferencability' makes accessing and understanding models and content easy: it's accessible by normal Internet tools.
+OWL and RDF-compliant graphs are composed entirely of nodes and edges identified by URIs or literal values, enabling any entity or relationship to have its own metadata, and for that metadata to be downloaded as required by a data consumer, whether human or machine. This 'dereferenceability' makes accessing and understanding models and content easy: it's accessible by normal Internet tools.
 
 ==== Benefit 3: Reasoning
 
-Semantic Web graph systems use formal _description logic_ to define and relate elements. This allows for rule-base or other computational reasoning to occur. New information may be calculated from simple base data by following ontology _axioms_ which leads to new knolwedge, including multi-dataset traversals and validation of data.
+Semantic Web graph systems use formal _description logic_ to define and relate elements. This allows for rule-base or other computational reasoning to occur. New information may be calculated from simple base data by following ontology _axioms_ which leads to new knowledge, including multi-dataset traversals and validation of data.
 
 
 ==== Benefit 4: Extendability
 
-Graph "carry their schema with them" since the data model is defined with each node and edge's definition. This allows data models to be expanded easily without becoming unmanagable. Whatever model extensibility is made, general graph traversal will be able to follow it and the definitions of the new information able to be extracted in predictable ways.
+Graph "carry their schema with them" since the data model is defined with each node and edge's definition. This allows data models to be expanded easily without becoming unmanageable. Whatever model extensibility is made, general graph traversal will be able to follow it and the definitions of the new information able to be extracted in predictable ways.
 
 === Use Cases
 
@@ -55,13 +55,13 @@ To promote more transparent and inclusive governance in the Tuscany region SIRIS
 
 Over the last 200 years, countries have replaced their constitutions on average every 19 years, and some have amended them almost yearly. A basic problem in the drafting of these documents is the search and analysis of model text deployed in other jurisdictions. In the Constitute Project, Ultrawrap was used to integrate the world’s constitutions into a single unified semantic endpoint for contextual searching. The project was launched at the General Assembly of the United Nations in 2013 and continues to integrate over 196 current databases of all of the world’s constitutions on the Web. Countries throughout the world can take advantage of this free service to modify and develop their constitutions.
 
-_Healthcare_
+_Health Care_
 
 Semantic interoperability is essential when carrying out post-genomic clinical trials where several institutions collaborate, since researchers and developers need to have an integrated view and access to heterogeneous data sources. The work of [59] shows how to query clinical data in HL7 RIM-based relational models using the Morph system. It presents a solution that uses R2RML mappings that relate an integrating ontology to the underlying relational database implementations. morph-RDB is used to expose a SPARQL endpoint to access the data in Semantic Web form too.
 
-Improving healthcare for people with chronic conditions requires clinical information systems that support integrated care and information exchange. The adoption of an approach based on semantic information simplifies the use of multiple and diversified Electronic Health Records (EHRs). Within the work described in [60], a Diabetes Mellitus Ontology (DMO) has been developed, and has been used to diagnose patients with diabetes, and automatically identify them by analyzing EHRs. Specifically, by using Ontop, the EHR data from a general practice (with almost 1,000 active patients) could be queried via SPARQL. The accuracy of the algorithm for automatic identification of patients with diabetes was validated by performing a manual audit of the EHRs, and considered good enough for the purpose. Not surprisingly, the accuracy of the automatic method was influenced by data quality, such as incorrect data due to mistaken units of measurement, unavailable data due to lack of or wrong documentation, and data management errors.
+Improving health care for people with chronic conditions requires clinical information systems that support integrated care and information exchange. The adoption of an approach based on semantic information simplifies the use of multiple and diversified Electronic Health Records (EHRs). Within the work described in [60], a Diabetes Mellitus Ontology (DMO) has been developed, and has been used to diagnose patients with diabetes, and automatically identify them by analyzing EHRs. Specifically, by using Ontop, the EHR data from a general practice (with almost 1,000 active patients) could be queried via SPARQL. The accuracy of the algorithm for automatic identification of patients with diabetes was validated by performing a manual audit of the EHRs, and considered good enough for the purpose. Not surprisingly, the accuracy of the automatic method was influenced by data quality, such as incorrect data due to mistaken units of measurement, unavailable data due to lack of or wrong documentation, and data management errors.
 
-Also, Capsenta has reported that VKG technology has been deployed in the healthcare sector to help clinical investigators to increase procedure volume, to improve patient identification and to reduce IT resources.
+Also, Capsenta has reported that VKG technology has been deployed in the health care sector to help clinical investigators to increase procedure volume, to improve patient identification and to reduce IT resources.
 
 _Smart Cities_
 
@@ -77,7 +77,7 @@ The Italian Public Debt Directorate is responsible for various matters, such as 
 
 ==== Use Case 3: Recording Provenance
 
-To assemble the lineage of data processed by multiple systems and perhaps also by humans, manually, a consistent yet flexible lineage/provenance model is needed. Consistency of patterning is needed to ensure interoperability for information from multiple sources and yet flexibility is needed to accomodate different granularities of processing steps recorded. The PROV Data Model [6] is a graph-based generic, but easily extensible/specializable model for provenance representation. PROV information can be sampled (queried) to aggregate detailed low-level provenance, or drilled into for deeper details where they exist. The standard RDF format used by ontology variants of PROV allow for its storage in standard Semantic Web systems and accessibility via standard SPARQL queries. The strong definitions within PROV prevent unknown log formats being encountered in the future. The Australian Bioregional Assessments Programme [7] used PROV to record both dataset-level provenance (what the ancestors of datasets are) and also fine-grained processing steps for individual data elements within datasets meaning this very varied provenance can, nontheless, be stored in one system and accessed sensibly.
+To assemble the lineage of data processed by multiple systems and perhaps also by humans, manually, a consistent yet flexible lineage/provenance model is needed. Consistency of patterning is needed to ensure interoperability for information from multiple sources and yet flexibility is needed to accommodate different granularities of processing steps recorded. The PROV Data Model [6] is a graph-based generic, but easily extensible/specializable model for provenance representation. PROV information can be sampled (queried) to aggregate detailed low-level provenance, or drilled into for deeper details where they exist. The standard RDF format used by ontology variants of PROV allow for its storage in standard Semantic Web systems and accessibility via standard SPARQL queries. The strong definitions within PROV prevent unknown log formats being encountered in the future. The Australian Bioregional Assessments Programme [7] used PROV to record both dataset-level provenance (what the ancestors of data sets are) and also fine-grained processing steps for individual data elements within data sets meaning this very varied provenance can, nonetheless, be stored in one system and accessed sensibly.
 
 ==== Use Case 4: Data analysis (Oil and Gas Industry)
 
@@ -85,7 +85,7 @@ One of the common tasks for geologists at Equinor (Norway) is to find new exploi
 
 ==== Use Case 5: Diagnoses (Industrial Machinery)
 
-Siemens Energy runs several service centers that remotely monitor and perform diagnostics for several thousand appliances, such as gas and steam turbines, generators and compressors installed in power plants. For performing reactive and predictive diagnostics at Siemens, data access and integration of both static data (e.g., configuration and structure of turbines) and dynamic data (e.g., sensor data) are particularly important but very challenging. The work of [53] addressed these data access requirements by using the Optique platform as a VKG solution, similar to the Equinor use-case.
+Siemens Energy runs several service centers that remotely monitor and perform diagnostics for several thousand appliances, such as gas and steam turbines, generators and compressors installed in power plants. For performing reactive and predictive diagnostics at Siemens, data access and integration of both static data (e.g., configuration and structure of turbines) and dynamic data (e.g., sensor data) are particularly important but very challenging. The work of [53] addressed these data access requirements by using the Optique platform as a VKG solution, similar to the Equinor use case.
 
 ==== Use Case 6: Simplified Access to Heterogeneous Data (Cultural heritage)
 
