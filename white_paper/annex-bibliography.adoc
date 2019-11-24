@@ -31,7 +31,13 @@ Springer LNCS is widely used in technical and computer science journals and othe
 [3] Web: Data Intelligence: Virtual Knowledge Graphs: An Overview of Systems and Use Cases, http://www.data-intelligence-journal.org/p/24/#Ch-S2
 
 [[Google1]]
-[4] Web: Youtube: Introducing the Knowledge Graph, https://www.youtube.com/watch?v=mmQl6VGvX-c&feature=youtu.be&fbclid=IwAR0wz99TjQ9xsVzzEb7qmFos_WqKQjpjz8XnNkUilTA6_xxg-gkvN1XxznY
+[4] Web: Youtube: Introducing the Knowledge Graph, https://www.youtube.com/watch?v=mmQl6VGvX-c
 
 [[GeoSPARQL1]]
 [5] Web: OGC: OGC GeoSPARQL - A Geographic Query Language for RDF Data, http://www.opengis.net/doc/IS/geosparql/1.0
+
+[[PROV DM]]
+[6] Web: W3C: PROV-DM The PROV Data Model, https://www.w3.org/TR/prov-dm/
+
+[[BioregionalAssessments]]
+[7] Web: Australian Government: https://www.bioregionalassessments.gov.au
