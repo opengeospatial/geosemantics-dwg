@@ -184,6 +184,53 @@ Possibly, other literal implementations are useful and could be discussed.
 
 This PDF provides links to all the dataformat specifications and proposes how literal representations could look like: https://github.com/opengeospatial/geosemantics-dwg/blob/master/CR585attachment.pdf.
 
+==== Extension 9: Extending the GeoSPARQL ontology with support for Raster data
+
+===== Standards Tracker Change Request URI
+
+
+
+===== Github Issue URI
+
+
+
+===== Category
+
+Geospatial Encoding
+
+===== Description
+
+GeoSPARQL is currently incapable of encoding and dealing with raster data.
+However, raster data is essential for many geospatial applications and supported by many of relational geospatial databases such as POSTGIS.
+Raster data even provides semantics, as interpretations of raster data can be given by interpreting the color codes of raster bands.
+In order to integrate raster data into GeoSPARQL the following requirements need to be fulfilled:
+- Extending the GeoSPARQL ontology to include support for GridCoverages
+- Extending the GeoSPARQL ontology with raster literal types such as CovJSON,GMLCOV,GeoTIFF
+- Extending the GeoSPARQL ontology with vocabularies to describe raster data content
+
+==== Extension 10: Extending the GeoSPARQL with raster data query capabilities
+
+===== Standards Tracker Change Request URI
+
+
+
+===== Github Issue URI
+
+
+
+===== Category
+
+Query Language
+
+===== Description
+
+If the GeoSPARQL ontology is able to support raster data, new query capabilities are needed in order to use raster data in daily applications.
+In particular the following query capabilities which are the norm in relational GIS databases should be adopted:
+- Raster algebra operations
+- Raster relation functions (ST_Within, ST_Covers...)
+- Vectorization and Rasterization capabilities
+- Raster modification capabilities (e.g. ST_AddBand)
+
 ==== Bug 1: Corrections of example data and queries
 
 ===== Standards Tracker Change Request URI
