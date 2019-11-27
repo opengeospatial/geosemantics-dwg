@@ -231,6 +231,71 @@ In particular the following query capabilities which are the norm in relational 
 - Vectorization and Rasterization capabilities
 - Raster modification capabilities (e.g. ST_AddBand)
 
+==== Extension 11: Extending the GeoSPARQL ontology with full-featured 3D support
+
+===== Standards Tracker Change Request URI
+
+
+
+===== Github Issue URI
+
+
+
+===== Category
+
+Ontology
+
+===== Description
+
+GeoSPARQL currently only explicitly supports 2D geometries. 
+However, work has already been done in defining ontologies for 3D geometries (e.g. https://github.com/w3c-geom-cg/geom or https://www.web3d.org/working-groups/x3d-semantic-web/charter). 
+These ontologies could be checked and integrated into or merged with the GeoSPARQL ontology in order to represent.
+
+==== Extension 12: Extending the GeoSPARQL with functions to handle 3D geometries
+
+===== Standards Tracker Change Request URI
+
+
+
+===== Github Issue URI
+
+
+
+===== Category
+
+Ontology
+
+===== Description
+
+The GeoSPARQL query language currently only supports function capable of dealing with 3D geometries. However, with the emergence of standards sucha as CityGML which could be supported as GML literals, specific 3D-aware functions should be added to GeoSPARQL to accommodate such recent developments.
+Suggestions:
+- 3D-aware functions of the RCC8 calculus
+- ST_Distance3D
+- ST_Length3D
+- ST_Difference3D
+
+==== Extension 13: Extending the GeoSPARQL with support for M and T coordinates
+
+===== Standards Tracker Change Request URI
+
+
+===== Github Issue URI
+
+
+===== Category
+
+Query Language
+
+===== Description
+
+Many geospatial libraries such as JTS (https://github.com/locationtech/jts) provide explicit support for geometries with measurement coordinates. These are useful in a variety of applications e.g. when a road is simplified in a query statement but users still would like to query the correct amount of kilometres since its start. The time coordinates are useful when working with GPS tracks in order to track per-point when a user went to a particular place. While the latter can also be achieved by modeling every point of a GPS track as its own point geometry, it is unnecessary if the points provide no further semantic information apart from the time point. While the support XYZM or XYZMT coordinates is not a matter of GeoSPARQL itself but more of the formats which are supported as literals in the query language, GeoSPARQL could provide definitions of functions which are aware of these extended coordinate concepts such as:
+- ST_M/ST_T
+- ST_FilterByM/ST_FilterByT
+- ST_PartOfGeometryBefore
+- ST_PartOfGeometryAfter
+- ST_PartOfGeometryAt
+
+
 ==== Bug 1: Corrections of example data and queries
 
 ===== Standards Tracker Change Request URI
