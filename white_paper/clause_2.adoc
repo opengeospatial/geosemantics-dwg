@@ -9,14 +9,17 @@ This section describes the beneficiaries & benefits of representing data, includ
 Data consumers use data, including geospatial data. They key needs are:
 
 1. to access and understand data from multiple sources; and
-2. to integrate data - geospatial and non-geospatial.
+2. to integrate data - geospatial and non-geospatial
+3. to get a data quality evaluation of the given geospatial data
 
 ==== Beneficiary 2: Data Publishers
 
 Data publishers have data, including geospatial data. Their key needs are:
 
 1. to maximise use of their data; and
-2. to manage their data as simply as possible.
+2. to manage their data as simply as possible
+3. to indicate possible usage contexts of the geospatial data
+4. to quality-assure their geospatial data
 
 === Benefits
 
@@ -71,6 +74,10 @@ _Manufacturing_
 
 Digitalization in the manufacturing domain requires information models describing assets and information sources of companies to enable the semantic integration and interoperable exchange of data. The work of [58] reports on a case study where, for a global manufacturing company, an information model using semantic technologies is proposed. Three types of data were of particular interest in the project: (1)sensor data, (2) the Bill of Materials, and (3)data from the Manufacturing Execution System. The information model is centered around machine data and describes all relevant assets, key terms and relations in a structured way, making use of existing as well as newly developed RDF vocabularies. In addition, it comprises numerous RML mappings that link different data sources required for integrated data access and querying via SPARQL. The technical infrastructure and methodology used to develop and maintain the information model is based on a Git repository and utilizes the development environment VoCol as well as Ontop.
 
+_National agencies for Cartography_
+
+It is in the best interest of national agencies for cartography to provide services for other national authorities covering a wide range of topics. Usually, these topics are displayed using thematic maps (e.g. https://www.bkg.bund.de/DE/Produkte-und-Services/Shop-und-Downloads/Landkarten/Karten-Downloads/Themenkarten/themenkarten.html) which are created with respect to different demands of the general public, other national agencies or by the government. Thematic maps always highlight certain characteristics of a dataset (e.g. school accessibility) for which at least those characteristics should be firstly available and secondly in a usable state. Very often, attributes are required which are not collected by any governmental agency, so that crowdsourced data is correllated with already existing governmentally-administered data. This of course poses a big integrational problem which many agencies for cartography would like to solve by setting up linked data repositories which can be interlinked to further crowdsourced elements. To that end Switzerland launched its LINDAS initiative (https://www.egovernment.ch/de/umsetzung/e-government-schweiz-2008-2015/lindas/). In Germany, the Federal Agency for Cartography and Geodesie is aiming to create national ontology standards and to set up a linked data infrastructure in cooperation with the University Of Applied Sciences Mainz. (http://i3mainz.de/de/projekte/intelligente-datenerfassung-oeffentliche-Verwaltung) The European Union supports such initiatives by defining appropriate INSPIRE vocabularies (https://github.com/inspire-eu-rdf/inspire-rdf-vocabularies).
+
 ==== Use Case 2: Data Product metadata (Government and Public Administration)
 
 The Italian Public Debt Directorate is responsible for various matters, such as issuance and management of the public debt, and analysis of the problems inherent to its management. The Directorate is organized into offices that deal with specific aspects, and each sub-unit has an understanding of a particular portion of the public debt domain. However, a shared and formalized description of the relevant concepts and relations in the whole domain was missing, since data were managed by different systems in different offices, and their structure had been heavily modified and updated to serve specific application needs. There was a clear need to coordinate and integrate the data of the various sub-units. The work of [54] presented a project for addressing this issue. They developed the Public Debt Ontology to formalize the whole domain of the Italian public debt. The VKG system Mastro Studio has been used to provide a comprehensive software environment. Users can take advantage of the wiki-like documentation of the ontology to access both its graphical representation and its OWL2 specification.
@@ -102,3 +109,11 @@ Process mining techniques are able to extract knowledge from event log data, whi
 ==== Use Case 9: Improving Search (Search)
 
 Google's knowledge graph [4]
+
+==== Use Case 10: Libraries and Museums
+
+To preserve the national heritage of countries, libraries and museums have the task to collect information about artifacts, relate artifacts to other similar artifacts in different museums and to create a historic context for people to understand the artifacts provenance. Those tasks are more and more frequently achieved using linked data technologies and ontologies modeling the necessary data using appropriate vocabularies. One example is the German National Library which since many years develops the "Gemeinsame Normdatei" GND ontology (https://d-nb.info/standards/elementset/gnd) including a geospatial component designed to locate the artifacts origins and the origins of their creators. The British museum created a SPARQL endpoint based on Blazegraph which contains similar information about the artifacts displayed in the British museum. 
+
+==== Use Case 11: Disaster management and risk assessment
+
+Risk assessment of areas is a crucial task for every government planning a national defense strategy for natural disasters. Governments usually classify their governing areas by elements at risk which in turn can be used to assess the impact of certain events like flood disasters or to calculate a general score of natural disaster risks. In general: The more information is available about geospatial objects in the respective area, the more accurate a risk assessment may become. Some information needed to make such calculations such as statistics (e.g. inhabitants of districts or hospital capacities) may be acquired by official governmental agencies. However, increasingly other sources of crowdsourced information (OpenStreetMap, Wikidata) containing information about frequently visited points of interests (a potential danger in case of disasters) are considered. Risk assessment and disaster management applications therefore benefit from the integrational aspect of linked data yet they currently lack enough query capabilities to do many risk assessment specified tasks. Linked data is therefore mainly used as a tool to enrich data already in already existing relational databases rather than working on a local possibly interlinked linked data infrastructure. 
