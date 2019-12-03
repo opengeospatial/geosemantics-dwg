@@ -249,7 +249,7 @@ Ontology
 
 GeoSPARQL currently only explicitly supports 2D geometries. 
 However, work has already been done in defining ontologies for 3D geometries (e.g. https://github.com/w3c-geom-cg/geom or https://www.web3d.org/working-groups/x3d-semantic-web/charter). 
-These ontologies could be checked and integrated into or merged with the GeoSPARQL ontology in order to represent.
+These ontologies should be checked and integrated into, or merged with, the GeoSPARQL ontology.
 
 ==== Extension 12: Extending the GeoSPARQL with functions to handle 3D geometries
 
@@ -267,7 +267,7 @@ Ontology
 
 ===== Description
 
-The GeoSPARQL query language currently only supports function capable of dealing with 3D geometries. However, with the emergence of standards sucha as CityGML which could be supported as GML literals, specific 3D-aware functions should be added to GeoSPARQL to accommodate such recent developments.
+The GeoSPARQL query language currently only supports functions capable of dealing with 2D geometries. However, with the emergence of standards such as CityGML which could be supported as GML literals, specific 3D-aware functions should be added to GeoSPARQL to accommodate such recent developments.
 Suggestions:
 - 3D-aware functions of the RCC8 calculus
 - ST_Distance3D
