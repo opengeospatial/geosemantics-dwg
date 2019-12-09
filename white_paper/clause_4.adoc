@@ -399,7 +399,7 @@ Also see the following publications for OMG and FOG and their respective use cas
 
 - Bonduel, M., Wagner, A., Pauwels, P., Vergauwen, M., & Klein, R. (2019). Including widespread geometry formats in semantic graphs using RDF literals. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 341–350). Chania, Greece. https://doi.org/10.35490/EC3.2019.166 
 
-NOTE This extension proposal has some overlap with issues raised in extensions 8, 9 and 11
+NOTE: This extension proposal has some overlap with issues raised in extensions 8, 9 and 11
 
 ==== Extension 19: Terminology needed to express relations between geometry descriptions
 
