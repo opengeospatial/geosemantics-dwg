@@ -362,7 +362,9 @@ Currently, GeoSPARQL requires one intermediate node to attach geometry descripti
 In AEC, for example, versioning, and thus level 3, is needed during (1) design phase of buildings and (2) for modeling change over time of a building (e.g. changes to building elements, geometry from multiple surveys over time), while data exchange without need for additional metadata would be most performant with level 1 and storage of certain planning stages would be ideally implemented with level 2 to allow multiple geometry descriptions. 
 
 Also see the following publications:
+
 - Wagner, A., Bonduel, M., Pauwels, P., & Uwe, R. (2019). Relating geometry descriptions to its derivatives on the web. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 304–313). Chania, Greece. https://doi.org/10.35490/EC3.2019.146 
+
 - Bonduel, M., Wagner, A., Pauwels, P., Vergauwen, M., & Klein, R. (2019). Including widespread geometry formats in semantic graphs using RDF literals. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 341–350). Chania, Greece. https://doi.org/10.35490/EC3.2019.166 
 
 ==== Extension 18: Need for a universal linking method between objects and geometry descriptions in any existing schema
@@ -379,7 +381,7 @@ Increased Scope
 
 ===== Description
 
-Geometry can be described in different ways than SFA/GML snippets in RDF literals. A uniform connector ontology with supplementary metadata would help collaboration across different domains and companies. Hence the different approaches to include geometry in a Semantic Web context should be allowed by the linking method: 1) RDF-based geometry following a dedicated ontology as the geometry schema (e.g. GEOM (http://rdf.bg/geometry.ttl), OntoBREP (https://github.com/OntoBREP/ontobrep), OCC (http://w3id.org/occ), etc.); 2) RDF literal embedding the content of a geometry file (~ GeoSPARQL 1.0 for 2D WKT and 2D GML); 3) RDF literal containing a reference to an external geometry file.
+Geometry can be described in different ways than SFA/GML snippets in RDF literals. A uniform connector ontology with supplementary metadata would help collaboration across different domains and companies. Hence the different approaches to include geometry in a Semantic Web context should be allowed by the linking method: 1) RDF-based geometry following a dedicated ontology as the geometry schema (e.g. GEOM (https://github.com/w3c-geom-cg/geom), OntoBREP (https://github.com/OntoBREP/ontobrep), OCC (http://w3id.org/occ), etc.); 2) RDF literal embedding the content of a geometry file (~ GeoSPARQL 1.0 for 2D WKT and 2D GML); 3) RDF literal containing a reference to an external geometry file.
 
 For each approach, a wide variety of geometry schemes exist for different use cases. All these schemes should be supported (i.e. binary or text-based, open or proprietary, 2D (vector or raster) or 3D (BREP, CSG, NURBS, point clouds, meshes), RDF-based or other (XML-based, JSON-based, SPFF-based, custom, etc.)). To achieve this support, we suggest the following adaptations:
 - Binary geometry descriptions: GeoSPARQL 1.0 uses both the datatype property (e.g. geosparql:asWKT) and the datatype (e.g. geosparql:wktLiteral) to express the used geometry schema. Instead, the datatype could be used to add information about the used text encoding of the binary geometry descriptions (base64, hexadecimal, base32, base122, etc.) using XSD or custom datatypes
@@ -392,8 +394,12 @@ By widening the scope via the proposed adaptation, the serialisation of the geom
 - Remark: if external files are integrated as proposed above, only one taxonomy has to be created for geometry schemes that are not RDF-based, in disregard of whether they are integrated as snippets (datatype properties) or external files (which would be object properties, if they would be represented by individuals instead of RDF literals)
 
 Also see the following publications for OMG and FOG and their respective use cases:
+
 - Wagner, A., Bonduel, M., Pauwels, P., & Uwe, R. (2019). Relating geometry descriptions to its derivatives on the web. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 304–313). Chania, Greece. https://doi.org/10.35490/EC3.2019.146 
+
 - Bonduel, M., Wagner, A., Pauwels, P., Vergauwen, M., & Klein, R. (2019). Including widespread geometry formats in semantic graphs using RDF literals. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 341–350). Chania, Greece. https://doi.org/10.35490/EC3.2019.166 
+
+NOTE This extension proposal has some overlap with issues raised in extensions 8, 9 and 11
 
 ==== Extension 19: Terminology needed to express relations between geometry descriptions
 
@@ -424,7 +430,9 @@ These relations are currently implemented in the Ontology for Managing Geometry 
 4. Referencing: During a modeling phase, it is easier to store the geometry in a single file using the native geometry schema of the modeling application. At the same time, it is relevant to know which parts of the larger geometry description correspond to an individual building object. Hence, subparts of the building model should be connected to individual building elements, if the applied geometry format allows this, e.g. by providing identifiers for parts of the geometry description. In OMG this relation is currently implemented via the omg:isPartOfGeometry property between two instances of omg:Geometry. The partial geometry (subject) is referenced using one or multiple omg:hasReferencedGeometryId properties (with subproperties per kind of identifier per geometry schema in File Ontology for Geometry formats (FOG, https://w3id.org/fog)) that can be applied to the main geometry (object) to extract the subgeometry by processing.
 
 Also see the following publications for OMG and FOG:
+
 - Wagner, A., Bonduel, M., Pauwels, P., & Uwe, R. (2019). Relating geometry descriptions to its derivatives on the web. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 304–313). Chania, Greece. https://doi.org/10.35490/EC3.2019.146 
+
 - Bonduel, M., Wagner, A., Pauwels, P., Vergauwen, M., & Klein, R. (2019). Including widespread geometry formats in semantic graphs using RDF literals. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 341–350). Chania, Greece. https://doi.org/10.35490/EC3.2019.166 
 
 ==== Extension 20: Support for parametric geometry descriptions via links between a non-geometric property and geometric properties
