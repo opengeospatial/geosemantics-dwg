@@ -295,6 +295,168 @@ Many geospatial libraries such as JTS (https://github.com/locationtech/jts) prov
 - ST_PartOfGeometryAfter
 - ST_PartOfGeometryAt
 
+==== Extension 14: Propose how authoring metadata should be included
+
+===== Standards Tracker Change Request URI
+
+
+===== Github Issue URI
+
+
+===== Category
+
+Semantic Improvement
+
+===== Description
+
+In AEC, authoring metadata (e.g. author, date, revision, etc.) is of high relevance for multiple aspects of collaboration, such as coordination and legal issues. Hence, the domains requires authoring metadata to be attached to any kind of information -- and with geometry oftentimes being the core structure for non-geometric information -- this is even more important for geometry descriptions. To avoid inconsistent and varying attachments of authoring metadata, we suggest to formulate a best practice for enhancing GeoSPARQL triples with authoring information, ideally by reusing existing concepts of provenance ontologies, e.g. PROV-O, DCTerms, etc.
+
+==== Extension 15: Add concepts for accuracies and tolerances
+
+===== Standards Tracker Change Request URI
+
+
+===== Github Issue URI
+
+
+===== Category
+
+Semantic Improvement / Increased Scope
+
+===== Description
+
+The AEC domain struggles with geometric representations of planned objects and built objects and corresponding tolerances and inaccuracies, respectively. Planned objects are created on a scratchpad, while construction sites do not offer perfect conditions to recreate the planned geometry completely. Depending on the construction material, the geometry descriptions are commonly enriched with tolerance values, ranging from millimeters (steelwork) to centimeters (masonry). For the geometry of already built objects, the (measured) accuracy is also not perfect, as measuring techniques cannot provide flawless representations. Furthermore, by processing or simplifying geometry descriptions (e.g. from point cloud to mesh), inaccuracies can occur, which are also of interest to attach (represented accuracy). Hence, the possibility to attach accuracies (measured or calculated accuracy) and tolerances would be beneficial for building geometry.  
+
+==== Extension 16: Enable semantic descriptions of the applied geometry representation contexts
+
+===== Standards Tracker Change Request URI
+
+
+===== Github Issue URI
+
+
+===== Category
+
+Semantic Improvement
+
+===== Description
+
+Some geometry schemes can contain a variety of geometry representation contexts (BREP, CSG, NURBS, etc.) but not all applications can deal with every geometry representation context. To ease the integration of geometry descriptions into applications, metadata regarding the geometry representation context at hand could help to automatically retrieve suitable descriptions only. Example: DWG can contain a 2D drawing, a 3D mesh and/or 3D BREP geometry.
+
+==== Extension 17: Allow multiple modelling levels for connection patterns between objects and geometry descriptions
+
+===== Standards Tracker Change Request URI
+
+
+===== Github Issue URI
+
+
+===== Category
+
+Modelling patterns
+
+===== Description
+
+Currently, GeoSPARQL requires one intermediate node to attach geometry descriptions to objects. However, in some cases, this might be too complicated and reduce querying performance, while other cases might require additional nodes (e.g. version control). In the Ontology for Managing Geometry (OMG, https://w3id.org/omg), multiple levels for connecting geometry descriptions and objects exist. OMG level 1 implements direct connections between objects and their geometry description (omg:hasSimpleGeometryDescription and omg:hasComplexGeometryDescription), level 2 adds one intermediate node (omg:Geometry), similar to GeoSPARQL 1.0, and the third level adds another node (omg:GeometryState) for versioning purposes. The selection which level is used in a situation depends on the required features (balance between simplicity and functionality).
+
+In AEC, for example, versioning, and thus level 3, is needed during (1) design phase of buildings and (2) for modeling change over time of a building (e.g. changes to building elements, geometry from multiple surveys over time), while data exchange without need for additional metadata would be most performant with level 1 and storage of certain planning stages would be ideally implemented with level 2 to allow multiple geometry descriptions. 
+
+Also see the following publications:
+
+- Wagner, A., Bonduel, M., Pauwels, P., & Uwe, R. (2019). Relating geometry descriptions to its derivatives on the web. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 304–313). Chania, Greece. https://doi.org/10.35490/EC3.2019.146 
+
+- Bonduel, M., Wagner, A., Pauwels, P., Vergauwen, M., & Klein, R. (2019). Including widespread geometry formats in semantic graphs using RDF literals. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 341–350). Chania, Greece. https://doi.org/10.35490/EC3.2019.166 
+
+==== Extension 18: Need for a universal linking method between objects and geometry descriptions in any existing schema
+
+===== Standards Tracker Change Request URI
+
+
+===== Github Issue URI
+
+
+===== Category
+
+Increased Scope
+
+===== Description
+
+Geometry can be described in different ways than SFA/GML snippets in RDF literals. A uniform connector ontology with supplementary metadata would help collaboration across different domains and companies. Hence the different approaches to include geometry in a Semantic Web context should be allowed by the linking method: 1) RDF-based geometry following a dedicated ontology as the geometry schema (e.g. GEOM (https://github.com/w3c-geom-cg/geom), OntoBREP (https://github.com/OntoBREP/ontobrep), OCC (http://w3id.org/occ), etc.); 2) RDF literal embedding the content of a geometry file (~ GeoSPARQL 1.0 for 2D WKT and 2D GML); 3) RDF literal containing a reference to an external geometry file.
+
+For each approach, a wide variety of geometry schemes exist for different use cases. All these schemes should be supported (i.e. binary or text-based, open or proprietary, 2D (vector or raster) or 3D (BREP, CSG, NURBS, point clouds, meshes), RDF-based or other (XML-based, JSON-based, SPFF-based, custom, etc.)). To achieve this support, we suggest the following adaptations:
+
+- Binary geometry descriptions: GeoSPARQL 1.0 uses both the datatype property (e.g. geosparql:asWKT) and the datatype (e.g. geosparql:wktLiteral) to express the used geometry schema. Instead, the datatype could be used to add information about the used text encoding of the binary geometry descriptions (base64, hexadecimal, base32, base122, etc.) using XSD or custom datatypes
+
+- RDF-based geometry descriptions: geosparql:hasSerialization cannot be used, as it is an owl:DatatypeProperty. We suggest to implement two properties for connecting geometry descriptions, as implemented in the Ontology for Managing Geometry (OMG, https://w3id.org/omg): omg:hasSimpleGeometryDescription a owl:DatatypeProperty -- to link to RDF literals;  omg:hasComplexGeometryDescription a owl:ObjectProperty -- to link to the first node of RDF-based geometry descriptions
+
+- Links to external files:  Instead of making the file location an individual (node), we argue to add the URL/location as RDF literal with the datatype xsd:anyURI. Otherwise, if the location of the geometry file would change, the URI of the RDF node would have to be updated, which is against the COOL URIs best practice.
+
+By widening the scope via the proposed adaptation, the serialisation of the geometry can no longer be defined in the datatype. Hence, a novel approach to identify the serialisation for automated processing by software applications is required. In OMG this issue is solved by creating a taxonomy, the File Ontology for Geometry formats (FOG, https://w3id.org/fog), that extends the OMG properties. Each FOG property corresponds with a geometry schema and is specialised further via subproperties to indicate the schema version and -- if the geometry schema demands/allows multiple files (e.g. a separate material, texture, … file) or serialisations -- the individual serialisation. 
+
+- Remark: defining properties in FOG for every geometry schema, version, and serialisation that exist is impossible. The taxonomy can and should be extended by users (locally or by suggesting extensions to a centrally managed repository)
+- Remark: if external files are integrated as proposed above, only one taxonomy has to be created for geometry schemes that are not RDF-based, in disregard of whether they are integrated as snippets (datatype properties) or external files (which would be object properties, if they would be represented by individuals instead of RDF literals)
+
+Also see the following publications for OMG and FOG and their respective use cases:
+
+- Wagner, A., Bonduel, M., Pauwels, P., & Uwe, R. (2019). Relating geometry descriptions to its derivatives on the web. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 304–313). Chania, Greece. https://doi.org/10.35490/EC3.2019.146 
+
+- Bonduel, M., Wagner, A., Pauwels, P., Vergauwen, M., & Klein, R. (2019). Including widespread geometry formats in semantic graphs using RDF literals. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 341–350). Chania, Greece. https://doi.org/10.35490/EC3.2019.166 
+
+NOTE: This extension proposal has some overlap with issues raised in extensions 8, 9 and 11
+
+==== Extension 19: Terminology needed to express relations between geometry descriptions
+
+===== Standards Tracker Change Request URI
+
+
+===== Github Issue URI
+
+
+===== Category
+
+Semantic improvement / Increased Scope
+
+===== Description
+
+If multiple geometry descriptions can be attached to one object, or if objects are related to each other, it would be useful to also define relations between the geometry descriptions directly, that are of other nature than purely topological. We propose to extend the schema to also describe the following relations: 
+
+1. grouping of geometry descriptions, e.g. for use cases; 
+2. describing derivations of multiple geometry descriptions, i.e. to ease maintaining consistent data; 
+3. transforming geometry descriptions to avoid redundant geometry descriptions; 
+4. referencing parts of a large geometry description as geometry representation of a smaller object
+
+These relations are currently implemented in the Ontology for Managing Geometry (OMG, https://w3id.org/omg). The individual use cases and current implementations are presented below.
+
+1. Grouping: In the AEC industry, geometry can be necessary in multiple use cases, e.g. heating calculation software needs BREP geometry of internal and external space volumes and their connections or an architect wants to communicate the geometry of a specific version of his design to a client. If the according geometry representations (BREP, mesh, CSG, etc.) of all relevant geometry descriptions could be extracted by a simple query that extracts the relevant group, these processes could be automated more swiftly. In OMG, this is currently implemented via a geometry context. Several omg:Geometry or omg:GeometryState (version) instances can be linked to an omg:GeometryContext instance via the omg:hasGeometryContext property.
+2. Deriving: Derivation of geometry descriptions occur in two cases: either, a geometry is converted from one schema into another, or a geometry is processed for a certain use case. The first case is usually conducted due to software application interoperability, where one application outputs one schema and another application requires a different one. The second case has more diverse reasons, for example, a BREP/CSG/NURBS geometry could be modeled based on a point cloud or a mesh coming from a survey, a 3D BREP model is created from 2D CAD drawings (elevations, plans, sections), or certain parts of the geometry are filtered for simulations, e.g. only outside faces for raytracing simulations. This relation is currently implemented in OMG on both geometry description, as well as geometry version level via the omg:isDerivedFromGeometry and omg:isDerivedFromGeometryState properties, respectively. These properties can create links between two instances of omg:Geometry or omg:GeometryState to indicate the derivation or -- if version control is used -- potential derivations (e.g. a geometry in OBJ serialisation can be derived from geometries in STEP or DWG serialisations)
+3. Transforming: A building model can contain a manyfold of identical objects, such as doors, that share the same geometrical form, but have a different location. The object’s geometry is supplied by the manufacturer, but the designer has to decide the location of each door in the building. If the geometry has to be copied for every instance of the object, this can immensely inflate the total size of geometry descriptions and also bears the danger of data inconsistency. For example, if the manufacturer changes a minor detail of the description, each copy needs to be adapted or replaced. Instead, the geometry instances could contain a transformation matrix and a link to the original geometry description, effectively reducing file size and risk for inconsistency. Currently, this relation is implemented in OMG on the omg:Geometry node level. The omg:transformsGeometry property can link between two instances of omg:Geometry, where the instantiated geometry (subject) has no individual geometry description (thus no omg:hasSimpleGeometryDescription / omg:hasComplexGeometryDescription), but only a transformation definition connected (matrix, vector, etc) while the origin geometry (object) contains the complete geometry description in its own custom coordinate system.
+4. Referencing: During a modeling phase, it is easier to store the geometry in a single file using the native geometry schema of the modeling application. At the same time, it is relevant to know which parts of the larger geometry description correspond to an individual building object. Hence, subparts of the building model should be connected to individual building elements, if the applied geometry format allows this, e.g. by providing identifiers for parts of the geometry description. In OMG this relation is currently implemented via the omg:isPartOfGeometry property between two instances of omg:Geometry. The partial geometry (subject) is referenced using one or multiple omg:hasReferencedGeometryId properties (with subproperties per kind of identifier per geometry schema in File Ontology for Geometry formats (FOG, https://w3id.org/fog)) that can be applied to the main geometry (object) to extract the subgeometry by processing.
+
+Also see the following publications for OMG and FOG:
+
+- Wagner, A., Bonduel, M., Pauwels, P., & Uwe, R. (2019). Relating geometry descriptions to its derivatives on the web. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 304–313). Chania, Greece. https://doi.org/10.35490/EC3.2019.146 
+
+- Bonduel, M., Wagner, A., Pauwels, P., Vergauwen, M., & Klein, R. (2019). Including widespread geometry formats in semantic graphs using RDF literals. In Proceedings of the European Conference on Computing in Construction (EC3 2019) (pp. 341–350). Chania, Greece. https://doi.org/10.35490/EC3.2019.166 
+
+==== Extension 20: Support for parametric geometry descriptions via links between a non-geometric property and geometric properties
+
+===== Standards Tracker Change Request URI
+
+
+===== Github Issue URI
+
+
+===== Category
+
+Semantic improvement / Increased Scope
+
+===== Description
+
+During the design phase of a building, a series of geometric descriptions are made based on input parameters (lengths, size, location, orientation). These parameters are commonly also part of the non-geometric description, causing redundant information. In traditional descriptions, such as the Industry Foundation Classes (IFC), this can lead to the non-geometric description contradicting the geometric one, since they are not updated accordingly. For example, a wall can be defined in IFC, where the height of the wall is a non-geometric property, while the extrusion of the geometry is stored separately. The non-geometric property is neither connected to the extrusion nor automatically updated, when the geometry changes, resulting in the potential of inconsistent data. Thus, a link between related properties from geometric and non-geometric descriptions should be established, to ease the detection of contradicting data and the subsequent updating process.
+
+In the Ontology for Managing Geometry (OMG, https://w3id.org/omg), a first implementation of such links is realised. For one, the omg:isExplicitlyDerivedFrom property can be applied in cases, a geometric property of RDF-based geometry (object) and a non-geometric (subject) property describe exactly the same situation (e.g. the height/extrusion), where a chain axiom can be used to automatically update the according values. On the other hand, the omg:isImplicitlyDerivedFrom property can be applied to indicate that a non-geometric property (subject) can be derived from a geometry description (object), as is the case for volumes or surface areas.
+
+- Remark: adding metadata regarding the used coordinate system, units and other metadata as mentioned in extension 1 and 4 can also result in double information.  Some geometry schemas such as OBJ are unitless so additional info on the length unit is useful, while others allow to define the used units internally (e.g. STEP) or have a fixed length unit defined in the schema (e.g. glTF uses metre). Adding metadata in RDF for OBJ geometry description enriches the knowledge over the geometry. If this is also added for STEP or glTF geometry, this results in redundant data, but the metadata is now externalized in RDF can thus be queried directly (no interpretation needed)
 
 ==== Bug 1: Corrections of example data and queries
 
