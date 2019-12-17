@@ -41,3 +41,7 @@ Springer LNCS is widely used in technical and computer science journals and othe
 
 [[BioregionalAssessments]]
 [7] Web: Australian Government: https://www.bioregionalassessments.gov.au
+
+[[ConstituteProject]]
+[8] Web: Constitute Project: https://www.constituteproject.org
+
