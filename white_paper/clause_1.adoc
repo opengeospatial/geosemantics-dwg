@@ -1,13 +1,19 @@
 == Introduction
 //write text in as many clauses as necessary. Use one document or many, your choice!
 
-The spatial aspect of data is being recognised as a core data dimension. Spatial information provides the capability to answer the question "where", providing additional context to whatever it relates to. The authors of this White Paper believe that semantic and graph technologies will increase the value that can be extracted from (geo)spatial data. 
+The spatial aspect of data is a core data dimension. Spatial information provides the capability to answer the question "where", providing additional context to whatever it relates to. The authors of this White Paper believe that semantic and graph technologies, together with  strategies for Linked Data, will increase the value that can be extracted from (geo)spatial data. 
 
-This paper has two purposes. Firstly, to describe the benefits of representing geospatial data using semantics and graph technologies. Secondly, to outline some shortcomings of the existing GeoSPARQL implementation specification that, if addressed, would unlock its potential to a greater extent.
+This paper does two things. Firstly, it describes the benefits of representing geospatial data using semantics, graph, and web technologies. Secondly, it outlines some shortcomings of the existing GeoSPARQL implementation specification that, if addressed, would unlock its potential to a greater extent.
+
+The purpose of this paper is to provoke further thought about  a best course for further development of the GeoSPARQL standard, and to invite active involvement in that development. Particularly, the involvement of people and organisations that until now have not been able to put GeoSPARQL to good use, either because of perceived limitations or because of unfamiliarity with the standard, will be highly valued. Also, since one development under consideration is to make provisions for use of GeoSPARQL with non-geographic spatial data, those that see opportunities for using spatial data in a broad sense together with the aforementioned technologies are cordially invited to share their views.  
 
 == Semantic Technologies
 
 Semantic technologies, in the scope of this document, relate to the use of formal ontologies to describe concepts: the relationships between "things" and categories of "things". There are a number of goals for using these technologies, which often relate to providing the capability to reason over the data and simplified dealing with heterogeneous data sources. Example goals include enabling machine readability, and federated searching.
+
+== Linked Data
+
+Linked Data is the name given to the idea of using common Web communication protocol HTTP(S) to link raw data from different sources, much in the same way as HTML documents can cross-reference each other using hyperlinks. Data sets as well as individual data elements are identified by HTTP(S) IRIs, which act both as unique and persistent identifiers and allow direct retrieval of raw data. This leads to a web of data that can be tapped into by both human users and software. The concept is applicable to open data as well as data that are not supposed to be accessed by everyone.
 
 == Graph Technologies
 
