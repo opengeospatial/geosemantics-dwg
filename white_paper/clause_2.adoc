@@ -9,7 +9,7 @@ This section describes the beneficiaries & benefits of representing data, includ
 Data consumers use data, including geospatial data. Their key needs are:
 
 1. to access and understand data from multiple sources;
-2. to integrate data - geospatial and non-geospatial, and
+2. to integrate data - geospatial and non-geospatial; and
 3. to get a data quality evaluation of the given geospatial data.
 
 ==== Beneficiary 2: Data publishers
