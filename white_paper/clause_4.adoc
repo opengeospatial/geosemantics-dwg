@@ -2,7 +2,7 @@
 
 This section largely relates to providing feedback on what is currently available, to help identify some of the barriers to use, and to outline requirements that have not been addressed that may encourage greater uptake.
 
-=== GeoSPARQL
+=== Proposed extensions to GeoSPARQL 1.0
 
 ==== Extension 1: Extend expressive power of ontology for encountered use cases
 
@@ -457,6 +457,8 @@ During the design phase of a building, a series of geometric descriptions are ma
 In the Ontology for Managing Geometry (OMG, https://w3id.org/omg), a first implementation of such links is realised. For one, the omg:isExplicitlyDerivedFrom property can be applied in cases, a geometric property of RDF-based geometry (object) and a non-geometric (subject) property describe exactly the same situation (e.g. the height/extrusion), where a chain axiom can be used to automatically update the according values. On the other hand, the omg:isImplicitlyDerivedFrom property can be applied to indicate that a non-geometric property (subject) can be derived from a geometry description (object), as is the case for volumes or surface areas.
 
 - Remark: adding metadata regarding the used coordinate system, units and other metadata as mentioned in extension 1 and 4 can also result in double information.  Some geometry schemas such as OBJ are unitless so additional info on the length unit is useful, while others allow to define the used units internally (e.g. STEP) or have a fixed length unit defined in the schema (e.g. glTF uses metre). Adding metadata in RDF for OBJ geometry description enriches the knowledge over the geometry. If this is also added for STEP or glTF geometry, this results in redundant data, but the metadata is now externalized in RDF can thus be queried directly (no interpretation needed)
+
+=== Defects reported in GeoSPARQL 1.0
 
 ==== Bug 1: Corrections of example data and queries
 
