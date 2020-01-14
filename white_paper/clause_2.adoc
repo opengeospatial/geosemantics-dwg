@@ -18,7 +18,7 @@ Data publishers have data, including geospatial data. Their key needs are:
 
 1. to maximise use of their data;
 2. to manage their data as simply as possible,
-3. to indicate possible usage contexts of the geospatial data, and
+3. to indicate possible usage contexts of the geospatial data; and
 4. to quality-assure their geospatial data.
 
 === Benefits
