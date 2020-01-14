@@ -1,6 +1,6 @@
 # Ideas for a White Paper 
 
-At the most recent GeoSematics DWG, September 2019 in Banff, there was a discussion about newly submitted change requests for GeoSPARQL. In order to create momentum and interest for a GeoSPARQL 2.0 working group with active members, some more marketing is needed. The proposal at the DWG was to do this in the form of a White Paper. 
+At the most recent GeoSemantics DWG, September 2019 in Banff, there was a discussion about newly submitted change requests for GeoSPARQL. In order to create momentum and interest for a GeoSPARQL 2.0 working group with active members, some more marketing is needed. The proposal at the DWG was to do this in the form of a White Paper. 
 
 The White Paper should show that there is indeed practical value in graph representations of some spatial data using Linked Data with strong(er) semantics. 
 
