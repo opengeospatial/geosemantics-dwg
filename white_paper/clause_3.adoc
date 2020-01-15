@@ -1,4 +1,4 @@
-== Current Position
+== Current capabilities
 
 === GeoSPARQL
 
