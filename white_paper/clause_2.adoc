@@ -1,6 +1,6 @@
 == Beneficiaries and benefits
 
-This section describes the beneficiaries and benefits of representing data, including geospatial data, using semantic and graph technologies. Furhtermore, a collection of use cases demonstrate how semantic and graph technologies are used together with spatial data to tackle real world problems.
+This section describes the beneficiaries and benefits of representing data, including geospatial data, using semantic and graph technologies. Furthermore, a collection of use cases demonstrate how semantic and graph technologies are used together with spatial data to tackle real world problems.
 
 === Beneficiaries
 
