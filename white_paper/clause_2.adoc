@@ -1,25 +1,25 @@
-== Discussion
+== Beneficiaries and benefits
 
-This section describes the beneficiaries & benefits of representing data, including geospatial data, using semantic and graph technologies.
+This section describes the beneficiaries and benefits of representing data, including geospatial data, using semantic and graph technologies. Furthermore, a collection of use cases demonstrate how semantic and graph technologies are used together with spatial data to tackle real world problems.
 
 === Beneficiaries
 
-==== Beneficiary 1: Data Consumers
+==== Beneficiary 1: Data consumers
 
 Data consumers use data, including geospatial data. They key needs are:
 
-1. to access and understand data from multiple sources; and
-2. to integrate data - geospatial and non-geospatial
-3. to get a data quality evaluation of the given geospatial data
+1. to access and understand data from multiple sources;
+2. to integrate data - geospatial and non-geospatial; and
+3. to get a data quality evaluation of the given geospatial data.
 
-==== Beneficiary 2: Data Publishers
+==== Beneficiary 2: Data publishers
 
 Data publishers have data, including geospatial data. Their key needs are:
 
-1. to maximise use of their data; and
-2. to manage their data as simply as possible
-3. to indicate possible usage contexts of the geospatial data
-4. to quality-assure their geospatial data
+1. to maximise use of their data;
+2. to manage their data as simply as possible;
+3. to indicate possible usage contexts of the geospatial data; and
+4. to quality-assure their geospatial data.
 
 === Benefits
 
