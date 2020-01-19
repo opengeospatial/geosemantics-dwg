@@ -1,6 +1,6 @@
 == Learnings from use
 
-This sections provides an overview of feedback received on the current version of the GeoSPARQL standard (version 1.0). This feedback helps to identify some of the barriers to use, and to outline requirements that have not been addressed that may encourage greater uptake.
+This section provides an overview of feedback received on the current version of the GeoSPARQL standard (version 1.0). This feedback helps to identify some of the barriers to use, and to outline requirements that have not been addressed that may encourage greater uptake.
 
 === Proposed extensions to GeoSPARQL 1.0
 
