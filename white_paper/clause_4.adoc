@@ -1,8 +1,8 @@
 == Learnings from use
 
-This section largely relates to providing feedback on what is currently available, to help identify some of the barriers to use, and to outline requirements that have not been addressed that may encourage greater uptake.
+This section provides an overview of feedback received on the current version of the GeoSPARQL standard (version 1.0). This feedback helps to identify some of the barriers to use, and to outline requirements that have not been addressed that may encourage greater uptake.
 
-=== GeoSPARQL
+=== Proposed extensions to GeoSPARQL 1.0
 
 ==== Extension 1: Extend expressive power of ontology for encountered use cases
 
@@ -10,7 +10,7 @@ This section largely relates to providing feedback on what is currently availabl
 
 http://ogc.standardstracker.org/show_request.cgi?id=601
 
-===== Github Issue URI
+===== GitHub Issue URI
 
 https://github.com/opengeospatial/geosemantics-dwg/issues/15
 
@@ -32,7 +32,7 @@ The "GeoSPARQL Extensions Ontology" is online, and can be found here: https://gi
 
 http://ogc.standardstracker.org/show_request.cgi?id=600
 
-===== Github Issue URI
+===== GitHub Issue URI
 
 https://github.com/opengeospatial/geosemantics-dwg/issues/14
 
@@ -50,13 +50,13 @@ GeoSPARQL is currently lacking in semantics that are available on the semantic w
 
 http://ogc.standardstracker.org/show_request.cgi?id=599
 
-===== Github Issue URI
+===== GitHub Issue URI
 
 https://github.com/opengeospatial/geosemantics-dwg/issues/13
 
 ===== Category
 
-Geospatial Processing
+Geospatial processing
 
 ===== Description
 
@@ -68,13 +68,13 @@ GeoSPARQL describes a number of SPARQL functions that can be implemented by deve
 
 http://ogc.standardstracker.org/show_request.cgi?id=598
 
-===== Github Issue URI
+===== GitHub Issue URI
 
 https://github.com/opengeospatial/geosemantics-dwg/issues/12
 
 ===== Category
 
-Semantic Improvement
+Semantic improvement
 
 ===== Description
 
@@ -86,13 +86,13 @@ Descriptions of Coordinate Reference Systems (CRS) are important in correct inte
 
 http://ogc.standardstracker.org/show_request.cgi?id=597
 
-===== Github Issue URI
+===== GitHub Issue URI
 
 https://github.com/opengeospatial/geosemantics-dwg/issues/11
 
 ===== Category
 
-Semantic Improvement
+Semantic improvement
 
 ===== Description
 
@@ -104,13 +104,13 @@ Numerical data published using GeoSPARQL often have an unrealistic amount of dig
 
 http://ogc.standardstracker.org/show_request.cgi?id=594
 
-===== Github Issue URI
+===== GitHub Issue URI
 
 https://github.com/opengeospatial/geosemantics-dwg/issues/9
 
 ===== Category
 
-Increased Scope
+Increased scope
 
 ===== Description
 
@@ -132,7 +132,7 @@ This subject has been discussed in the Spatial Data on the Web Working Group and
 
 http://ogc.standardstracker.org/show_request.cgi?id=591
 
-===== Github Issue URI
+===== GitHub Issue URI
 
 https://github.com/opengeospatial/geosemantics-dwg/issues/8
 
@@ -150,13 +150,13 @@ The GeoSPARQL ontology is available online in XML and TTL formats. JSON-LD could
 
 http://ogc.standardstracker.org/show_request.cgi?id=585
 
-===== Github Issue URI
+===== GitHub Issue URI
 
 https://github.com/opengeospatial/geosemantics-dwg/issues/6
 
 ===== Category
 
-Geospatial Encoding
+Geospatial encoding
 
 ===== Description
 
@@ -184,19 +184,19 @@ Possibly, other literal implementations are useful and could be discussed.
 
 This PDF provides links to all the dataformat specifications and proposes how literal representations could look like: https://github.com/opengeospatial/geosemantics-dwg/blob/master/CR585attachment.pdf.
 
-==== Extension 9: Extending the GeoSPARQL ontology with support for Raster data
+==== Extension 9: Extending the GeoSPARQL ontology with support for raster data
 
 ===== Standards Tracker Change Request URI
 
+This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
 
+===== GitHub Issue URI
 
-===== Github Issue URI
-
-
+https://github.com/opengeospatial/geosemantics-dwg/issues/41
 
 ===== Category
 
-Geospatial Encoding
+Geospatial encoding
 
 ===== Description
 
@@ -208,19 +208,19 @@ In order to integrate raster data into GeoSPARQL the following requirements need
 - Extending the GeoSPARQL ontology with raster literal types such as CovJSON,GMLCOV,GeoTIFF
 - Extending the GeoSPARQL ontology with vocabularies to describe raster data content
 
-==== Extension 10: Extending the GeoSPARQL with raster data query capabilities
+==== Extension 10: Extending the GeoSPARQL ontology with raster data query capabilities
 
 ===== Standards Tracker Change Request URI
 
+This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
 
+===== GitHub Issue URI
 
-===== Github Issue URI
-
-
+https://github.com/opengeospatial/geosemantics-dwg/issues/42
 
 ===== Category
 
-Query Language
+Query language
 
 ===== Description
 
@@ -235,11 +235,11 @@ In particular the following query capabilities which are the norm in relational 
 
 ===== Standards Tracker Change Request URI
 
+This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
 
+===== GitHub Issue URI
 
-===== Github Issue URI
-
-
+https://github.com/opengeospatial/geosemantics-dwg/issues/43
 
 ===== Category
 
@@ -251,15 +251,15 @@ GeoSPARQL currently only explicitly supports 2D geometries.
 However, work has already been done in defining ontologies for 3D geometries (e.g. https://github.com/w3c-geom-cg/geom or https://www.web3d.org/working-groups/x3d-semantic-web/charter). 
 These ontologies should be checked and integrated into, or merged with, the GeoSPARQL ontology.
 
-==== Extension 12: Extending the GeoSPARQL with functions to handle 3D geometries
+==== Extension 12: Extending the GeoSPARQL ontology with functions to handle 3D geometries
 
 ===== Standards Tracker Change Request URI
 
+This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
 
+===== GitHub Issue URI
 
-===== Github Issue URI
-
-
+https://github.com/opengeospatial/geosemantics-dwg/issues/44
 
 ===== Category
 
@@ -274,21 +274,23 @@ Suggestions:
 - ST_Length3D
 - ST_Difference3D
 
-==== Extension 13: Extending the GeoSPARQL with support for M and T coordinates
+==== Extension 13: Extending the GeoSPARQL ontology with support for M and T coordinates
 
 ===== Standards Tracker Change Request URI
 
+This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
 
-===== Github Issue URI
+===== GitHub Issue URI
 
+https://github.com/opengeospatial/geosemantics-dwg/issues/45
 
 ===== Category
 
-Query Language
+Query language
 
 ===== Description
 
-Many geospatial libraries such as JTS (https://github.com/locationtech/jts) provide explicit support for geometries with measurement coordinates. These are useful in a variety of applications e.g. when a road is simplified in a query statement but users still would like to query the correct amount of kilometres since its start. The time coordinates are useful when working with GPS tracks in order to track per-point when a user went to a particular place. While the latter can also be achieved by modeling every point of a GPS track as its own point geometry, it is unnecessary if the points provide no further semantic information apart from the time point. While the support XYZM or XYZMT coordinates is not a matter of GeoSPARQL itself but more of the formats which are supported as literals in the query language, GeoSPARQL could provide definitions of functions which are aware of these extended coordinate concepts such as:
+Many geospatial libraries such as JTS (https://github.com/locationtech/jts) provide explicit support for geometries with measurement (M) coordinates. These are useful in a variety of applications e.g. when a road is simplified in a query statement but users still would like to query the correct amount of kilometres since its start. The time coordinates (T) are useful when working with GNSS tracks in order to track per-point when a user went to a particular place. While the latter can also be achieved by modeling every point of a GNSS track as its own point geometry, it is unnecessary if the points provide no further semantic information apart from the time point. While the support XYZM or XYZMT coordinates is not a matter of GeoSPARQL itself but more of the formats which are supported as literals in the query language, GeoSPARQL could provide definitions of functions which are aware of these extended coordinate concepts such as:
 - ST_M/ST_T
 - ST_FilterByM/ST_FilterByT
 - ST_PartOfGeometryBefore
@@ -299,13 +301,15 @@ Many geospatial libraries such as JTS (https://github.com/locationtech/jts) prov
 
 ===== Standards Tracker Change Request URI
 
+This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
 
-===== Github Issue URI
+===== GitHub Issue URI
 
+https://github.com/opengeospatial/geosemantics-dwg/issues/46
 
 ===== Category
 
-Semantic Improvement
+Semantic improvement
 
 ===== Description
 
@@ -315,13 +319,15 @@ In AEC, authoring metadata (e.g. author, date, revision, etc.) is of high releva
 
 ===== Standards Tracker Change Request URI
 
+This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
 
-===== Github Issue URI
+===== GitHub Issue URI
 
+https://github.com/opengeospatial/geosemantics-dwg/issues/47
 
 ===== Category
 
-Semantic Improvement / Increased Scope
+Semantic improvement / Increased Scope
 
 ===== Description
 
@@ -331,13 +337,15 @@ The AEC domain struggles with geometric representations of planned objects and b
 
 ===== Standards Tracker Change Request URI
 
+This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
 
-===== Github Issue URI
+===== GitHub Issue URI
 
+https://github.com/opengeospatial/geosemantics-dwg/issues/48
 
 ===== Category
 
-Semantic Improvement
+Semantic improvement
 
 ===== Description
 
@@ -347,9 +355,11 @@ Some geometry schemes can contain a variety of geometry representation contexts 
 
 ===== Standards Tracker Change Request URI
 
+This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
 
-===== Github Issue URI
+===== GitHub Issue URI
 
+https://github.com/opengeospatial/geosemantics-dwg/issues/49
 
 ===== Category
 
@@ -371,13 +381,15 @@ Also see the following publications:
 
 ===== Standards Tracker Change Request URI
 
+This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
 
-===== Github Issue URI
+===== GitHub Issue URI
 
+https://github.com/opengeospatial/geosemantics-dwg/issues/50
 
 ===== Category
 
-Increased Scope
+Increased scope
 
 ===== Description
 
@@ -408,13 +420,15 @@ NOTE: This extension proposal has some overlap with issues raised in extensions 
 
 ===== Standards Tracker Change Request URI
 
+This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
 
-===== Github Issue URI
+===== GitHub Issue URI
 
+https://github.com/opengeospatial/geosemantics-dwg/issues/51
 
 ===== Category
 
-Semantic improvement / Increased Scope
+Semantic improvement / Increased scope
 
 ===== Description
 
@@ -442,13 +456,15 @@ Also see the following publications for OMG and FOG:
 
 ===== Standards Tracker Change Request URI
 
+This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
 
-===== Github Issue URI
+===== GitHub Issue URI
 
+https://github.com/opengeospatial/geosemantics-dwg/issues/52
 
 ===== Category
 
-Semantic improvement / Increased Scope
+Semantic improvement / Increased scope
 
 ===== Description
 
@@ -456,7 +472,9 @@ During the design phase of a building, a series of geometric descriptions are ma
 
 In the Ontology for Managing Geometry (OMG, https://w3id.org/omg), a first implementation of such links is realised. For one, the omg:isExplicitlyDerivedFrom property can be applied in cases, a geometric property of RDF-based geometry (object) and a non-geometric (subject) property describe exactly the same situation (e.g. the height/extrusion), where a chain axiom can be used to automatically update the according values. On the other hand, the omg:isImplicitlyDerivedFrom property can be applied to indicate that a non-geometric property (subject) can be derived from a geometry description (object), as is the case for volumes or surface areas.
 
-- Remark: adding metadata regarding the used coordinate system, units and other metadata as mentioned in extension 1 and 4 can also result in double information.  Some geometry schemas such as OBJ are unitless so additional info on the length unit is useful, while others allow to define the used units internally (e.g. STEP) or have a fixed length unit defined in the schema (e.g. glTF uses metre). Adding metadata in RDF for OBJ geometry description enriches the knowledge over the geometry. If this is also added for STEP or glTF geometry, this results in redundant data, but the metadata is now externalized in RDF can thus be queried directly (no interpretation needed)
+- Remark: adding metadata regarding the used coordinate system, units and other metadata as mentioned in extension 1 and 4 can also result in double information.  Some geometry schemas such as OBJ are unitless so additional info on the length unit is useful, while others allow to define the used units internally (e.g. STEP) or have a fixed length unit defined in the schema (e.g. glTF uses metre). Adding metadata in RDF for OBJ geometry description enriches the knowledge over the geometry. If this is also added for STEP or glTF geometry, this results in redundant data, but the metadata is now externalized in RDF can thus be queried directly (no interpretation needed).
+
+=== Defects reported in GeoSPARQL 1.0
 
 ==== Bug 1: Corrections of example data and queries
 
@@ -464,13 +482,13 @@ In the Ontology for Managing Geometry (OMG, https://w3id.org/omg), a first imple
 
 http://ogc.standardstracker.org/show_request.cgi?id=173
 
-===== Github Issue URI
+===== GitHub Issue URI
 
 https://github.com/opengeospatial/geosemantics-dwg/issues/4
 
 ===== Category
 
-Documentation Bug
+Documentation bug
 
 ===== Description
 
@@ -486,13 +504,13 @@ In the fourth example query in B.2 (page 54) the URL given in the prefix definit
 
 http://ogc.standardstracker.org/show_request.cgi?id=548
 
-===== Github Issue URI
+===== GitHub Issue URI
 
 https://github.com/opengeospatial/geosemantics-dwg/issues/5
 
 ===== Category
 
-Documentation Bug
+Documentation bug
 
 ===== Description
 
@@ -511,13 +529,13 @@ Please can the schema be updated and new version issued.
 
 http://ogc.standardstracker.org/show_request.cgi?id=595
 
-===== Github Issue URI
+===== GitHub Issue URI
 
 https://github.com/opengeospatial/geosemantics-dwg/issues/10
 
 ===== Category
 
-Coordinate Reference System Support
+Coordinate Reference System support
 
 ===== Description
 
