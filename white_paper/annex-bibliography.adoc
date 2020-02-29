@@ -62,3 +62,10 @@ Springer LNCS is widely used in technical and computer science journals and othe
 
 [[BOT]]
 [14] Web: Building Topology Ontology: http://www.semantic-web-journal.net/content/bot-building-topology-ontology-w3c-linked-building-data-group-0
+
+[[LBD]]
+[15] Web: Linked Building Data Community Group: https://www.w3.org/community/lbd/
+
+[[JTC1SC32WG3]]
+[16] Web: Data Management and Interchange: https://www.iso.org/committee/45342.html
+
