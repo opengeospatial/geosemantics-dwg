@@ -94,6 +94,18 @@ _Benefits_
 
 ==== Use Case 2: Data Product metadata 
 
+===== UC2 Construction: _Semantic Construcion Project Engineering (SCOPE) Project_
+
+With the heterogeneous environment of the construction sector, providing suitable product descriptions for any use case and software application is hard to achieve. While open source exchange formats, i.e. IFC and STEP, can be used to describe products in a uniform manner to realise a communication across domains, the amount of required geometric detail is not addressed. For example, lights to indicate emergency exits are needed in different geometric detail. The electrical engineer only needs to know the position of the lighting fixture, whereas the architect requires the bounding box to consider for the design and safety engineers want to know the material, colour and shape of the lighting fixture to ensure that is clearly visible. On the other hand, the manufacturer needs to model the product in its highest geometrical detail for their own production chain. 
+
+If the manufacturer provides the highest geometrical detail, the product description will become too large to be handled if multiple instances are placed within the model. Hence, the geometrical detail needs to be broken down, ideally individually in respective of singular use cases, resulting in multiple geometry descriptions for the same object. By applying Linked Data, the attachment of multiple geometry descriptions to a singular object can be realised easily, maintaining means to differentiate between the descriptions and identify singular ones to connect them to their respective use cases. Yet, if the original geometry description changes, the derived geometry descriptions must be identified and updated, as well. This topic is, amongst others, considered in the Semantic Construction Project Engineering (SCOPE) research project funded by the German government and conducted by Ed. Züblin AG, Technische Universität Darmstadt and Fraunhofer Institute for Solar Energy (https://www.projekt-scope.de/).
+
+_Benefits_
+
+* B1: Disambiguation
+* B2: Dereferenceability
+* B4: Extendability
+
 ==== Use Case 3: Recording Provenance
 
 ===== UC3A Environmental Science: _Australian Bioregional Assessments Programme_
@@ -114,6 +126,17 @@ _Benefits_
 
 * B1: Disambiguation
 * B2: Dereferenceability
+
+===== UC3C Architecture, Engineering and Construction: _Niris_
+
+During the design stages of a construction project, the building’s design changes quite rapidly, and often there are derived consequences of these changes. The cooling demand of a zone is dependent on the solar heat gain through windows and if the windows change, so does the cooling demand. This affects the capacity requirement of the fan coil in the room and potentially the size of the pipes supplying this fan coil, the pump circulating the cooling water and the size of the chiller. 
+
+The danish consulting engineering company Niras uses Linked Data to model these interdependencies. The architect’s BIM model is translated from its internal data model through the vendor supplied Revit API into an AEC knowledge graph [13] described with the Building Topology Ontology (BOT) [14]. A direct communication between the BIM authoring tool and an OPM-REST API (https://github.com/MadsHolten/OPM-REST) ensures that property changes are captured and described using the Ontology for Property Management (OPM). Small task specific web applications access and extend the knowledge graph through SPARQL queries and uses OPM to relate a derived property to the properties that will affect it. In the current setup, 2D-geometry is extracted as WKT literals and 3D-geometry as OBJ literals. Geometry changes are registered by string comparison. In the UI, the state of the model geometry at the beginning and end of a given time interval is visualised.
+
+_Benefits_
+
+* B2: Dereferenceability
+* B4: Extendability
 
 ==== Use Case 4: Data analysis 
 
@@ -179,7 +202,7 @@ _Benefits_
 
 ==== Use Case 7: Integrating Aspatial and Spatial Data 
 
-===== UC7 Maritime security: _Real-time Maritime Situational Awareness System_
+===== UC7A Maritime security: _Real-time Maritime Situational Awareness System_
 
 The maritime security domain presents a need for efficient combining and processing of dynamic (real-time) and static vessel data that come from heterogeneous sources. The project Real-time Services for the Maritime Security (EMSec) needed to integrate static, real-time and geospatial data, including:
 
@@ -195,6 +218,33 @@ _Benefits_
 * B1: Disambiguation  
 * B2: Dereferenceability  
 * B3: Reasoning  
+* B4: Extendability  
+
+===== UC7B Heritage: _Flemish Cities in Transition_
+
+During built heritage projects (e.g. restoration, maintenance, historical research) a large amount of stakeholders collaborate. Each stakeholder assembles and generates a wide variety of data, including 2D and 3D geometries ranging from survey geometry (e.g. a point cloud or complex mesh), over 2D plans and maps (historical situation, previous restorations, derived from survey data, etc.) to volumetric 3D models. These geometries are used to get an overview of the historical and existing situation of the building, for communicating the location of damages or valuable historical elements in the building or to express the intention of the restoration design. Because of the wide variety of geometric data, a large amount of common geometry schemas (text-based and binary, open and proprietary) are currently used in practice. 
+
+Instead of developing RDF-based geometry schemas for each specific case, alternative methods such as the application of RDF literals to embed geometry descriptions (~ GeoSPARQL 1.0) or to reference external geometry files are considered. In that case, the usage of existing geometry schemas and their tools can be continued. Built heritage stakeholders need to be able to link such geometry descriptions to building elements, damages and building spaces they describe. Each described object can have multiple geometry descriptions (different geometry schema, describing an object at multiple moments in time, different amount of detailing/resolution, etc.), potentially coming from different stakeholders. Geometry metadata (accuracy,  author, resolution, derived geometry descriptions, file size, etc.) is necessary to reuse the geometry in a collaborative setting as it gives an indication of the geometry provenance. Other metadata (used geometry schema, coordinate system, etc.) might help users in the automatic processing of the data by their geometry applications. 
+
+Three domain independent ontology modules have been developed in previous collaborative research and are applied in a built heritage PhD research project named “Flemish Cities in Transition” [9]. These ontologies include the Ontology for Managing Geometry (OMG - https://w3id.org/omg#) [10], the File Ontology for Geometry formats (FOG - https://w3id.org/fog#) [11] and the Geometry Metadata Ontology (GOM - https://w3id.org/gom#).
+
+_Benefits_
+
+* B1: Disambiguation  
+* B2: Dereferenceability  
+
+===== UC7C Buildings: _Prime2_
+
+Geometric data plays a central role in the geospatial domain, architectural design and construction industry. For upcoming, new approaches on how to store building data, such as the Semantic Web, however, no universal common agreement exists on the combination of geometric and non-geometric data. Thus, it can be unclear to users on how to represent their geometries, leading to a decelerated application and advancement of making building data available over the web. This gap can only be bridged if a common approach on the representation of geometries on the web is achieved.
+
+In Ireland, the Ordnance Survey Ireland (OSi) has a substantial dataset (over 50 million objects), called Prime2, which includes not only GIS data (polygon footprint, geodetic coordinate), but also additional building-specific data (form and function). The ADAPT research centre working with the Ordnance Survey Ireland has begun publication of their geospatial data using GeoSPARQL [12], with a subset of their buildings data (building name, geolocation, and form and function) in the county of Galway now being available as RDF (http://data.geohive.ie/downloadAndQuery.html).
+
+This provides authoritative URIs for Irish buildings which can be used to interlink building data from other domains, such as products, sensors, energy, etc. The potential also exists to support the conversion of their 2D building footprints into a simple 3D geometric model, given some additional properties (height). An existing schema such as the Industry Foundation Classes, and ifcOWL serialization can be supported, but tend to be overly verbose (use of lists for each vertex in a point for example) and geometric and non-geometric data are overly entwined. The possibility to define 3D geometries using less complex geometry schemas would be a huge advantage within the building information modelling domain. This is an important step towards the iterative integration of ever more complex BIM models which can support a range of different use cases into the wider web of data.
+
+_Benefits_
+
+* B1: Disambiguation  
+* B2: Dereferenceability  
 * B4: Extendability  
 
 ==== Use Case 8: Data Mining 

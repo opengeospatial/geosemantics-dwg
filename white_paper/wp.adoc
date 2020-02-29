@@ -21,7 +21,7 @@
 |External identifier of this OGC(R) document: http://www.opengis.net/doc/{doc-type}/{standard}/{m.n}
 |Internal reference number of this OGC(R) document:    19-078r1
 |Category: OGC(R) White Paper
-|Editor:   Joseph Abhayaratna, Linda van den Brink, Nicholas Car, Rob Atkinson, Timo Homburg, Frans Knibbe
+|Editor:   Joseph Abhayaratna, Linda van den Brink, Nicholas Car, Rob Atkinson, Timo Homburg, Frans Knibbe, Kris McGlinn, Linda Wagner, Mathias Bonduel, Mads Holten Rasmussen
 |===
 
 [cols = "^", frame = "none"]
