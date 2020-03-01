@@ -7,7 +7,7 @@
 |Date |Release |Editor | Primary clauses modified |Description
 |2019-10-28 |0.1 |J. Abhayaratna |all |initial version
 |2020-11-15 |0.2 |R. Atkinson |1 |Editing
-|2020-11-28 |0.3 |T. Homburg |4 |Editing and adding additional change requests
+|2020-11-28 |0.3 |T. Homburg |2,4 |Editing and adding additional use cases and change requests
 |2020-12-09 |0.4 |M. Bonduel |4 |Editing and adding additional change requests
 |2020-01-15 |0.5 |F. Knibbe |all |Editing
 |2020-02-29 |0.6 |J. Abhayaratna |2 |Editing, cleaning up use cases
