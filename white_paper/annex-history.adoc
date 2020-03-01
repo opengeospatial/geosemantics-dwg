@@ -7,8 +7,9 @@
 |Date |Release |Editor | Primary clauses modified |Description
 |2019-10-28 |0.1 |J. Abhayaratna |all |initial version
 |2020-11-15 |0.2 |R. Atkinson |1 |Editing
-|2020-01-15 |0.3 |F. Knibbe |1, 4 |Editing and adding additional change requests
-|2020-02-29 |0.4 |J. Abhayaratna |2 |Editing, cleaning up use cases
-|2020-02-29 |0.5 |K. McGlinn, M. Bonduel, A. Wagner, M. H. Rasmussen, J. Abhayaratna |2 |Adding additional use cases from the Linked Building Data Community Group
-|2020-03-01 |0.6 |J. Abhayaratna |5 |Adding Other Related Activities section
+|2020-12-09 |0.3 |M. Bonduel |4 |Editing and adding additional change requests
+|2020-01-15 |0.4 |F. Knibbe |all |Editing
+|2020-02-29 |0.5 |J. Abhayaratna |2 |Editing, cleaning up use cases
+|2020-02-29 |0.6 |K. McGlinn, M. Bonduel, A. Wagner, M. H. Rasmussen, J. Abhayaratna |2 |Adding additional use cases from the Linked Building Data Community Group
+|2020-03-01 |0.7 |J. Abhayaratna |5 |Adding Other Related Activities section
 |===
