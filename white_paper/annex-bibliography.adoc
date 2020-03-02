@@ -45,3 +45,27 @@ Springer LNCS is widely used in technical and computer science journals and othe
 [[ConstituteProject]]
 [8] Web: Constitute Project: https://www.constituteproject.org
 
+[[FlemishCities]]
+[9] Web: Bonduel M, Vergauwen M, Pauwels P, Klein R : https://www.researchgate.net/project/Flemish-Cities-in-Transition-A-Framework-for-a-Web-based-Built-Heritage-Platform-Using-BIM-GIS-and-Linked-Data
+
+[[OMG]]
+[10] Wagner A, Bonduel M, Pauwels P, Rüppel U: Relating geometry descriptions to its derivatives on the web. In Proceedings of the 2019 European Conference for Computing in Construction (O'Donnell J, Chassiakos A, Rovas D and Hall D, eds), University College Dublin, Chania, Greece, Pages 304–313 (2019) https://doi.org/10.35490/EC3.2019.146
+
+[[FOG]]
+[11] Bonduel M, Wagner A, Pauwels P, Vergauwen M, Klein R: Including widespread geometry formats in semantic graphs using RDF literals. In Proceedings of the 2019 European Conference for Computing in Construction (O'Donnell J, Chassiakos A, Rovas D and Hall D, eds), University College Dublin, Chania, Greece, Pages 341–350 (2019), https://doi.org/10.35490/EC3.2019.166
+
+[[ADAPT]]
+[12] McGlinn K, Debruyne C, McNerney L, O’Sullivan D: Integrating Ireland’s Geospatial Information to Provide Authoritative Building Information Models. In SEMANTiCS 2017, the 13th International Conference on Semantic Systems. Held in Amsterdam, Netherlands (2019)
+
+[[AEC]]
+[13] Rasmussen M H, Lefrançois M, Pauwels P, Hviid C A, Karlshøj J: Managing interrelated project information in AEC Knowledge Graphs. Automation in Construction, 108, 102956 (2019)
+
+[[BOT]]
+[14] Web: Building Topology Ontology: http://www.semantic-web-journal.net/content/bot-building-topology-ontology-w3c-linked-building-data-group-0
+
+[[LBD]]
+[15] Web: Linked Building Data Community Group: https://www.w3.org/community/lbd/
+
+[[JTC1SC32WG3]]
+[16] Web: Data Management and Interchange: https://www.iso.org/committee/45342.html
+

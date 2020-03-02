@@ -14,8 +14,7 @@ Data consumers use data, including geospatial data. They key needs are:
 
 ==== Beneficiary 2: Data publishers
 
-Data publishers have data, including geospatial data. Their key needs are:
-
+Data publishers have data, including geospatial data. Their key needs are: +
 1. to maximise use of their data;
 2. to manage their data as simply as possible;
 3. to indicate possible usage contexts of the geospatial data; and
@@ -25,101 +24,256 @@ Data publishers have data, including geospatial data. Their key needs are:
 
 The benefits of semantic and graph technologies are outlined below.
 
-==== Benefit 1: Disambiguation
+==== Benefit B1: Disambiguation
 
 Using formal ontologies to describe entities and their relationships removes definitional ambiguity. This allows for accurate item reuse or new item creation (when things can't be reused). When definitions are coupled with uniform resource identifiers (URIs), global easy reuse and differentiation (are X & Y really the same thing?) are enabled as the global DNS namespace is used for everything. 
 
-==== Benefit 2: Dereferenceability
+==== Benefit B2: Dereferenceability
 
 OWL and RDF-compliant graphs are composed entirely of nodes and edges identified by URIs or literal values, enabling any entity or relationship to have its own metadata, and for that metadata to be downloaded as required by a data consumer, whether human or machine. This 'dereferenceability' makes accessing and understanding models and content easy: it's accessible by normal Internet tools.
 
-==== Benefit 3: Reasoning
+==== Benefit B3: Reasoning
 
 Semantic Web graph systems use formal _description logic_ to define and relate elements. This allows for rule-base or other computational reasoning to occur. New information may be calculated from simple base data by following ontology _axioms_ which leads to new knowledge, including multi-dataset traversals and validation of data.
 
 
-==== Benefit 4: Extendability
+==== Benefit B4: Extendability
 
-Graph "carry their schema with them" since the data model is defined with each node and edge's definition. This allows data models to be expanded easily without becoming unmanageable. Whatever model extensibility is made, general graph traversal will be able to follow it and the definitions of the new information able to be extracted in predictable ways.
+Graphs "carry their schema with them" since the data model is defined with each node and edge's definition. This allows data models to be expanded easily without becoming unmanageable. Whatever model extensibility is made, general graph traversal will be able to follow it and the definitions of the new information able to be extracted in predictable ways.
 
 === Use Cases
 
-The benefits above have been successfully realised in a number of different industries, where semantic and graph technologies were implemented for a number of different use cases.
-
-NOTE: Many of these cases have been taken almost verbatim from reference [3] as a product of haste. This must be summarised, and meaningful use case information must be highlighted.
+The benefits above have been successfully realised in a number of different industries, where semantic and graph technologies were implemented for a number of different use cases. Many of these cases have been taken almost verbatim from reference [3].
 
 NOTE: Links should be created between benefits and use cases so as to highlight which benefits are realised through each use case.
 
-==== Use Case 1: Data integration 
+==== Use Case 1: Data integration
 
-_Government and Public Administration_
+===== UC1A: Government and Public Administration: _SIRIS Academic_
 
 To promote more transparent and inclusive governance in the Tuscany region SIRIS Academic, a small Spanish company specialized in providing data management solutions, has developed Tuscany’s Observatory of Research and Innovation portal. They integrate Open Data in the Higher Education & Research field, including official Italian student and researcher data coming from the Ministero dell’Istruzione, dell’Università e della Ricerca (MIUR), and European data on FP7 and H2020 research projects. They follow the VKG approach and use the platform University Analytics (UNiCS) developed by SIRIS Academic. The platform uses Ontop to integrate open data repositories and to make them available via a dedicated SPARQL endpoint which is a query service for graph data. Then the platform shows the data as an interactive dashboard hosting data visualisations, with underlying data supplied by the UNiCS SPARQL endpoint.
 
+_Benefits_
+
+* B1: Disambiguation
+
+===== UC1B Government and Public Administration: _Constitute Project_
+
 Over the last 200 years, countries have replaced their constitutions on average every 19 years, and some have amended them almost yearly. A basic problem in the drafting of these documents is the search and analysis of model text deployed in other jurisdictions. In the Constitute Project [8], Ultrawrap was used to integrate the world’s constitutions into a single unified semantic endpoint for contextual searching. The project was launched at the General Assembly of the United Nations in 2013 and continues to integrate over 196 current databases of all of the world’s constitutions on the Web. Countries throughout the world can take advantage of this free service to modify and develop their constitutions.
 
-_Health Care_
+_Benefits_
+
+* B1: Disambiguation
+
+===== UC1C Health Care: _HL7_
 
 Semantic interoperability is essential when carrying out post-genomic clinical trials where several institutions collaborate, since researchers and developers need to have an integrated view and access to heterogeneous data sources. The work of Clinical data access shows how to query clinical data in HL7 RIM-based relational models using the Morph system. It presents a solution that uses R2RML mappings that relate an integrating ontology to the underlying relational database implementations. morph-RDB is used to expose a SPARQL endpoint to access the data in Semantic Web form too.
 
-Improving health care for people with chronic conditions requires clinical information systems that support integrated care and information exchange. The adoption of an approach based on semantic information simplifies the use of multiple and diversified Electronic Health Records (EHRs). Within the work described in E-health data access, a Diabetes Mellitus Ontology (DMO) has been developed, and has been used to diagnose patients with diabetes, and automatically identify them by analyzing EHRs. Specifically, by using Ontop, the EHR data from a general practice (with almost 1,000 active patients) could be queried via SPARQL. The accuracy of the algorithm for automatic identification of patients with diabetes was validated by performing a manual audit of the EHRs, and considered good enough for the purpose. Not surprisingly, the accuracy of the automatic method was influenced by data quality, such as incorrect data due to mistaken units of measurement, unavailable data due to lack of or wrong documentation, and data management errors.
+_Benefits_
 
-Also, Capsenta has reported that VKG technology has been deployed in the health care sector to help clinical investigators to increase procedure volume, to improve patient identification and to reduce IT resources.
+* B1: Disambiguation
+* B2: Dereferenceability
 
-_Smart Cities_
-
-Smart City applications rely on large amounts of data retrieved from sensors, social networks or government authorities. Open data and data from existing enterprise systems are two valuable data sources. However, open data are often published in a tabular form with little or incomplete schema information, while enterprise applications typically rely on complex relational schemas. There is a clear need to make city-specific information easy to consume and combine at low cost, but this proves to be a difficult task. The work of IBM Ireland presents the system DALI, which exploits Linked Data to provide federated entity search and spatial exploration across hundreds of information sources containing open and enterprise data pertaining to cities. Ontop is used as the VKG solution, and mappings are created using a rule and pattern-based entity extraction mechanism to detect different kinds of entities. The DALI system has been evaluated in two scenarios: (1) data-engineers bring together public and enterprise data sets about public safety; (2) knowledge-engineers and domain-experts build a view of health and social care providers for vulnerable populations.
-
-_Manufacturing_
-
-Digitalization in the manufacturing domain requires information models describing assets and information sources of companies to enable the semantic integration and interoperable exchange of data. The work of a global manufacturing company reports on a case study where an information model using semantic technologies is proposed. Three types of data were of particular interest in the project: (1) sensor data, (2) the Bill of Materials, and (3) data from the Manufacturing Execution System. The information model is centered around machine data and describes all relevant assets, key terms and relations in a structured way, making use of existing as well as newly developed RDF vocabularies. In addition, it comprises numerous RML mappings that link different data sources required for integrated data access and querying via SPARQL. The technical infrastructure and methodology used to develop and maintain the information model is based on a Git repository and utilizes the development environment VoCol as well as Ontop.
-
-_National agencies for Cartography_
+==== UC1D Mapping Authorities: _LINDAS Initiative_
 
 It is in the best interest of national agencies for cartography to provide services for other national authorities covering a wide range of topics. Usually, these topics are displayed using thematic maps (e.g. https://www.bkg.bund.de/DE/Produkte-und-Services/Shop-und-Downloads/Landkarten/Karten-Downloads/Themenkarten/themenkarten.html) which are created with respect to different demands of the general public, other national agencies or by the government. Thematic maps always highlight certain characteristics of a dataset (e.g. school accessibility) for which at least those characteristics should be firstly available and secondly in a usable state. Very often, attributes are required which are not collected by any governmental agency, so that crowdsourced data is correllated with already existing governmentally-administered data. This of course poses a big integrational problem which many agencies for cartography would like to solve by setting up linked data repositories which can be interlinked to further crowdsourced elements. To that end Switzerland launched its LINDAS initiative (https://www.egovernment.ch/de/umsetzung/e-government-schweiz-2008-2015/lindas/). In Germany, the Federal Agency for Cartography and Geodesie is aiming to create national ontology standards and to set up a linked data infrastructure in cooperation with the University Of Applied Sciences Mainz. (http://i3mainz.de/de/projekte/intelligente-datenerfassung-oeffentliche-Verwaltung) The European Union supports such initiatives by defining appropriate INSPIRE vocabularies (https://github.com/inspire-eu-rdf/inspire-rdf-vocabularies).
 
-==== Use Case 2: Data Product metadata (Government and Public Administration)
+_Benefits_
+
+* B1: Disambiguation
+* B2: Dereferenceability
+
+===== UC1E Government and Public Administration: _Italian Public Debt Directorate_
 
 The Italian Public Debt Directorate is responsible for various matters, such as issuance and management of the public debt, and analysis of the problems inherent to its management. The Directorate is organized into offices that deal with specific aspects, and each sub-unit has an understanding of a particular portion of the public debt domain. However, a shared and formalized description of the relevant concepts and relations in the whole domain was missing, since data were managed by different systems in different offices, and their structure had been heavily modified and updated to serve specific application needs. There was a clear need to coordinate and integrate the data of the various sub-units. The work of the Italian Public Dept Directorate presented a project for addressing this issue. They developed the Public Debt Ontology to formalize the whole domain of the Italian public debt. The VKG system Mastro Studio has been used to provide a comprehensive software environment. Users can take advantage of the wiki-like documentation of the ontology to access both its graphical representation and its OWL2 specification.
 
+_Benefits_
+
+* B1: Disambiguation
+* B2: Dereferenceability
+
+==== Use Case 2: Data Product metadata 
+
+===== UC2 Construction: _Semantic Construcion Project Engineering (SCOPE) Project_
+
+With the heterogeneous environment of the construction sector, providing suitable product descriptions for any use case and software application is hard to achieve. While open source exchange formats, i.e. IFC and STEP, can be used to describe products in a uniform manner to realise a communication across domains, the amount of required geometric detail is not addressed. For example, lights to indicate emergency exits are needed in different geometric detail. The electrical engineer only needs to know the position of the lighting fixture, whereas the architect requires the bounding box to consider for the design and safety engineers want to know the material, colour and shape of the lighting fixture to ensure that is clearly visible. On the other hand, the manufacturer needs to model the product in its highest geometrical detail for their own production chain. 
+
+If the manufacturer provides the highest geometrical detail, the product description will become too large to be handled if multiple instances are placed within the model. Hence, the geometrical detail needs to be broken down, ideally individually in respective of singular use cases, resulting in multiple geometry descriptions for the same object. By applying Linked Data, the attachment of multiple geometry descriptions to a singular object can be realised easily, maintaining means to differentiate between the descriptions and identify singular ones to connect them to their respective use cases. Yet, if the original geometry description changes, the derived geometry descriptions must be identified and updated, as well. This topic is, amongst others, considered in the Semantic Construction Project Engineering (SCOPE) research project funded by the German government and conducted by Ed. Züblin AG, Technische Universität Darmstadt and Fraunhofer Institute for Solar Energy (https://www.projekt-scope.de/).
+
+_Benefits_
+
+* B1: Disambiguation
+* B2: Dereferenceability
+* B4: Extendability
+
 ==== Use Case 3: Recording Provenance
+
+===== UC3A Environmental Science: _Australian Bioregional Assessments Programme_
 
 To assemble the lineage of data processed by multiple systems and perhaps also by humans, manually, a consistent yet flexible lineage/provenance model is needed. Consistency of patterning is needed to ensure interoperability for information from multiple sources and yet flexibility is needed to accommodate different granularities of processing steps recorded. The PROV Data Model [6] is a graph-based generic, but easily extensible/specializable model for provenance representation. PROV information can be sampled (queried) to aggregate detailed low-level provenance, or drilled into for deeper details where they exist. The standard RDF format used by ontology variants of PROV allow for its storage in standard Semantic Web systems and accessibility via standard SPARQL queries. The strong definitions within PROV prevent unknown log formats being encountered in the future. The Australian Bioregional Assessments Programme [7] used PROV to record both dataset-level provenance (what the ancestors of data sets are) and also fine-grained processing steps for individual data elements within data sets meaning this very varied provenance can, nonetheless, be stored in one system and accessed sensibly.
 
-==== Use Case 4: Data analysis (Oil and Gas Industry)
+_Benefits_
 
-One of the common tasks for geologists at Equinor (Norway) is to find new exploitable accumulations of oil or gas in given areas by analyzing data about those areas in a timely manner. However, gathering the required data is not a trivial task since it is stored in multiple complex and large data sources, including EPDS, Recall, CoreDB, GeoChemDB, OpenWorks, Compass and NPD FactPages. Construction of complex queries is sometimes beyond Equinor geologists, so they have to communicate their needs to IT specialists who then turn them into queries. This drastically affects the efficiency of finding the right data to back decision making. The work of Equinor describes how the data access and integration challenges in Equinor have been addressed by adopting the VKG-based system Optique, which relies on the following tools: (1) the bootstrapper BootOX to create ontologies and mappings from relational databases in a semi-automatic fashion; (2) the VKG system Ontop to perform query reformulation; (3) the federator Exareme to evaluate the reformulated queries over the federated DBs; and (4) the query formulation module OptiqueVQS to support query construction for engineers with a limited IT background.
+* B1: Disambiguation
+* B2: Dereferenceability
+* B4: Extendability
 
-==== Use Case 5: Diagnoses (Industrial Machinery)
-
-Siemens Energy runs several service centers that remotely monitor and perform diagnostics for several thousand appliances, such as gas and steam turbines, generators and compressors installed in power plants. For performing reactive and predictive diagnostics at Siemens, data access and integration of both static data (e.g., configuration and structure of turbines) and dynamic data (e.g., sensor data) are particularly important but very challenging. The work of Siemens addressed these data access requirements by using the Optique platform as a VKG solution, similar to the Equinor use case.
-
-==== Use Case 6: Simplified Access to Heterogeneous Data (Cultural Heritage)
-
-_History_
-
-Historians, especially in Digital Humanities (DH), are starting to use new data sets to aggregate information about history. These are collections of data, information and knowledge that are devoted to the preservation of the legacy of tangible and intangible culture inherited from previous generations. In the project Production and distribution of food during the Roman Empire: Economics and Political Dynamics (EPNet), the work of EPNet project presents a framework that eases the access of scholars to much food information during the Roman Empire, distributed across different data sources. The proposed approach relies on the VKG paradigm to integrate the following data sets: (1) the EPNet relational repository, (2) the Heidelberg Epigraphic database, and (3) Pleiades, an open-access digital gazetteer for ancient history. An ontology provides the historians with a clear point of access and a unified and unambiguous conceptual view over these data sets.
-
-_Archaeology_
-
-Digital Archaeologists working in DH deal with a lot of heterogeneous data, which is not standardised at all. Semantic technologies and the use of Linked Open Data promises to revolutionise the digital workflow [https://eprints.soton.ac.uk/206421/]. As the most digital semantic DH project they are referenced by the International Committee for Documentation (CIDOC) Conceptual Reference Model (CRM) [http://www.cidoc-crm.org/] and its extensions, especially CRMgeo[https://link.springer.com/article/10.1007/s00799-016-0192-4]. Famous data collections which model object types in their domain and publish them as LOD are nomisma (coins) [http://nomisma.org/], kerameikos (ancient ceramics) [http://kerameikos.org/], Open Context [https://opencontext.org/], the iDAI world [https://idai.world/] of the German Archaeological Institute, finds.org [https://finds.org.uk/], and Regnum Francorum Online [http://francia.ahlfeldt.se/index.php]. Furthermore, Linked Data networks of the Computer Applications and Quantitative Methods in Archaeology (CAA) conference – Little Minions, Data Dragons – and of the Linked Pasts Community (related to the LOD Pelagios Commons network[http://commons.pelagios.org/) – Linked Pipes – try to build up a LOD network of tools, workflows and data of the CH domain[http://squirrelnator.squirrel.link/]. Moreover, smaller projects are publishing tools, e.g. for modelling vagueness in graphs like the Academic Meta Tool [http://academic-meta-tool.xyz/] to enable the scientific community to handle fuzzy (geographical) relations [http://unold.net/research/p_dls_20170320.pdf].
-
-==== Use Case 7: Integrating Aspatial and Spatial Data (Maritime security)
-
-The maritime security domain presents a need for efficient combining and processing of dynamic (real-time) and static vessel data that come from heterogeneous sources. The project Real-time Services for the Maritime Security (EMSec) needed to integrate static, real-time and geospatial data, including (1) static vessel metadata, (2) open data like GeoNames and OpenStreetMap, (3) large radar and satellite images, and (4) real-time vessel data (approximately 1,000 vessel positions are acquired per second). To address this objective, the system Real-time Maritime Situation Awareness System (RMSAS), which relies on the VKG technology, has been developed. RMSAS uses Ontop (with the Ontop-spatial extension) to expose the data mentioned above as SPARQL endpoints. The Web-based tool Sextantis then used to visualize the results on temporally-enabled maps combining geospatial and temporal results from different (Geo)SPARQL endpoints.
-
-==== Use Case 8: Data Mining (Cybersecurity Monitoring)
-
-Process mining techniques are able to extract knowledge from event log data, which is often available in today’s information systems. Process mining tools normally assume that the data to be analyzed are already organized in some specific textual (XML based) format, notably IEEE standard for eXtensible Event Stream (XES) for achieving interoperability in event logs and event streams. However, in practice, many companies have custom IT infrastructure that maintains the data relevant for process logs, e.g., in relational databases, and hence in forms not compliant with the XES standard. To cope with this kind of problem, the approach proposed exploits a VKG based framework and associated methodology for the extraction of XES event logs from relational data sources. This approach is implemented in OnProm, which provides a complete tool-chain that (i) allows for describing event logs by means of suitable annotations of a conceptual model of the available data, (ii) exploits the Ontop system for the actual log extraction, and (iii) is fully integrated with the well-known ProM process mining framework. It has been tested in EBITmax, an Italian company that provides consultancy services in program management and business process management for small and large enterprises, and that has incorporated process mining to complement its standard consultancy services. The experimentation has shown the added value and flexibility of an approach based on semantics for the semi-automatic generation of process logs from legacy data.
-
-==== Use Case 9: Improving Search (Search)
-
-Google's knowledge graph [4]
-
-==== Use Case 10: Libraries and Museums
+===== UC3B Libraries and Museums: _German National Library and British Museum_
 
 To preserve the national heritage of countries, libraries and museums have the task to collect information about artifacts, relate artifacts to other similar artifacts in different museums and to create a historic context for people to understand the artifacts provenance. Those tasks are more and more frequently achieved using linked data technologies and ontologies modeling the necessary data using appropriate vocabularies. One example is the German National Library which since many years develops the "Gemeinsame Normdatei" GND ontology (https://d-nb.info/standards/elementset/gnd) including a geospatial component designed to locate the artifacts origins and the origins of their creators. The British museum created a SPARQL endpoint based on Blazegraph which contains similar information about the artifacts displayed in the British museum. 
 
-==== Use Case 11: Disaster management and risk assessment
+_Benefits_
 
-Risk assessment of areas is a crucial task for every government planning a national defense strategy for natural disasters. Governments usually classify their governing areas by elements at risk which in turn can be used to assess the impact of certain events like flood disasters or to calculate a general score of natural disaster risks. In general: The more information is available about geospatial objects in the respective area, the more accurate a risk assessment may become. Some information needed to make such calculations such as statistics (e.g. inhabitants of districts or hospital capacities) may be acquired by official governmental agencies. However, increasingly other sources of crowdsourced information (OpenStreetMap, Wikidata) containing information about frequently visited points of interests (a potential danger in case of disasters) are considered. Risk assessment and disaster management applications therefore benefit from the integrational aspect of linked data yet they currently lack enough query capabilities to do many risk assessment specified tasks. Linked data is therefore mainly used as a tool to enrich data already in already existing relational databases rather than working on a local possibly interlinked linked data infrastructure. 
+* B1: Disambiguation
+* B2: Dereferenceability
+
+===== UC3C Architecture, Engineering and Construction: _Niras_
+
+During the design stages of a construction project, the building’s design changes quite rapidly, and often there are derived consequences of these changes. The cooling demand of a zone is dependent on the solar heat gain through windows and if the windows change, so does the cooling demand. This affects the capacity requirement of the fan coil in the room and potentially the size of the pipes supplying this fan coil, the pump circulating the cooling water and the size of the chiller. 
+
+The danish consulting engineering company Niras uses Linked Data to model these interdependencies. The architect’s BIM model is translated from its internal data model through the vendor supplied Revit API into an AEC knowledge graph [13] described with the Building Topology Ontology (BOT) [14]. A direct communication between the BIM authoring tool and an OPM-REST API (https://github.com/MadsHolten/OPM-REST) ensures that property changes are captured and described using the Ontology for Property Management (OPM). Small task specific web applications access and extend the knowledge graph through SPARQL queries and uses OPM to relate a derived property to the properties that will affect it. In the current setup, 2D-geometry is extracted as WKT literals and 3D-geometry as OBJ literals. Geometry changes are registered by string comparison. In the UI, the state of the model geometry at the beginning and end of a given time interval is visualised.
+
+_Benefits_
+
+* B2: Dereferenceability
+* B4: Extendability
+
+==== Use Case 4: Data analysis 
+
+===== UC4 Oil and Gas Industry: _Equinor_
+
+One of the common tasks for geologists at Equinor (Norway) is to find new exploitable accumulations of oil or gas in given areas by analyzing data about those areas in a timely manner. However, gathering the required data is not a trivial task since it is stored in multiple complex and large data sources, including EPDS, Recall, CoreDB, GeoChemDB, OpenWorks, Compass and NPD FactPages. Construction of complex queries is sometimes beyond Equinor geologists, so they have to communicate their needs to IT specialists who then turn them into queries. This drastically affects the efficiency of finding the right data to back decision making. The work of Equinor describes how the data access and integration challenges in Equinor have been addressed by adopting the VKG-based system Optique, which relies on the following tools: 
+
+1. the bootstrapper BootOX to create ontologies and mappings from relational databases in a semi-automatic fashion;  
+2. the VKG system Ontop to perform query reformulation;  
+3. the federator Exareme to evaluate the reformulated queries over the federated DBs; and  
+4. the query formulation module OptiqueVQS to support query construction for engineers with a limited IT background.
+
+_Benefits_
+
+* B1: Disambiguation
+* B3: Reasoning
+
+==== Use Case 5: Diagnoses
+
+===== UC5A Industrial Machinery: _Siemens_
+
+Siemens Energy runs several service centers that remotely monitor and perform diagnostics for several thousand appliances, such as gas and steam turbines, generators and compressors installed in power plants. For performing reactive and predictive diagnostics at Siemens, data access and integration of both static data (e.g., configuration and structure of turbines) and dynamic data (e.g., sensor data) are particularly important but very challenging. The work of Siemens addressed these data access requirements by using the Optique platform as a VKG solution, similar to the Equinor use case.
+
+_Benefits_
+
+* B1: Disambiguation
+* B3: Reasoning
+
+===== UC5B Health Care: _Diagnosis of Diabetes_
+
+Improving health care for people with chronic conditions requires clinical information systems that support integrated care and information exchange. The adoption of an approach based on semantic information simplifies the use of multiple and diversified Electronic Health Records (EHRs). Within the work described in E-health data access, a Diabetes Mellitus Ontology (DMO) has been developed, and has been used to diagnose patients with diabetes, and automatically identify them by analyzing EHRs. Specifically, by using Ontop, the EHR data from a general practice (with almost 1,000 active patients) could be queried via SPARQL. The accuracy of the algorithm for automatic identification of patients with diabetes was validated by performing a manual audit of the EHRs, and considered good enough for the purpose. Not surprisingly, the accuracy of the automatic method was influenced by data quality, such as incorrect data due to mistaken units of measurement, unavailable data due to lack of or wrong documentation, and data management errors.
+
+_Benefits_
+
+* B1: Disambiguation
+* B3: Reasoning
+
+==== Use Case 6: Simplified Access to Heterogeneous Data 
+
+===== UC6A Digital Humanities: _EPNet Project_
+
+Historians, especially in Digital Humanities (DH), are starting to use new data sets to aggregate information about history. These are collections of data, information and knowledge that are devoted to the preservation of the legacy of tangible and intangible culture inherited from previous generations. In the project Production and distribution of food during the Roman Empire: Economics and Political Dynamics (EPNet), the work of EPNet project presents a framework that eases the access of scholars to much food information during the Roman Empire, distributed across different data sources. The proposed approach relies on the VKG paradigm to integrate the following data sets: 
+
+1. the EPNet relational repository; 
+2. the Heidelberg Epigraphic database; and 
+3. Pleiades, an open-access digital gazetteer for ancient history. 
+
+An ontology provides the historians with a clear point of access and a unified and unambiguous conceptual view over these data sets.
+
+_Benefits_
+
+* B1: Disambiguation
+* B2: Dereferenceability
+
+===== UC6B Archaeology: _Archaelogy and the Semantic Web_
+
+Digital Archaeologists working in DH deal with a lot of heterogeneous data, which is not standardised at all. Semantic technologies and the use of Linked Open Data promises to revolutionise the digital workflow [https://eprints.soton.ac.uk/206421/]. As the most digital semantic DH project they are referenced by the International Committee for Documentation (CIDOC) Conceptual Reference Model (CRM) [http://www.cidoc-crm.org/] and its extensions, especially CRMgeo[https://link.springer.com/article/10.1007/s00799-016-0192-4]. Famous data collections which model object types in their domain and publish them as LOD are nomisma (coins) [http://nomisma.org/], kerameikos (ancient ceramics) [http://kerameikos.org/], Open Context [https://opencontext.org/], the iDAI world [https://idai.world/] of the German Archaeological Institute, finds.org [https://finds.org.uk/], and Regnum Francorum Online [http://francia.ahlfeldt.se/index.php]. Furthermore, Linked Data networks of the Computer Applications and Quantitative Methods in Archaeology (CAA) conference – Little Minions, Data Dragons – and of the Linked Pasts Community (related to the LOD Pelagios Commons network[http://commons.pelagios.org/) – Linked Pipes – try to build up a LOD network of tools, workflows and data of the CH domain[http://squirrelnator.squirrel.link/]. Moreover, smaller projects are publishing tools, e.g. for modelling vagueness in graphs like the Academic Meta Tool [http://academic-meta-tool.xyz/] to enable the scientific community to handle fuzzy (geographical) relations [http://unold.net/research/p_dls_20170320.pdf].
+
+_Benefits_
+
+* B1: Disambiguation
+* B2: Dereferenceability
+
+==== Use Case 7: Integrating Aspatial and Spatial Data 
+
+===== UC7A Maritime security: _Real-time Maritime Situational Awareness System_
+
+The maritime security domain presents a need for efficient combining and processing of dynamic (real-time) and static vessel data that come from heterogeneous sources. The project Real-time Services for the Maritime Security (EMSec) needed to integrate static, real-time and geospatial data, including:
+
+1. static vessel metadata;  
+2. open data like GeoNames and OpenStreetMap;  
+3. large radar and satellite images; and  
+4. real-time vessel data (approximately 1,000 vessel positions are acquired per second). 
+
+To address this objective, the system Real-time Maritime Situation Awareness System (RMSAS), which relies on the VKG technology, has been developed. RMSAS uses Ontop (with the Ontop-spatial extension) to expose the data mentioned above as SPARQL endpoints. The Web-based tool Sextantis then used to visualize the results on temporally-enabled maps combining geospatial and temporal results from different (Geo)SPARQL endpoints.
+
+_Benefits_
+
+* B1: Disambiguation  
+* B2: Dereferenceability  
+* B3: Reasoning  
+* B4: Extendability  
+
+===== UC7B Heritage: _Flemish Cities in Transition_
+
+During built heritage projects (e.g. restoration, maintenance, historical research) a large amount of stakeholders collaborate. Each stakeholder assembles and generates a wide variety of data, including 2D and 3D geometries ranging from survey geometry (e.g. a point cloud or complex mesh), over 2D plans and maps (historical situation, previous restorations, derived from survey data, etc.) to volumetric 3D models. These geometries are used to get an overview of the historical and existing situation of the building, for communicating the location of damages or valuable historical elements in the building or to express the intention of the restoration design. Because of the wide variety of geometric data, a large amount of common geometry schemas (text-based and binary, open and proprietary) are currently used in practice. 
+
+Instead of developing RDF-based geometry schemas for each existing geometry schema (OBJ, E57, X3D, STEP, WKT, etc.), alternative methods such as the application of RDF literals are considered. These literals can embed geometry descriptions (similar to GeoSPARQL 1.0 but for any geometry schema) or reference external geometry files in their original geometry schema. In that case, the usage of existing geometry schemas and their tools can be continued. Built heritage stakeholders need to be able to link such geometry descriptions to building elements, damages and building spaces they describe. Each described object can have multiple geometry descriptions (different geometry schema, describing an object at multiple moments in time, different amount of detailing/resolution, etc.), potentially coming from different stakeholders. Geometry metadata (accuracy,  author, resolution, derived geometry descriptions, file size, etc.) is necessary to reuse the geometry in a collaborative setting as it gives an indication of the geometry provenance. Other metadata (used geometry schema, coordinate system, etc.) might help users in the automatic processing of the data by their geometry applications. 
+
+Three domain independent ontology modules have been developed in previous collaborative research and are applied in a built heritage PhD research project named “Flemish Cities in Transition” [9]. These ontologies include the Ontology for Managing Geometry (OMG - https://w3id.org/omg#) [10], the File Ontology for Geometry formats (FOG - https://w3id.org/fog#) [11] and the Geometry Metadata Ontology (GOM - https://w3id.org/gom#).
+
+_Benefits_
+
+* B1: Disambiguation  
+* B2: Dereferenceability  
+
+===== UC7C Buildings: _Prime2_
+
+Geometric data plays a central role in the geospatial domain, architectural design and construction industry. For upcoming, new approaches on how to store building data, such as the Semantic Web, however, no universal common agreement exists on the combination of geometric and non-geometric data. Thus, it can be unclear to users on how to represent their geometries, leading to a decelerated application and advancement of making building data available over the web. This gap can only be bridged if a common approach on the representation of geometries on the web is achieved.
+
+In Ireland, the Ordnance Survey Ireland (OSi) has a substantial dataset (over 50 million objects), called Prime2, which includes not only GIS data (polygon footprint, geodetic coordinate), but also additional building-specific data (form and function). The ADAPT research centre working with the Ordnance Survey Ireland has begun publication of their geospatial data using GeoSPARQL [12], with a subset of their buildings data (building name, geolocation, and form and function) in the county of Galway now being available as RDF (http://data.geohive.ie/downloadAndQuery.html).
+
+This provides authoritative URIs for Irish buildings which can be used to interlink building data from other domains, such as products, sensors, energy, etc. The potential also exists to support the conversion of their 2D building footprints into a simple 3D geometric model, given some additional properties (height). An existing schema such as the Industry Foundation Classes, and ifcOWL serialization can be supported, but tend to be overly verbose (use of lists for each vertex in a point for example) and geometric and non-geometric data are overly entwined. The possibility to define 3D geometries using less complex geometry schemas would be a huge advantage within the building information modelling domain. This is an important step towards the iterative integration of ever more complex BIM models which can support a range of different use cases into the wider web of data.
+
+_Benefits_
+
+* B1: Disambiguation  
+* B2: Dereferenceability  
+* B4: Extendability  
+
+==== Use Case 8: Data Mining 
+
+===== UC8 Cybersecurity: _EBITmax_
+
+Process mining techniques are able to extract knowledge from event log data, which is often available in today’s information systems. Process mining tools normally assume that the data to be analyzed are already organized in some specific textual (XML based) format, notably IEEE standard for eXtensible Event Stream (XES) for achieving interoperability in event logs and event streams. However, in practice, many companies have custom IT infrastructure that maintains the data relevant for process logs, e.g., in relational databases, and hence in forms not compliant with the XES standard. To cope with this kind of problem, the approach proposed exploits a VKG based framework and associated methodology for the extraction of XES event logs from relational data sources. This approach is implemented in OnProm, which provides a complete tool-chain that:
+
+1. allows for describing event logs by means of suitable annotations of a conceptual model of the available data;  
+2. exploits the Ontop system for the actual log extraction; and  
+3. is fully integrated with the well-known ProM process mining framework.  
+
+It has been tested in EBITmax, an Italian company that provides consultancy services in program management and business process management for small and large enterprises, and that has incorporated process mining to complement its standard consultancy services. The experimentation has shown the added value and flexibility of an approach based on semantics for the semi-automatic generation of process logs from legacy data.
+
+_Benefits_
+
+* B1: Disambiguation  
+* B2: Dereferenceability  
+* B4: Extendability  
+
+==== Use Case 9: Improving Search
+
+===== UC9 Smart Cities: _DALI_
+
+Smart City applications rely on large amounts of data retrieved from sensors, social networks or government authorities. Open data and data from existing enterprise systems are two valuable data sources. However, open data are often published in a tabular form with little or incomplete schema information, while enterprise applications typically rely on complex relational schemas. There is a clear need to make city-specific information easy to consume and combine at low cost, but this proves to be a difficult task. The work of IBM Ireland presents the system DALI, which exploits Linked Data to provide federated entity search and spatial exploration across hundreds of information sources containing open and enterprise data pertaining to cities. Ontop is used as the VKG solution, and mappings are created using a rule and pattern-based entity extraction mechanism to detect different kinds of entities. The DALI system has been evaluated in two scenarios:
+
+1. Data Engineers bring together public and enterprise data sets about public safety; and  
+2. Knowledge Engineers and domain-experts build a view of health and social care providers for vulnerable populations.  
+
+_Benefits_
+
+* B1: Disambiguation
