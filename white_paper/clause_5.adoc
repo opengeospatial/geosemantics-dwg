@@ -43,4 +43,24 @@ methods, languages, services, and protocols to structure, organize, and register
 
 - TBD
 
+=== The Web3D Consortium
+
+==== Scope of Activity
+The Web3D Consortium is an international, non-profit, member-funded, industry standards development organization. Its purpose is to  develop the https://www.web3d.org/x3d/what-x3d[X3D] specification, designed for sharing interactive 3D graphics on the Web, between applications and across distributed networks and web services. 
+
+X3D is a royalty-free open standards file format and run-time architecture to represent and communicate 3D scenes in multiple applications. The X3D family of standards is ratified by the International Standards Organization (ISO) to ensure archival stability and steady evolution. X3D graphics provides a system for the storage, retrieval, and playback of real-time 3D graphics content embedded in applications, all within an open architecture to support a wide array of domains and user scenarios.
+
+==== Web Site(s)
+
+https://www.web3d.org/
+
+==== Source Repositories
+
+- TBD
+
+==== Liaisons
+
+- TBD
+
+
 
