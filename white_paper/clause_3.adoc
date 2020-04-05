@@ -130,3 +130,19 @@ Basic graph pattern matching shall use the semantics defined by the RIF Core Ent
 ===== Requirement 30: Support RIF Entailment for RCC8 Spatial Relationships
 
 Basic graph pattern matching shall use the semantics defined by the RIF Core Entailment Regime [W3C SPARQL Entailment] for the RIF rules [W3C RIF Core] geor:rcc8eq, geor:rcc8dc, geor:rcc8ec, geor:rcc8po, geor:rcc8tppi, geor:rcc8tpp, geor:rcc8ntpp, geor:rcc8ntppi
+
+==== Adoption
+
+Semantic and graph technologies need software to store and retrieve data. As this type of data can be about any subject, such a product would do well to support spatial data. Most, if not all products support the most basic spatial data type: a point with geographic coordinates. Some products offer idiosyncratic means to work with more complex spatial data. But a significant number of products used for semantic and graph data have opted to support GeoSPARQL, offering a large amount of standardized spatial data types, and the functions that come along.
+To our knowledge, the following products support GeoSPARQL (in alphabetical order):
+
+* https://jena.apache.org/documentation/fuseki2/[Apache Jena Fuseki]: Apache Jena is an open source framework for the Semantic Web and Linked Data. Part of Jena is the Fuseki triple store, which can https://jena.apache.org/documentation/geosparql/geosparql-fuseki[support GeoSPARQL]
+* https://rdf4j.org/about/[Eclipse RDF4J] is a Java framework for working with RDF data. It can use its own data stores or data stores from other parties. https://rdf4j.org/documentation/programming/geosparql/[GeoSPARQL is supported].
+* http://ontop-spatial.di.uoa.gr/[Ontop-spatial]: https://ontop-vkg.org/guide/[Ontop] is a system that can be used to expose the content of arbitrary relational databases as knowledge graphs. Ontop-spatial is an extension of Ontop that offers support for GeoSPARQL.
+* https://www.ontotext.com/products/graphdb/[Ontotext GraphDB] is a semantic graph database. It offers a http://graphdb.ontotext.com/documentation/standard/geosparql-support.html[GeoSPARQL plugin]. 
+* https://virtuoso.openlinksw.com/[Openlink Virtuoso]: Virtuoso Universal Server is a data storage system that supports mutliple interfaces. It offers partial support of GeoSPARQL.
+* https://www.oracle.com/database/technologies/spatialandgraph.html[Oracle Spatial and Graph] is a component in Oracle databases that offers support for both graph data and spatial data. It supports the GeoSPARQL standard.
+* https://github.com/SemWebCentral/parliament[Parliament] is a triplestore and reasoner with support for GeoSPARQL.
+* http://www.strabon.di.uoa.gr/[Strabon] is a RDF store that specializes in spatiotemporal data. It has partial support for GeoSPARQL.
+* https://www.stardog.com/[Stardog] is a platform for knowledge graphs and it https://www.stardog.com/docs/#_geospatial_query[supports GeoPSPARQL].
+
