@@ -474,6 +474,30 @@ In the Ontology for Managing Geometry (OMG, https://w3id.org/omg), a first imple
 
 - Remark: adding metadata regarding the used coordinate system, units and other metadata as mentioned in extension 1 and 4 can also result in double information.  Some geometry schemas such as OBJ are unitless so additional info on the length unit is useful, while others allow to define the used units internally (e.g. STEP) or have a fixed length unit defined in the schema (e.g. glTF uses metre). Adding metadata in RDF for OBJ geometry description enriches the knowledge over the geometry. If this is also added for STEP or glTF geometry, this results in redundant data, but the metadata is now externalized in RDF can thus be queried directly (no interpretation needed).
 
+==== Extension 21: Add support for spatial aggregate functions
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=626
+
+===== GitHub Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/56
+
+===== Category
+
+Geospatial processing
+
+===== Description
+
+Geospatial literals currently cannot be queried using traditional aggregate functions such as MIN,MAX,AVG. However it may be useful to get the minimum or maximum X,Y or Z coordinate for a given set of geometries, which is currently not possible in GeoSPARQL.
+
+One use case could be: Finding a bounding box of a set of geometries for which a minimum X,Y and maximum X,Y coordinate of all geometries within a graph would be needed.
+
+Proposal:
+. Add the following aggregate functions: MINX, MINY, MAXX, MAXY, MINZ, MAXZ.
+. Add a BBOX aggregate method which calculates a minimum bounding box of a set of geometries bound to a query variable.
+
 === Defects reported in GeoSPARQL 1.0
 
 ==== Bug 1: Corrections of example data and queries
