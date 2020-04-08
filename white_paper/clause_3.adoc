@@ -38,7 +38,7 @@ Implementations shall allow the properties geo:rcc8eq, geo:rcc8dc, geo:rcc8ec, g
 
 Implementations shall allow the RDFS class geo:Geometry to be used in SPARQL graph patterns
 
-===== Requirement 8: Integration of Geometry with aspatial data
+===== Requirement 8: Integration of Geometry with spatial data
 
 Implementations shall allow the properties geo:hasGeometry and geo:hasDefaultGeometry to be used in SPARQL graph patterns
 
@@ -67,7 +67,7 @@ An empty RDFS Literal of type geo:wktLiteral shall be interpreted as an empty ge
 
 Implementations shall allow the RDF property geo:asWKT to be used in SPARQL graph patterns
 
-===== Requirement 15: Comform with GML
+===== Requirement 15: Conform with GML
 
 All geo:gmlLiterals shall consist of a valid element from the GML schema that implements a subtype of GM_Object as defined in [OGC 07-036]
 
@@ -144,5 +144,5 @@ To our knowledge, the following products support GeoSPARQL (in alphabetical orde
 * https://www.oracle.com/database/technologies/spatialandgraph.html[Oracle Spatial and Graph] is a component in Oracle databases that offers support for both graph data and spatial data. It supports the GeoSPARQL standard.
 * https://github.com/SemWebCentral/parliament[Parliament] is a triplestore and reasoner with support for GeoSPARQL.
 * http://www.strabon.di.uoa.gr/[Strabon] is a RDF store that specializes in spatiotemporal data. It has partial support for GeoSPARQL.
-* https://www.stardog.com/[Stardog] is a platform for knowledge graphs and it https://www.stardog.com/docs/#_geospatial_query[supports GeoPSPARQL].
+* https://www.stardog.com/[Stardog] is a platform for knowledge graphs and it https://www.stardog.com/docs/#_geospatial_query[supports GeoSPARQL].
 
