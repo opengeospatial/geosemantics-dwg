@@ -188,7 +188,7 @@ This PDF provides links to all the dataformat specifications and proposes how li
 
 ===== Standards Tracker Change Request URI
 
-This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
+http://ogc.standardstracker.org/show_request.cgi?id=627
 
 ===== GitHub Issue URI
 
@@ -212,7 +212,7 @@ In order to integrate raster data into GeoSPARQL the following requirements need
 
 ===== Standards Tracker Change Request URI
 
-This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
+http://ogc.standardstracker.org/show_request.cgi?id=629
 
 ===== GitHub Issue URI
 
@@ -235,7 +235,7 @@ In particular the following query capabilities which are the norm in relational 
 
 ===== Standards Tracker Change Request URI
 
-This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
+http://ogc.standardstracker.org/show_request.cgi?id=628
 
 ===== GitHub Issue URI
 
@@ -255,7 +255,7 @@ These ontologies should be checked and integrated into, or merged with, the GeoS
 
 ===== Standards Tracker Change Request URI
 
-This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
+http://ogc.standardstracker.org/show_request.cgi?id=628
 
 ===== GitHub Issue URI
 
@@ -278,7 +278,7 @@ Suggestions:
 
 ===== Standards Tracker Change Request URI
 
-This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
+http://ogc.standardstracker.org/show_request.cgi?id=630
 
 ===== GitHub Issue URI
 
@@ -473,6 +473,34 @@ During the design phase of a building, a series of geometric descriptions are ma
 In the Ontology for Managing Geometry (OMG, https://w3id.org/omg), a first implementation of such links is realised. For one, the omg:isExplicitlyDerivedFrom property can be applied in cases, a geometric property of RDF-based geometry (object) and a non-geometric (subject) property describe exactly the same situation (e.g. the height/extrusion), where a chain axiom can be used to automatically update the according values. On the other hand, the omg:isImplicitlyDerivedFrom property can be applied to indicate that a non-geometric property (subject) can be derived from a geometry description (object), as is the case for volumes or surface areas.
 
 - Remark: adding metadata regarding the used coordinate system, units and other metadata as mentioned in extension 1 and 4 can also result in double information.  Some geometry schemas such as OBJ are unitless so additional info on the length unit is useful, while others allow to define the used units internally (e.g. STEP) or have a fixed length unit defined in the schema (e.g. glTF uses metre). Adding metadata in RDF for OBJ geometry description enriches the knowledge over the geometry. If this is also added for STEP or glTF geometry, this results in redundant data, but the metadata is now externalized in RDF can thus be queried directly (no interpretation needed).
+
+==== Extension 21: Add support for Spatial Aggregate functions
+
+===== Standards Tracker Change Request URI
+
+http://ogc.standardstracker.org/show_request.cgi?id=626
+
+===== GitHub Issue URI
+
+https://github.com/opengeospatial/geosemantics-dwg/issues/56
+
+===== Category
+
+Query language
+
+===== Description
+
+Geospatial literals currently cannot be queried using aggregate functions such as MIN,MAX,AVG.
+However it may be useful to get the minimum or maximum X,Y or Z coordinate for a given set of geometries which is currently not possible in GeoSPARQL.
+One use case could be: Finding a bounding box of a set of geometries for which a minimum X,Y and maximum X,Y coordinate of all geometries within a graph would be needed.
+To my knowledge there is no such functionality currently available in GeoSPARQL.
+
+My proposal:
+Adding the following aggregate functions:
+MINX, MINY, MAXX, MAXY, MINZ, MAXZ
+In addition adding a BBOX aggregate method which would calculate a minimum bounding box of a set of geometries bound to a query variable.
+
+
 
 === Defects reported in GeoSPARQL 1.0
 
