@@ -1,7 +1,7 @@
 == Introduction
 //write text in as many clauses as necessary. Use one document or many, your choice!
 
-The spatial aspect of data is a core data dimension. Spatial information provides the capability to answer the question "where", providing additional context to whatever it relates to. The authors of this White Paper believe that semantic and graph technologies, together with  strategies for Linked Data, will increase the value that can be extracted from (geo)spatial data.
+The spatial aspect of data is a core characteristic. Spatial information provides the capability to provide both location and shape as a context to whatever it relates to. The authors of this White Paper believe that semantic and graph technologies, together with  strategies for Linked Data, will increase the value that can be extracted from (geo)spatial data.
 
 Although many current and past work within the OGC involves semantic and graph technologies, there is one main applicable OGC standard: GeoSPARQL. GeoSPARQL offers both semantics for representing geospatial data and it specifies how geospatial data that are expressed using the Resource Description Framework (RDF) can be queried using SPARQL, the query language for RDF. 
 
@@ -13,7 +13,7 @@ The purpose of this paper is to provoke further thought about a best course for 
 
 Semantic technologies, in the scope of this document, relate to the use of formal ontologies to describe concepts: the relationships between "things" and categories of "things". There are a number of goals for using these technologies, which often relate to providing the capability to reason over the data and simplified dealing with heterogeneous data sources. Example goals include enabling machine readability, and federated searching. A major area in which semantic technologies are used is the Semantic Web, the part of the World Wide Web dealing with semantics.
 
-A concept closely related to the Semantic Web is Linked Data. Linked Data is the name given to the idea of using common Web communication protocol HTTP(S) to link raw data from different sources, much in the same way as HTML documents can cross-reference each other using hyperlinks. Data sets as well as individual data elements are identified by HTTP(S) IRIs, which act both as unique and persistent identifiers and allow direct retrieval of raw data. This leads to a web of data that can be tapped into by both human users and software. The concept is applicable to open data as well as data that are not supposed to be accessed by everyone.
+A concept closely related to the Semantic Web is Linked Data. Linked Data is the name given to the idea of using the common Web communication protocol HTTP(S) to link raw data from different sources, much in the same way as HTML documents can cross-reference each other using hyperlinks. Data sets as well as individual data elements are identified by HTTP(S) IRIs, which act both as unique and persistent identifiers and allow direct retrieval of raw data. This leads to a web of data that can be tapped into by both human users and software. The concept is applicable to open data as well as data that are not supposed to be accessed by everyone.
 
 == Graph Technologies
 

@@ -8,7 +8,7 @@
 |2019-10-28 |0.1 |J. Abhayaratna |all |initial version
 |2019-11-15 |0.2 |R. Atkinson |1 |Editing
 |2019-11-28 |0.3 |T. Homburg |2,4 |Editing and adding additional use cases and change requests
-|2019-11-28 |0.4 |F. Thierry |2 |Additional Archeology use case
+|2019-11-28 |0.4 |F. Thiery |2 |Additional Archeology use case
 |2019-12-09 |0.5 |M. Bonduel |4 |Editing and adding additional change requests
 |2020-01-15 |0.6 |F. Knibbe |all |Editing
 |2020-02-29 |0.7 |J. Abhayaratna |2 |Editing, cleaning up use cases
