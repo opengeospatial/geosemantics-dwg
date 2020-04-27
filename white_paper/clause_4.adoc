@@ -544,7 +544,7 @@ WKT seems a good way to easily encode geographic geometry, but the datatype geo:
 . GeoSPARQL deviates from the WKT standard, resulting in poor software support.
 . Allowing not to specify a CRS and defaulting to CRS84 may be useful in North America, but is of little value for serious usage in other parts of the world.
 . The proper data type for expression of CRS is an IRI. Therefore it should be defined as such, not as part of a string literal.
-. Especially when non-geographical geometry is considered, CRS is not necessarily a known property. Therefore it should be possible to leave out CRS data in publications, without this resulting in wrong interpretations.
-. CRS can be considered an intrinsic or fundamental aspect of geometry, but so are other properties like dimensionality or accuracy. This does not mean all of this information should be lumped together in one literal.
+- Especially when non-geographical geometry is considered, CRS is not necessarily a known property. Therefore it should be possible to leave out CRS data in publications, without this resulting in wrong interpretations.
+- CRS can be considered an intrinsic or fundamental aspect of geometry, but so are other properties like dimensionality or accuracy. This does not mean all of this information should be lumped together in one literal.
 
 It seems better to introduce a new property for CRS and to let WKT literals be just WKT literals. Should a new property for indicating CRS be introduced, it would be good to allow it to be applied not only to individual geometries, but to geometry collections too.
