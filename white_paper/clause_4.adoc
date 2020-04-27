@@ -495,8 +495,8 @@ Geospatial literals currently cannot be queried using traditional aggregate func
 One use case could be: Finding a bounding box of a set of geometries for which a minimum X,Y and maximum X,Y coordinate of all geometries within a graph would be needed.
 
 Proposal:
-. Add the following aggregate functions: MINX, MINY, MAXX, MAXY, MINZ, MAXZ.
-. Add a BBOX aggregate method which calculates a minimum bounding box of a set of geometries bound to a query variable.
+- Add the following aggregate functions: MINX, MINY, MAXX, MAXY, MINZ, MAXZ.
+- Add a BBOX aggregate method which calculates a minimum bounding box of a set of geometries bound to a query variable.
 
 === Defects reported in GeoSPARQL 1.0
 
