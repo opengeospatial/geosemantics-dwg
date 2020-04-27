@@ -1,7 +1,7 @@
 == Introduction
 //write text in as many clauses as necessary. Use one document or many, your choice!
 
-The spatial aspect of data is a core data dimension. Spatial information provides the capability to answer the question "where", providing additional context to whatever it relates to. The authors of this White Paper believe that semantic and graph technologies, together with  strategies for Linked Data, will increase the value that can be extracted from (geo)spatial data.
+The spatial aspect of data is a core characteristic. Spatial information provides the capability to provide both location and shape as a context to whatever it relates to. The authors of this White Paper believe that semantic and graph technologies, together with  strategies for Linked Data, will increase the value that can be extracted from (geo)spatial data.
 
 Although many current and past work within the OGC involves semantic and graph technologies, there is one main applicable OGC standard: GeoSPARQL. GeoSPARQL offers both semantics for representing geospatial data and it specifies how geospatial data that are expressed using the Resource Description Framework (RDF) can be queried using SPARQL, the query language for RDF. 
 
