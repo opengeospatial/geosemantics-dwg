@@ -474,7 +474,7 @@ In the Ontology for Managing Geometry (OMG, https://w3id.org/omg), a first imple
 
 - Remark: adding metadata regarding the used coordinate system, units and other metadata as mentioned in extension 1 and 4 can also result in double information.  Some geometry schemas such as OBJ are unitless so additional info on the length unit is useful, while others allow to define the used units internally (e.g. STEP) or have a fixed length unit defined in the schema (e.g. glTF uses metre). Adding metadata in RDF for OBJ geometry description enriches the knowledge over the geometry. If this is also added for STEP or glTF geometry, this results in redundant data, but the metadata is now externalized in RDF can thus be queried directly (no interpretation needed).
 
-==== Extension 21: Add support for Spatial Aggregate functions
+==== Extension 21: Add support for spatial aggregate functions
 
 ===== Standards Tracker Change Request URI
 
@@ -486,21 +486,17 @@ https://github.com/opengeospatial/geosemantics-dwg/issues/56
 
 ===== Category
 
-Query language
+Geospatial processing / Query language
 
 ===== Description
 
-Geospatial literals currently cannot be queried using aggregate functions such as MIN,MAX,AVG.
-However it may be useful to get the minimum or maximum X,Y or Z coordinate for a given set of geometries which is currently not possible in GeoSPARQL.
+Geospatial literals currently cannot be queried using traditional aggregate functions such as MIN,MAX,AVG. However it may be useful to get the minimum or maximum X,Y or Z coordinate for a given set of geometries, which is currently not possible in GeoSPARQL.
+
 One use case could be: Finding a bounding box of a set of geometries for which a minimum X,Y and maximum X,Y coordinate of all geometries within a graph would be needed.
-To my knowledge there is no such functionality currently available in GeoSPARQL.
 
-My proposal:
-Adding the following aggregate functions:
-MINX, MINY, MAXX, MAXY, MINZ, MAXZ
-In addition adding a BBOX aggregate method which would calculate a minimum bounding box of a set of geometries bound to a query variable.
-
-
+Proposal:
+- Add the following aggregate functions: MINX, MINY, MAXX, MAXY, MINZ, MAXZ.
+- Add a BBOX aggregate method which calculates a minimum bounding box of a set of geometries bound to a query variable.
 
 === Defects reported in GeoSPARQL 1.0
 
