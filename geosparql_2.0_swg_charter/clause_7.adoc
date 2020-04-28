@@ -1,0 +1,7 @@
+== Domain Working Group Endorsement
+
+////
+The SWG will list all Domain Working Groups (DWGs) in which the SWG formation was discussed and/or chartered. If a DWG has specifically endorsed the formation of the SWG, then a statement of endorsement should be included.
+////
+
+The Chairs of the Geosemantics Domain Working Group (DWG), Joseph Abhayaratna and Linda van den Brink, do formally endorse the formation of the GeoSPARQL 2.0 Standards Working Group (SWG).

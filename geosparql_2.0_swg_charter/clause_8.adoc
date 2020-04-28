@@ -1,0 +1,52 @@
+== Other informative information about the work of this SWG
+
+=== Collaboration
+
+////
+Describe the work environment of the SWG, including the use of GitHub or GitLab.
+////
+
+=== Similar or Applicable Standards Work (OGC and Elsewhere)
+
+////
+The following standards and projects may be relevant to the SWG's planned work, although none currently provide the functionality anticipated by this committee's deliverables:
+
+OASIS BPEL
+IETF HTTP
+
+The SWG intends to seek and if possible maintain liaison with each of the organizations maintaining the above works.
+////
+
+=== Details of first meeting
+
+////
+Example:
+The first meeting of the SWG will be held by telephone conference call at 10AM EDT on 1 October 2007. Call-in information will be provided to the SWG's e-mail list and on the portal calendar in advance of the meeting.
+////
+
+=== Projected on-going meeting schedule
+
+////
+Example:
+The work of the SWG will be carried out primarily by email and conference calls, possibly every two weeks, with face-to-face meetings perhaps at each of the OGC TC meetings.
+////
+
+=== Supporters of this Charter
+
+The following people support this proposal and are committed to the Charter and projected meeting schedule. These members are known as SWG Founding or Charter members. The charter members agree to the SoW and IPR terms as defined in this charter. The charter members have voting rights beginning the day the SWG is officially formed. Charter Members are shown on the public SWG page. Extend the table as necessary.
+
+|===
+|J. Abhayaratna | PSMA Australia
+|===
+
+=== Conveners
+
+////
+Name of individual(s) who started the SWG process. Could be the lead for an RFC submission, an OGC staff person, or an individual who believes it is time for a revision to an adopted standard.
+////
+
+|===
+|Name |Organization
+|J. Abhayaratna | PSMA Australia
+|===
+

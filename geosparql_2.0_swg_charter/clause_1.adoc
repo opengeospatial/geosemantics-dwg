@@ -1,0 +1,6 @@
+== Purpose of the Standards Working Group
+
+////
+Proposers will describe the purpose of the Standards Working Group and its overall mission in relation to OGC processes, the OGC standards baseline, and OGC’s business plan.
+////
+
