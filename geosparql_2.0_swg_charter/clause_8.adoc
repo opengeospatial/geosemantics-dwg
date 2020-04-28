@@ -37,6 +37,7 @@ The following people support this proposal and are committed to the Charter and 
 
 |===
 |J. Abhayaratna | PSMA Australia
+|L.E. van den Brink | Geonovum
 |===
 
 === Conveners
@@ -48,5 +49,6 @@ Name of individual(s) who started the SWG process. Could be the lead for an RFC 
 |===
 |Name |Organization
 |J. Abhayaratna | PSMA Australia
+|L.E. van den Brink | Geonovum
 |===
 
