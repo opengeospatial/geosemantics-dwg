@@ -1,5 +1,68 @@
 == References
 
-////
-Optional list of references.
-////
+[NOTE]
+.Example Bibliography (Delete this note).
+===============================================
+The TC has approved Springer LNCS as the official document citation type.
+
+Springer LNCS is widely used in technical and computer science journals and other publications
+
+* For citations in the text please use square brackets and consecutive numbers: [1], [2], [3]
+
+– Actual References:
+
+[n] Journal: Author Surname, A.: Title. Publication Title. Volume number, Issue number, Pages Used (Year Published)
+
+[n] Web: Author Surname, A.: Title, http://Website-Url
+
+===============================================
+
+((( Example )))
+[[Wiki1]]
+[1] Web: Wikipedia: Semantic technology, https://en.wikipedia.org/wiki/Semantic_technology
+
+[[Wiki2]]
+[2] Web: Wikipedia: Graph database, https://en.wikipedia.org/wiki/Graph_database
+
+[[DataIntel1]]
+[3] Web: Data Intelligence: Virtual Knowledge Graphs: An Overview of Systems and Use Cases, http://www.data-intelligence-journal.org/p/24/#Ch-S2
+
+[[Google1]]
+[4] Web: Youtube: Introducing the Knowledge Graph, https://www.youtube.com/watch?v=mmQl6VGvX-c
+
+[[GeoSPARQL1]]
+[5] Web: OGC: OGC GeoSPARQL - A Geographic Query Language for RDF Data, http://www.opengis.net/doc/IS/geosparql/1.0
+
+[[PROV DM]]
+[6] Web: W3C: PROV-DM The PROV Data Model, https://www.w3.org/TR/prov-dm/
+
+[[BioregionalAssessments]]
+[7] Web: Australian Government: https://www.bioregionalassessments.gov.au
+
+[[ConstituteProject]]
+[8] Web: Constitute Project: https://www.constituteproject.org
+
+[[FlemishCities]]
+[9] Web: Bonduel M, Vergauwen M, Pauwels P, Klein R : https://www.researchgate.net/project/Flemish-Cities-in-Transition-A-Framework-for-a-Web-based-Built-Heritage-Platform-Using-BIM-GIS-and-Linked-Data
+
+[[OMG]]
+[10] Wagner A, Bonduel M, Pauwels P, Rüppel U: Relating geometry descriptions to its derivatives on the web. In Proceedings of the 2019 European Conference for Computing in Construction (O'Donnell J, Chassiakos A, Rovas D and Hall D, eds), University College Dublin, Chania, Greece, Pages 304–313 (2019) https://doi.org/10.35490/EC3.2019.146
+
+[[FOG]]
+[11] Bonduel M, Wagner A, Pauwels P, Vergauwen M, Klein R: Including widespread geometry formats in semantic graphs using RDF literals. In Proceedings of the 2019 European Conference for Computing in Construction (O'Donnell J, Chassiakos A, Rovas D and Hall D, eds), University College Dublin, Chania, Greece, Pages 341–350 (2019), https://doi.org/10.35490/EC3.2019.166
+
+[[ADAPT]]
+[12] McGlinn K, Debruyne C, McNerney L, O’Sullivan D: Integrating Ireland’s Geospatial Information to Provide Authoritative Building Information Models. In SEMANTiCS 2017, the 13th International Conference on Semantic Systems. Held in Amsterdam, Netherlands (2019)
+
+[[AEC]]
+[13] Rasmussen M H, Lefrançois M, Pauwels P, Hviid C A, Karlshøj J: Managing interrelated project information in AEC Knowledge Graphs. Automation in Construction, 108, 102956 (2019)
+
+[[BOT]]
+[14] Web: Building Topology Ontology: http://www.semantic-web-journal.net/content/bot-building-topology-ontology-w3c-linked-building-data-group-0
+
+[[LBD]]
+[15] Web: Linked Building Data Community Group: https://www.w3.org/community/lbd/
+
+[[JTC1SC32WG3]]
+[16] Web: Data Management and Interchange: https://www.iso.org/committee/45342.html
+
