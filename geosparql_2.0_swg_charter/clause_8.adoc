@@ -2,34 +2,91 @@
 
 === Collaboration
 
-////
-Describe the work environment of the SWG, including the use of GitHub or GitLab.
-////
+The GeoSPARQL SWG will use
+
+==== GitHub to manage:
+
+- Project Related Documentation;
+- Creation and management of outstanding work items, using Standards Tracker as the authoritative register;
+- Prioritisation of work items into iterations of work; and
+- The Standard Document itself.
 
 === Similar or Applicable Standards Work (OGC and Elsewhere)
 
-////
-The following standards and projects may be relevant to the SWG's planned work, although none currently provide the functionality anticipated by this committee's deliverables:
+The following standards and projects may be relevant to the SWG's planned work, although none currently provide the functionality anticipated by this working group's deliverables:
 
-OASIS BPEL
-IETF HTTP
+==== W3C Linked Building Data Community Group
+
+===== Scope of Activity
+
+This group brings together experts in the area of building information modelling (BIM) and Web of Data technologies to define existing and future use cases and requirements for linked data based applications across the life cycle of buildings. A list of recommended use cases will be produced by this community group. The envisioned target beneficiaries of this group are both industrial and governmental organisations who use data from building information modelling applications and other data related to the building life cycle (sensor data, GIS data, material data, geographical data, and so forth) to achieve their business processes and whom will benefit from greater integration of data and interoperability between their data sets and the wider linked data communities. [15]
+
+===== Web Site(s)
+
+- https://www.w3.org/community/lbd/
+
+===== Source Repositories
+
+- https://github.com/w3c-lbd-cg/lbd
+
+===== Liaisons
+
+- Mathias Bonduel
+- Kris McGlinn
+- Anna Wagner
+
+==== ISO/IEC JTC 1/SC 32/WG 3
+
+===== Scope of Activity
+
+SC 32 provides enabling technologies to promote harmonization of data management facilities across sector-specific areas. Specifically, SC 32 standards include:
+
+reference models and frameworks for the coordination of existing and emerging standards;
+definition of data domains, data types, and data structures, and their associated semantics;
+languages, services, and protocols for persistent storage, concurrent access, concurrent update, and interchange of data;
+methods, languages, services, and protocols to structure, organize, and register metadata and other information resources associated with sharing and interoperability, including electronic commerce. [16]
+
+===== Web Site(s)
+
+- TBD
+
+===== Source Repositories
+
+- TBD
+
+===== Liaisons
+
+- Joseph Abhayaratna
+- Nicholas Car
+
+==== The Web3D Consortium
+
+===== Scope of Activity
+The Web3D Consortium is an international, non-profit, member-funded, industry standards development organization. Its purpose is to  develop the https://www.web3d.org/x3d/what-x3d[X3D] specification, designed for sharing interactive 3D graphics on the Web, between applications and across distributed networks and web services.
+
+X3D is a royalty-free open standards file format and run-time architecture to represent and communicate 3D scenes in multiple applications. The X3D family of standards is ratified by the International Standards Organization (ISO) to ensure archival stability and steady evolution. X3D graphics provides a system for the storage, retrieval, and playback of real-time 3D graphics content embedded in applications, all within an open architecture to support a wide array of domains and user scenarios.
+
+===== Web Site(s)
+
+https://www.web3d.org/
+
+===== Source Repositories
+
+- TBD
+
+===== Liaisons
+
+- TBD
 
 The SWG intends to seek and if possible maintain liaison with each of the organizations maintaining the above works.
-////
 
 === Details of first meeting
 
-////
-Example:
-The first meeting of the SWG will be held by telephone conference call at 10AM EDT on 1 October 2007. Call-in information will be provided to the SWG's e-mail list and on the portal calendar in advance of the meeting.
-////
+The first meeting of the SWG will be held by telephone conference call at 6AM EDT on the first Thursday immediately following the week of Technical Committee approval of this Charter. Call-in information will be provided to the SWG's e-mail list and on the portal calendar in advance of the meeting.
 
 === Projected on-going meeting schedule
 
-////
-Example:
 The work of the SWG will be carried out primarily by email and conference calls, possibly every two weeks, with face-to-face meetings perhaps at each of the OGC TC meetings.
-////
 
 === Supporters of this Charter
 
@@ -37,14 +94,13 @@ The following people support this proposal and are committed to the Charter and 
 
 |===
 |J. Abhayaratna | PSMA Australia
+|N. Car | Surround Australia
+|T. Homburg |
+|F. Knibbe |
 |L.E. van den Brink | Geonovum
 |===
 
 === Conveners
-
-////
-Name of individual(s) who started the SWG process. Could be the lead for an RFC submission, an OGC staff person, or an individual who believes it is time for a revision to an adopted standard.
-////
 
 |===
 |Name |Organization
