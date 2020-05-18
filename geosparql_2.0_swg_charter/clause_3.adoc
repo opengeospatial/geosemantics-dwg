@@ -13,6 +13,8 @@ For a SWG focused on revisions to an existing adopted standard, the SOW should i
 
 In all cases, the SWG Charter shall provide a basic timeline plan for their activities.
 ////
+This Scope of Work is motivated by outstanding Change Requests for an existing OGC standard and a revision is required. The change requests have been submitted to the OGC Standards Tracker. Initially, review and prioritization of these change requests will be conducted by the SWG followed by work to create a candidate standard for public review. During and after public review, the SWG will consider submissions to further enahnce GeoSPARQL and alignments with it to other, related, standards. A final GeoSPARQL revision will then be submitted for consideration by the OGC as a new or revised standard.
+
 
 === Statement of relationship of planned work to the current OGC standards baseline
 
@@ -24,18 +26,31 @@ If processing change requests and performing a revision to an existing standard,
 
 If processing a draft submission of a specification developed outside the OGC process, a clear statement of the relationship to the existing standards baseline including statements related to overlap (if any) with existing OGC standards functionality, harmonization issues, and so forth. This information is provided to allow a focus of the discussion on criteria for considering any new solution that may be incompatible with older ones, overlaps existing functionality in the current baseline, and criteria for either deprecating older solutions, or simultaneously endorsing more than one option.
 ////
+The scope of this proposed SWG is only the revision of the current GeoSPARQL standard. This revision may result in both specific enhancements - to cater for community requirements - and also a revision of the "upper ontology" structuring of GeoSPARQL - to provide direction for future ehnacements and alignments with other ontologies. The possible alignments of a future GeoSPARQL to non-OGC ontologies, perhaps the W3C's Time ontology in OWL, might call for the OGC to recosider its standards baseline scope if it wishes to provide OGC-only standards to all related work.
 
 === What is Out of Scope?
 
 ////
 A short description of any activities that will be out of scope for the SWG. For example, a SWG may limit consideration of CRPs after a specified date or milestone.
 ////
+Out of scope is work that does not result in a revised GeoSPARQL standard.
+
 
 === Specific Existing Work Used as Starting Point
 
 ////
 This section provides reference information relevant to the work of the SWG. For example, a document reference for a draft submission or a list of CRPs for a SWG focused on revision to an adopted specification.
 ////
+
+* GeoSPARQL (https://www.opengeospatial.org/standards/geosparql)
+* GeoSemantics DWG's White Paper on "OGC Benefits of Representing Spatial Data Using Semantic and Graph Technologies" (https://github.com/opengeospatial/geosemantics-dwg/tree/master/white_paper)
+
+GeoSemantics DWG's suggestions for spatial ontology investigations:
+
+* W3C's Time Ontology in OWL (https://www.w3.org/TR/owl-time/)
+* CRMgeo v1.4 (https://github.com/erlangen-crm/ecrmgeo)
+* GeoSPARQL Extensions Ontology (http://linked.data.gov.au/def/geox)
+* ISO's TC-211 Group on Ontology Management ontology repository (https://github.com/ISO-TC211/GOM/)
 
 === Is This a Persistent SWG
 
