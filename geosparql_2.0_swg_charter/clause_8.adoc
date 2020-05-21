@@ -34,10 +34,7 @@ The first meeting of the SWG will be held by telephone conference call at 10AM E
 
 === Projected on-going meeting schedule
 
-////
-Example:
 The work of the SWG will be carried out primarily by email and conference calls, possibly every two weeks, with face-to-face meetings perhaps at each of the OGC TC meetings.
-////
 
 === Supporters of this Charter
 
@@ -50,10 +47,6 @@ The following people support this proposal and are committed to the Charter and 
 |===
 
 === Conveners
-
-////
-Name of individual(s) who started the SWG process. Could be the lead for an RFC submission, an OGC staff person, or an individual who believes it is time for a revision to an adopted standard.
-////
 
 |===
 |Name |Organization
