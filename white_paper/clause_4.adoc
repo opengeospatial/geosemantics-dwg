@@ -301,7 +301,7 @@ Many geospatial libraries such as JTS (https://github.com/locationtech/jts) prov
 
 ===== Standards Tracker Change Request URI
 
-This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
+http://ogc.standardstracker.org/show_request.cgi?id=631
 
 ===== GitHub Issue URI
 
@@ -319,7 +319,7 @@ In AEC, authoring metadata (e.g. author, date, revision, etc.) is of high releva
 
 ===== Standards Tracker Change Request URI
 
-This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
+http://ogc.standardstracker.org/show_request.cgi?id=633
 
 ===== GitHub Issue URI
 
@@ -337,7 +337,7 @@ The AEC domain struggles with geometric representations of planned objects and b
 
 ===== Standards Tracker Change Request URI
 
-This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
+http://ogc.standardstracker.org/show_request.cgi?id=634
 
 ===== GitHub Issue URI
 
@@ -355,7 +355,7 @@ Some geometry schemes can contain a variety of geometry representation contexts 
 
 ===== Standards Tracker Change Request URI
 
-This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
+http://ogc.standardstracker.org/show_request.cgi?id=635
 
 ===== GitHub Issue URI
 
@@ -381,7 +381,7 @@ Also see the following publications:
 
 ===== Standards Tracker Change Request URI
 
-This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
+http://ogc.standardstracker.org/show_request.cgi?id=638
 
 ===== GitHub Issue URI
 
@@ -420,7 +420,7 @@ NOTE: This extension proposal has some overlap with issues raised in extensions 
 
 ===== Standards Tracker Change Request URI
 
-This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
+http://ogc.standardstracker.org/show_request.cgi?id=634
 
 ===== GitHub Issue URI
 
@@ -456,7 +456,7 @@ Also see the following publications for OMG and FOG:
 
 ===== Standards Tracker Change Request URI
 
-This issue has not yet been added to the OGC issuue tracker (http://ogc.standardstracker.org/).
+http://ogc.standardstracker.org/show_request.cgi?id=640
 
 ===== GitHub Issue URI
 
