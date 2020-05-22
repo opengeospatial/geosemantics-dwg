@@ -4,12 +4,12 @@
 
 The GeoSPARQL SWG will use
 
-==== GitHub to manage:
-
 - Project Related Documentation;
 - Creation and management of outstanding work items, using Standards Tracker as the authoritative register;
 - Prioritisation of work items into iterations of work; and
 - The Standard Document itself.
+
+It is proposed that the work of this SWG be conducted openly on GitHub, as the work of the motivating GeoSemantics DWG is.
 
 === Similar or Applicable Standards Work (OGC and Elsewhere)
 
@@ -80,6 +80,12 @@ https://www.web3d.org/
 
 The SWG intends to seek and if possible maintain liaison with each of the organizations maintaining the above works.
 
+This proposed SWG is to enhance an existing OGC standard - an ontology - however the Best Practices for ontology publication have changed since the original GeoSPARQL publication. The ontology publication methods of other standards bodies, particulary the W3C who continuously generates new stnadard ontologies, will be considered to determine appropriate, Best Practice, ontology publication. 
+
+This may include the use of tools to automatically generate human-readable ontology versions from the technical ontology artifact, such as those used by inputs to this work, for example the http://linked.data.gov.au/def/geox[GeoSPARQL Extensions Ontology].  
+
+It may also include the description of a GeosPARQL v2 as a *profile* (of GeoSPARQL v1 and perhaps other ontologies) as well as an ontology, in line with recent work by OGC members and others to establish standard ways of indicating the dependencies between stadards, as per https://www.w3.org/TR/dx-prof/[The Profiles Vocabulary].
+
 === Details of first meeting
 
 The first meeting of the SWG will be held by telephone conference call at 6AM EDT on the first Thursday immediately following the week of Technical Committee approval of this Charter. Call-in information will be provided to the SWG's e-mail list and on the portal calendar in advance of the meeting.
@@ -98,6 +104,7 @@ The following people support this proposal and are committed to the Charter and 
 |T. Homburg |
 |F. Knibbe |
 |L.E. van den Brink | Geonovum
+|Nicholas J. Car | SURROUND Australia Pty Ltd
 |===
 
 === Conveners

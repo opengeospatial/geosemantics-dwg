@@ -1,5 +1,19 @@
 == Description of deliverables
 
+This SWG aims at the extension and revision of the GeoSPARQL standard.
+Intial goals of the working group are the incorporation of several major and minor extension proposals to the GeoSPARQL standard which have been summarized in a published OGC white paper and were collected on the OGC Standards Tracker.
+Some of the proposed extensions include the support for further geospatial literal types, support for coverage data, temporal representations and different semantic representations of CRS.
+
+To organize the working group we propose the following preliminary schedule:
+
+ * Intial meeting of the SWG: 4-6 weeks after approval of the founding of the working group
+ * 1st meeting: Review and prioritization of issues submitted to the OGC Standards Tracker
+ * Next months: Work towards a candidate standard for public review
+ * Release of a candidate standards for public review
+ * Iterative approach to improve the standard by considering comments and further upcoming issues
+ * Final revision of the standard
+ * Recommendation of the final standard to the OGC
+
 ////
 This section describes what the deliverables will be for this SWG activity. Deliverables could be a revision to an existing standard, including revisions to schemas. A deliverable could also be a best practices document.
 
@@ -8,12 +22,15 @@ This section also includes a preliminary schedule of activities. For example, an
 
 === Initial Deliverables
 
+The initial deliverables are based on the initial selection and prioritization of issues from the OGC Standards tracker, will be determined in the first meetings of the working group and subsequently updated in this working group charta.
+After deciding on the intial issues to be worked on each issue will become a deliverable and included in this charta document.
 ////
 Describe the initial standard(s) to be developed by the SWG.
 ////
 
 === Additional SWG Tasks
 
+Additional SWG tasks will be added iteratively when new change requests and issues become aparent or gain priority. The SWG is planned as a long term working group so that new change requests may arise during the development of the initial deliverables. These will be prioritized and periodically classified as additional SWG tasks.
 ////
 Describe each additional standard to be developed by the SWG as an additional task after the deliverables from the initial charter have been completed. This section is blank in a new charter, then is populated with each task approval request per the OGC TC Policies and Procedures.
 ////
