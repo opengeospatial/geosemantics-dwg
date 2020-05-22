@@ -3,7 +3,7 @@
 The anticipated audience is:
 
 * implementors of spatial Semantic Web systems
-* itegrators of spatial data on the web
+* integrators of spatial data on the web
 * developers and data modellers using graph database systems for spatial data
 
-We hope that this enhanced version of GeoSPARQL will be widely applicable as a spatial concepts and data representation model and, due to its native web-based and inherently extensible form (as per all Semantic Web applications) it will be of great interest to those implementing specialised or part spatial Internet systems that need to exchange information with others.
+We hope that this enhanced version of GeoSPARQL will be widely applicable as a spatial concepts and data representation model. It is expected to be of great interest to those implementing specialised or partly spatial Internet systems that need to exchange information with others due to its native web-based and inherently extensible form (as per all Semantic Web applications).
