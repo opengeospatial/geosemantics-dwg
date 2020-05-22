@@ -4,8 +4,8 @@
 Proposers will describe the purpose of the Standards Working Group and its overall mission in relation to OGC processes, the OGC standards baseline, and OGC’s business plan.
 ////
 
-The purpose of this SWG is to revise, and likley extend, the GeoSPARQL standard.
+The purpose of this SWG is to revise, and likely extend, the GeoSPARQL standard.
 
-Its overall mission is to ensure that the features of GeoSPARQL remain up-to-date with the spatial Semantic Web community whos needs now outstrip the current content of GeoSPARQL.
+Its overall mission is to ensure that the features of GeoSPARQL remain up-to-date with the spatial Semantic Web community whose needs now outstrip the current content of GeoSPARQL.
 
-This revision will likely result in a GeoSPARQL 2.0 that will be both backwards-compatable with GeoSPARQL and form a new base Semantic Web standard for geospatial users.
+This revision will likely result in a GeoSPARQL 2.0 that will be both backwards-compatible with GeoSPARQL and form a new base Semantic Web standard for geospatial users.
