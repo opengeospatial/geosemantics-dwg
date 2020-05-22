@@ -1,10 +1,10 @@
 == Description of deliverables
 
-This SWG aims revise and extend the GeoSPARQL standard.
+This SWG aims to revise and extend the GeoSPARQL standard.
 
 Initial goals of the working group are to incorporate several major and minor extension proposals to the GeoSPARQL standard which have been summarized in a published OGC white paper and were collected on the OGC Standards Tracker.
 
-Some of the proposed extensions include support for additional geospatial literal types, and support for coverage data, temporal representations and different semantic representations of CRS.
+Some of the proposed extensions include support for additional geospatial literal types, and support for coverage data, spatiotemporal representations and different semantic representations of CRS.
 
 To organize the working group we propose the following preliminary schedule:
 
