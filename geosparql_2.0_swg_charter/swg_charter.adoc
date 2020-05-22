@@ -1,4 +1,4 @@
-:swg-name: GeoSPARQL 2.0 SWG
+:swg-name: GeoSPARQL update SWG
 :Title: OGC {swg-name} Charter
 :titletext: {Title}
 :doctype: book
