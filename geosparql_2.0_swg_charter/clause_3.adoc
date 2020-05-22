@@ -1,55 +1,27 @@
 == Scope of Work
 
-////
-This section describes the scope of work (SOW) for the work of the SWG. There are typically at least three (3) cases that justify the formation of a SWG: A group of members decide to develop a new OGC candidate standard from scratch, there is a draft submission being discussed by OGC members, or there are outstanding Change Requests for an existing OGC standard and a revision is required.
-
-The following describes the characteristics of a SOW for each of these cases.
-
-For a SWG focused on defining and documenting a new OGC candidate standard from “scratch,” the SOW SHALL include a statement of the requirements and use cases for the candidate standard being developed. The SOW SHALL also include a justification statement for developing a new candidate OGC standard. The SOW SHALL also describe how the new candidate standard is related to the existing OGC standards baseline and the OGC Reference Model. The final deliverable of a “from scratch” focused SWG SHALL be a candidate standard ready for submission using the OGC standards process.
-
-For a SWG focused on processing a draft submission such as a specification developed outside the OGC and submitted into the OGC for consideration, the SOW would include evaluation of the submission in terms of the relationship to the existing OGC standards baseline (see section below). The final deliverable of such a SWG SHALL be a candidate standard for consideration by the membership for adoption.
-
-For a SWG focused on revisions to an existing adopted standard, the SOW should include a statement that the SWG will collect all outstanding Change Request Proposals (CRPs), evaluate each of the proposals, and make edits to the standard based on CRPs and related decisions of the SWG membership. The SWG, at their discretion, may also ask the membership for any additional change requests that have not been previous submitted. Again, the final deliverable of a revision focused SWG SHALL be a revision of the candidate standard for consideration by the membership for adoption.
-
-In all cases, the SWG Charter shall provide a basic timeline plan for their activities.
-////
 This Scope of Work is motivated by outstanding Change Requests for an existing OGC standard and a revision is required. The change requests have been submitted to the OGC Standards Tracker. Initially, review and prioritization of these change requests will be conducted by the SWG followed by work to create a candidate standard for public review. During and after public review, the SWG will consider submissions to further enahnce GeoSPARQL and alignments with it to other, related, standards. A final GeoSPARQL revision will then be submitted for consideration by the OGC as a new or revised standard.
 
 
 === Statement of relationship of planned work to the current OGC standards baseline
 
-////
-This section describes the relationship of the proposed standards activity to the existing standards baseline. For the 3 cases:
-If defining a new standard, a statement of the relationship to the existing standards baseline including statements related to overlap (if any) with existing OGC standards functionality, harmonization issues, and so forth.
-
-If processing change requests and performing a revision to an existing standard, a simple statement to this effect shall be made.
-
-If processing a draft submission of a specification developed outside the OGC process, a clear statement of the relationship to the existing standards baseline including statements related to overlap (if any) with existing OGC standards functionality, harmonization issues, and so forth. This information is provided to allow a focus of the discussion on criteria for considering any new solution that may be incompatible with older ones, overlaps existing functionality in the current baseline, and criteria for either deprecating older solutions, or simultaneously endorsing more than one option.
-////
 The scope of this proposed SWG is only the revision of the current GeoSPARQL standard. This revision may result in both specific enhancements - to cater for community requirements - and also a revision of the "upper ontology" structuring of GeoSPARQL - to provide direction for future ehnacements and alignments with other ontologies. The possible alignments of a future GeoSPARQL to non-OGC ontologies, perhaps the W3C's Time ontology in OWL, might call for the OGC to recosider its standards baseline scope if it wishes to provide OGC-only standards to all related work.
 
 === What is Out of Scope?
 
-////
-A short description of any activities that will be out of scope for the SWG. For example, a SWG may limit consideration of CRPs after a specified date or milestone.
-////
 Out of scope is work that does not result in a revised GeoSPARQL standard.
 
 
 === Specific Existing Work Used as Starting Point
-
-////
-This section provides reference information relevant to the work of the SWG. For example, a document reference for a draft submission or a list of CRPs for a SWG focused on revision to an adopted specification.
-////
 
 * GeoSPARQL (https://www.opengeospatial.org/standards/geosparql)
 * GeoSemantics DWG's White Paper on "OGC Benefits of Representing Spatial Data Using Semantic and Graph Technologies" (https://github.com/opengeospatial/geosemantics-dwg/tree/master/white_paper)
 
 GeoSemantics DWG's suggestions for spatial ontology investigations:
 
-* W3C's Time Ontology in OWL (https://www.w3.org/TR/owl-time/)
+* OGC & W3C's Time Ontology in OWL [3]
 * CRMgeo v1.4 (https://github.com/erlangen-crm/ecrmgeo)
-* GeoSPARQL Extensions Ontology (http://linked.data.gov.au/def/geox)
+* GeoSPARQL Extensions Ontology [5] 
 * ISO's TC-211 Group on Ontology Management ontology repository (https://github.com/ISO-TC211/GOM/)
 
 === Is This a Persistent SWG
@@ -60,6 +32,4 @@ GeoSemantics DWG's suggestions for spatial ontology investigations:
 
 === When can the SWG be Inactivated
 
-////
-If this is not a persistent SWG, please define the criteria for determining when the SWG can be inactivated and the project archived. Please note that completion and archiving ensures that all files, wikis, emails, and so forth are archived and available for future viewing and use.
-////
+N/A
