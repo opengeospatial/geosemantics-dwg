@@ -2,7 +2,7 @@
 
 The anticipated audience is:
 
-* implementors of Semantic Web systems that support, or plan to support spatial data
+* implementors of Semantic Web systems that support, or plan to support, spatial data
 * integrators of spatial data on the web
 * developers and data modellers using graph database systems for spatial data
 
