@@ -32,4 +32,4 @@ GeoSemantics DWG's suggestions for spatial ontology investigations:
 
 === When can the SWG be Inactivated
 
-N/A
+The SWG can be inactivated once the final multipart standard has been developed and change requests become minimal or not applicable for consideration. The SWG can be re-activated at any time.
