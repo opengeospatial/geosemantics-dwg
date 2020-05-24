@@ -84,7 +84,7 @@ This proposed SWG is to enhance an existing OGC standard - an ontology - however
 
 This may include the use of tools to automatically generate human-readable ontology versions from the technical ontology artifact, such as those used by inputs to this work, for example the http://linked.data.gov.au/def/geox[GeoSPARQL Extensions Ontology].  
 
-It may also include the description of a GeoSPARQL v2 as a *profile* (of GeoSPARQL v1 and perhaps other ontologies) as well as an ontology, in line with recent work by OGC members and others to establish standard ways of indicating the dependencies between standards, as per https://www.w3.org/TR/dx-prof/[The Profiles Vocabulary].
+It may also include the description of a next version of GeoSPARQL as a *profile* (of GeoSPARQL 1.0 and perhaps other ontologies) as well as an ontology, in line with recent work by OGC members and others to establish standard ways of indicating the dependencies between standards, as per https://www.w3.org/TR/dx-prof/[The Profiles Vocabulary].
 
 === Details of first meeting
 
