@@ -23,7 +23,7 @@
 |Approval Date:   {approval-date}
 |Internal reference number of this OGC(R) document:    {document-number}
 |Category: OGC(R) Standards Working Group Charter
-|Authors:   J. Abhayaratna, N.J. Car, T. Homburg, F. Knibbe
+|Authors:   J. Abhayaratna, N.J. Car, T. Homburg, F. Knibbe, L. van den Brink
 |===
 
 [cols = "^", frame = "none"]
