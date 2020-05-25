@@ -5,7 +5,13 @@ This Scope of Work is motivated by outstanding change requests for the existing 
 
 === Statement of relationship of planned work to the current OGC standards baseline
 
-The scope of this proposed SWG is only the revision of the current GeoSPARQL standard. This revision may result in both specific enhancements - to cater for community requirements - and also a revision of the "upper ontology" structuring of GeoSPARQL - to provide direction for future enhancements and alignments with other ontologies. The possible alignments of a future GeoSPARQL to non-OGC ontologies, perhaps the W3C's Time ontology in OWL, might call for the OGC to reconsider its standards baseline scope if it wishes to provide OGC-only standards to all related work.
+The scope of this proposed SWG is only the revision of the current GeoSPARQL standard. This revision may result in both specific enhancements - to cater for community requirements - and also a revision of the "upper ontology" structuring of GeoSPARQL - to provide direction for future enhancements and alignments with other ontologies.
+
+There are possible alignments of a future GeoSPARQL to other ontologies, perhaps the W3C and OGC's Time ontology in OWL.
+
+There are possible relationships between a future GeoSPARQL and newer types of spatial representations like Discrete Global Grid Systems (DGGSs).
+
+There are possible alignments of a future GeoSPARQL with advancements in Coordinate Reference Systems that will need to be considered in consultation with related working groups.
 
 === What is Out of Scope?
 
