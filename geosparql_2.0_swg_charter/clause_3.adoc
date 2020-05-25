@@ -9,7 +9,7 @@ The scope of this proposed SWG is only the revision of the current GeoSPARQL sta
 
 There are possible alignments of a future GeoSPARQL to other ontologies, perhaps the W3C and OGC's Time ontology in OWL.
 
-There are possible relationships between a future GeoSPARQL and newer types of spatial representations like Discrete Global Grid Systems (DGGSs).
+There are possible relationships between a future GeoSPARQL and newer types of spatial referencing systems like Discrete Global Grid Systems (DGGSs).
 
 There are possible alignments of a future GeoSPARQL with advancements in Coordinate Reference Systems that will need to be considered in consultation with related working groups.
 
