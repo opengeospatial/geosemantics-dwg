@@ -8,7 +8,6 @@ Some of the proposed extensions include support for additional geospatial litera
 
 To organize the working group we propose the following preliminary schedule:
 
- * Intial meeting of the SWG: 4-6 weeks after approval of the founding of the working group
  * 1st meeting: Review and prioritization of issues submitted to the OGC Standards Tracker
  * Next months: Work towards a candidate standard for public review
  * Release of the candidate standard for public review
