@@ -59,6 +59,29 @@ methods, languages, services, and protocols to structure, organize, and register
 - Joseph Abhayaratna
 - Nicholas Car
 
+==== W3C/OGC Spatial Data on the Web Interest Group 
+
+(And/or its successor, the Spatial Data on the Web Working Group)
+
+===== Scope of Activity
+
+This group operates within the W3C as well as the OGC in order to develop and maintain vocabularies and best practices that encourage better sharing of spatial data on the Web; and identify areas where standards should be developed jointly by both W3C and the Open Geospatial Consortium (OGC). It allows members of both organizations to collaborate in the creation of standards an best practices related to both Web and spatial data. 
+
+The group is expected to be transformed into a working group over the course of the year 2020. 
+
+===== Web Site(s)
+
+- https://www.w3.org/2017/sdwig/
+
+===== Source Repositories
+
+- https://github.com/w3c/sdw
+
+===== Liaisons
+
+- Linda van den Brink
+- Jeremy Tandy
+
 === Other Related Work
 
 This proposed SWG is to enhance an existing OGC standard - an ontology - however the Best Practices for ontology publication have changed since the original GeoSPARQL publication. The ontology publication methods of other standards bodies, particularly the W3C who continuously generates new standard ontologies, will be considered to determine appropriate, Best Practice, ontology publication.
