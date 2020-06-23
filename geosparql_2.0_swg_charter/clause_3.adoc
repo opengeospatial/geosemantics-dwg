@@ -15,7 +15,7 @@ There are possible alignments of a future GeoSPARQL with advancements in Coordin
 
 === What is Out of Scope?
 
-Out of scope is work that does not result in a revised GeoSPARQL standard.
+Out of scope is work that does not result in a revised GeoSPARQL standard. This includes investigation of property graphs, though coordination with property graph related working groups will be undertaken.
 
 
 === Specific Existing Work Used as Starting Point
@@ -29,6 +29,10 @@ GeoSemantics DWG's suggestions for spatial ontology investigations:
 * CRMgeo v1.4 (https://github.com/erlangen-crm/ecrmgeo)
 * GeoSPARQL Extensions Ontology [5] 
 * ISO's TC-211 Group on Ontology Management ontology repository (https://github.com/ISO-TC211/GOM/)
+* Geometry Metadata Ontology (GOM) [6]
+* Ontology for Managing Geometry (OMG) [7]
+* File Ontology for Geometry formats (FOG) [8]
+* NSG Enterprise Ontology (NEO) [9]
 
 === Is This a Persistent SWG
 

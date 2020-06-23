@@ -20,7 +20,7 @@ To organize the working group we propose the following preliminary schedule:
 
 The initial deliverables are based on the initial selection and prioritization of issues from the OGC Standards tracker. This selection will be determined in the first meetings of the working group and subsequently updated in this working group charter.
 
-After deciding on the initial issues to be worked on, each issue will become a deliverable and included in this charter document.
+After deciding on the initial issues to be worked on, this SWG will publish a roadmap to be used to manage scope and timeframes for delivery of a modular revision of the GeoSPARQL standard.
 
 
 === Additional SWG Tasks
