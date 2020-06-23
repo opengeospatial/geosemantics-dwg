@@ -26,3 +26,6 @@
 
 [[NEO]]
 [9] Web: National Geospatial-Intelligence Agency.: NSG Enterprise Ontology, http://api.nsgreg.nga.mil/ontology/neo-ent
+
+[[LBD]]
+[10] Web: W3C: Linked Building Data Community Group, https://www.w3.org/community/lbd/
