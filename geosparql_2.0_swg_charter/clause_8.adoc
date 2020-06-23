@@ -39,16 +39,11 @@ This group brings together experts in the area of building information modelling
 
 ===== Scope of Activity
 
-SC 32 provides enabling technologies to promote harmonization of data management facilities across sector-specific areas. Specifically, SC 32 standards include:
-
-reference models and frameworks for the coordination of existing and emerging standards;
-definition of data domains, data types, and data structures, and their associated semantics;
-languages, services, and protocols for persistent storage, concurrent access, concurrent update, and interchange of data;
-methods, languages, services, and protocols to structure, organize, and register metadata and other information resources associated with sharing and interoperability, including electronic commerce.
+ISO/IEC JTC1 SC32 WG 3 Database Languages’ mission is to identify marketplace trends and requirements in data management and develop standard languages for, features of, and APIs to access data management engines that provide the capabilities to address those trends and requirements.
 
 ===== Web Site(s)
 
-- TBD
+- https://isotc.iso.org/livelink/livelink?func=ll&objId=8917590&objAction=browse
 
 ===== Source Repositories
 
