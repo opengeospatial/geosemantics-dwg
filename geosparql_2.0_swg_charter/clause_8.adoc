@@ -80,7 +80,7 @@ The group is expected to be transformed into a working group over the course of 
 ===== Liaisons
 
 - Linda van den Brink
-- Jeremy Tandy
+- Joseph Abhayaratna
 
 === Other Related Work
 
