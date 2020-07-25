@@ -16,8 +16,8 @@
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
 |Submission Date: 2019-11-21
-|Approval Date:   <yyyy-mm-dd>
-|Publication Date:   <yyyy-mm-dd>
+|Approval Date:   2020-06-25
+|Publication Date:   2020-06-25
 |External identifier of this OGC(R) document: http://www.opengis.net/doc/{doc-type}/{standard}/{m.n}
 |Internal reference number of this OGC(R) document:    19-078r1
 |Category: OGC(R) White Paper

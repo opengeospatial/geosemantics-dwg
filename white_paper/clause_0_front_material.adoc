@@ -1,6 +1,8 @@
 [big]*i.     Abstract*
 
-<Insert Abstract Text here>
+This white paper describes the benefits of representing geospatial data using semantic, graph and web technologies. To achieve this, it provides a number of use cases, benefits, and beneficiaries for representing data using semantic, graph and web technoligies. It goes on to provide an overview of the current capabilties of the GeoSPARQL standard and some of its shortcomings that, if addressed, would unlock its potential to a greater extent. It also identifies other related activities that are current at the time of editing this paper.
+
+In doing so, the paper establishes both the value proposition for updating the GeoSPARQL standard, and the need for liaison between related activities to achieve alignment.
 
 [big]*ii.    Keywords*
 
@@ -10,26 +12,18 @@ ogcdoc, OGC document,  Linked Data, Semantic Web, Graph Data
 
 [big]*iii.   Preface*
 
-[NOTE]
-====
-Insert Preface Text here. Give OGC specific commentary: describe the technical content, reason for document, history of the document and precursors, and plans for future work. >
-Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all such patent rights.
-
-Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.
-
-====
-
-This purpose of this document is to outline the benefits of representing geospatial data using semantic and graph technologies. It aims to provide motivation for OGC members to consider the publication of geospatial data using these technologies.
+The purpose of this document is to outline the benefits of representing geospatial data using semantic and graph technologies. It aims to provide motivation for OGC members to consider the publication of geospatial data using these technologies.
 
 [big]*iv.    Submitting organizations*
 
 The following organizations submitted this Document to the Open Geospatial Consortium (OGC):
 
-Organization name(s)
+- Geonovum
+- PSMA Australia
 
 [big]*v.     Submitters*
 
 All questions regarding this submission should be directed to the editor or the submitters:
 
-Joseph Abhayaratna (PSMA Australia)
-Linda van den Brink (Geonovum)
+- Joseph Abhayaratna (PSMA Australia)
+- Linda van den Brink (Geonovum)
