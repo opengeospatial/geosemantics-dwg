@@ -6,13 +6,18 @@ Initial goals of the working group are to incorporate several major and minor ex
 
 Some of the proposed extensions include support for additional geospatial literal types, and support for coverage data, spatiotemporal representations and different semantic representations of CRS.
 
-To organize the working group we propose the following preliminary schedule:
+To organize the working group we propose the following preliminary schedule.
 
  * 1st meeting: Review and prioritization of issues submitted to the OGC Standards Tracker
+
  * Next months: Work towards a candidate standard for public review
+
  * Release of the candidate standard for public review
+
  * Iterative approach to improve the candidate standard by considering comments and further upcoming issues
+
  * Final revision of the standard
+
  * Recommendation of the final standard to the OGC
 
 

@@ -21,17 +21,25 @@ Out of scope is work that does not result in a revised GeoSPARQL standard. This 
 === Specific Existing Work Used as Starting Point
 
 * GeoSPARQL (https://www.opengeospatial.org/standards/geosparql)
+
 * GeoSemantics DWG's White Paper on "OGC Benefits of Representing Spatial Data Using Semantic and Graph Technologies" (https://github.com/opengeospatial/geosemantics-dwg/tree/master/white_paper)
 
 GeoSemantics DWG's suggestions for spatial ontology investigations:
 
 * OGC & W3C's Time Ontology in OWL [3]
+
 * CRMgeo v1.4 (https://github.com/erlangen-crm/ecrmgeo)
-* GeoSPARQL Extensions Ontology [5] 
+
+* GeoSPARQL Extensions Ontology [5]
+
 * ISO's TC-211 Group on Ontology Management ontology repository (https://github.com/ISO-TC211/GOM/)
+
 * Geometry Metadata Ontology (GOM) [6]
+
 * Ontology for Managing Geometry (OMG) [7]
+
 * File Ontology for Geometry formats (FOG) [8]
+
 * NSG Enterprise Ontology (NEO) [9]
 
 === Is This a Persistent SWG

@@ -10,8 +10,8 @@
 :numbered:
 :sectanchors:
 :source-highlighter: pygments
-:submission-date: <yyyy-mm-dd>
-:approval-date: <yyyy-mm-dd>
+:submission-date: 2020-07-16
+:approval-date: 2020-08-25
 :document-number: 20-028
 
 <<<
