@@ -108,10 +108,15 @@ The following people support this proposal and are committed to the Charter and 
 |J. Abhayaratna | PSMA Australia
 |N.J. Car | SURROUND Australia Pty Ltd
 |S. Cox | CSIRO
+|P. Cripps | DSTL
 |T. Homburg | Mainz University Of Applied Sciences
-|F. Knibbe |
+|K. Janowicz | Center for Spatial Studies, University of California, Santa Barbara
+|F. Knibbe | Geodan Holding BV
+|C. Perey | Open AR Cloud Association
 |M. Perry | Oracle
 |L.E. van den Brink | Geonovum
+|P.A. Vretanos | CubeWerx Inc.
+|G. Wiersma | Geonovum
 |===
 
 === Conveners
