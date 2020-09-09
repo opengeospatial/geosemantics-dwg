@@ -113,6 +113,7 @@ The following people support this proposal and are committed to the Charter and 
 |K. Janowicz | Center for Spatial Studies, University of California, Santa Barbara
 |F. Knibbe | Geodan Holding BV
 |D. Kotzinos | CY Cergy Paris University
+|C. Little | UK Met Office
 |C. Perey | Open AR Cloud Association
 |M. Perry | Oracle
 |L.E. van den Brink | Geonovum
