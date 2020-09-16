@@ -109,6 +109,7 @@ The following people support this proposal and are committed to the Charter and 
 |N.J. Car | SURROUND Australia Pty Ltd
 |S. Cox | CSIRO
 |P. Cripps | DSTL
+|R. Heaven | British Geological Survey
 |T. Homburg | Mainz University Of Applied Sciences
 |K. Janowicz | Center for Spatial Studies, University of California, Santa Barbara
 |F. Knibbe | Geodan Holding BV
