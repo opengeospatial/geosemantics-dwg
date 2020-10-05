@@ -6,7 +6,7 @@ This section provides an overview of related activities identified by the author
 
 ==== Scope of Activity
 
-This group brings together experts in the area of building information modelling (BIM) and Web of Data technologies to define existing and future use cases and requirements for linked data based applications across the life cycle of buildings. A list of recommended use cases will be produced by this community group. The envisioned target beneficiaries of this group are both industrial and governmental organisations who use data from building information modelling applications and other data related to the building life cycle (sensor data, GIS data, material data, geographical data, and so forth) to achieve their business processes and whom will benefit from greater integration of data and interoperability between their data sets and the wider linked data communities. [15]
+This group brings together experts in the area of building information modeling (BIM) and Web of Data technologies to define existing and future use cases and requirements for linked data based applications across the life cycle of buildings. A list of recommended use cases will be produced by this community group. The envisioned target beneficiaries of this group are both industrial and governmental organizations who use data from building information modeling applications and other data related to the building life cycle (sensor data, GIS data, material data, geographical data, and so forth) to achieve their business processes and whom will benefit from greater integration of data and interoperability between their data sets and the wider linked data communities. [15]
 
 ==== Web Site(s)
 
@@ -27,8 +27,11 @@ This group brings together experts in the area of building information modelling
 SC 32 provides enabling technologies to promote harmonization of data management facilities across sector-specific areas. Specifically, SC 32 standards include:
 
 reference models and frameworks for the coordination of existing and emerging standards;
+
 definition of data domains, data types, and data structures, and their associated semantics;
-languages, services, and protocols for persistent storage, concurrent access, concurrent update, and interchange of data;
+
+languages, services, and protocols for persistent storage, concurrent access, concurrent update, and interchange of data; and
+
 methods, languages, services, and protocols to structure, organize, and register metadata and other information resources associated with sharing and interoperability, including electronic commerce. [16]
 
 ==== Web Site(s)
@@ -46,7 +49,7 @@ methods, languages, services, and protocols to structure, organize, and register
 === The Web3D Consortium
 
 ==== Scope of Activity
-The Web3D Consortium is an international, non-profit, member-funded, industry standards development organization. Its purpose is to  develop the https://www.web3d.org/x3d/what-x3d[X3D] specification, designed for sharing interactive 3D graphics on the Web, between applications and across distributed networks and web services. 
+The Web3D Consortium is an international, non-profit, member-funded, industry standards development organization. Its purpose is to  develop the https://www.web3d.org/x3d/what-x3d[X3D] specification, designed for sharing interactive 3D graphics on the Web, between applications and across distributed networks and web services.
 
 X3D is a royalty-free open standards file format and run-time architecture to represent and communicate 3D scenes in multiple applications. The X3D family of standards is ratified by the International Standards Organization (ISO) to ensure archival stability and steady evolution. X3D graphics provides a system for the storage, retrieval, and playback of real-time 3D graphics content embedded in applications, all within an open architecture to support a wide array of domains and user scenarios.
 
@@ -61,6 +64,3 @@ https://www.web3d.org/
 ==== Liaisons
 
 - TBD
-
-
-
