@@ -2,7 +2,7 @@
 
 === Collaboration
 
-The GeoSPARQL SWG will use
+The GeoDCAT SWG will use
 
 - Project Related Documentation;
 
@@ -16,63 +16,42 @@ It is proposed that the work of this SWG be conducted openly on GitHub, as the w
 
 === Similar or Applicable Standards Work (OGC and Elsewhere)
 
-The following standards and projects may be relevant to the SWG's planned work, although none currently provide the functionality anticipated by this working group's deliverables. The SWG intends to seek and if possible maintain liaison with each of the organizations that manage these activities.
+// Review and update normative references
+
+==== DCAT-AP
+
 
 ==== W3C Linked Building Data Community Group
 
 ===== Scope of Activity
 
-This group brings together experts in the area of building information modeling (BIM) and Web of Data technologies to define existing and future use cases and requirements for linked data based applications across the life cycle of buildings. A list of recommended use cases will be produced by this community group. The envisioned target beneficiaries of this group are both industrial and governmental organizations who use data from building information modeling applications and other data related to the building life cycle (sensor data, GIS data, material data, geographical data, and so forth) to achieve their business processes and whom will benefit from greater integration of data and interoperability between their data sets and the wider linked data communities. [10]
+The European Union publishes a profile of DCAT to meet administrative requirements for data publication in EU context.
 
 ===== Web Site(s)
 
-- https://www.w3.org/community/lbd/
+- 
 
 ===== Source Repositories
 
-- https://github.com/w3c-lbd-cg/lbd
+- 
 
 ===== Liaisons
 
-- Mathias Bonduel
+- Andreas Perego? Antoine Isaac.
 
-- Kris McGlinn
+=
 
-- Anna Wagner
-
-==== ISO/IEC JTC 1/SC 32/WG 3
-
-===== Scope of Activity
-
-ISO/IEC JTC1 SC32 WG 3 Database Languages’ mission is to identify marketplace trends and requirements in data management and develop standard languages for, features of, and APIs to access data management engines that provide the capabilities to address those trends and requirements.
-
-===== Web Site(s)
-
-- https://isotc.iso.org/livelink/livelink?func=ll&objId=8917590&objAction=browse
-
-===== Source Repositories
-
-- TBD
-
-===== Liaisons
-
-- Joseph Abhayaratna
-
-- Nicholas Car
-
-==== W3C/OGC Spatial Data on the Web Interest Group
-
-(And/or its successor, the Spatial Data on the Web Working Group)
+==== W3C/OGC Spatial Data on the Web Working Group
 
 ===== Scope of Activity
 
 This group operates within the W3C as well as the OGC in order to develop and maintain vocabularies and best practices that encourage better sharing of spatial data on the Web; and identify areas where standards should be developed jointly by both W3C and the Open Geospatial Consortium (OGC). It allows members of both organizations to collaborate in the creation of standards an best practices related to both Web and spatial data.
 
-The group is expected to be transformed into a working group over the course of the year 2020.
+
 
 ===== Web Site(s)
 
-- https://www.w3.org/2017/sdwig/
+- https://www.w3.org/2017/sdwwg/
 
 ===== Source Repositories
 
@@ -86,11 +65,6 @@ The group is expected to be transformed into a working group over the course of 
 
 === Other Related Work
 
-This proposed SWG is to enhance an existing OGC standard - an ontology - however the Best Practices for ontology publication have changed since the original GeoSPARQL publication. The ontology publication methods of other standards bodies, particularly the W3C who continuously generates new standard ontologies, will be considered to determine appropriate, Best Practice, ontology publication.
-
-This may include the use of tools to automatically generate human-readable ontology versions from the technical ontology artifact, such as those used by inputs to this work, for example the http://linked.data.gov.au/def/geox[GeoSPARQL Extensions Ontology].
-
-It may also include the description of a next version of GeoSPARQL as a *profile* (of GeoSPARQL 1.0 and perhaps other ontologies) as well as an ontology, in line with recent work by OGC members and others to establish standard ways of indicating the dependencies between standards, as per https://www.w3.org/TR/dx-prof/[The Profiles Vocabulary].
 
 === Details of first meeting
 
@@ -105,20 +79,18 @@ The work of the SWG will be carried out primarily by email and conference calls,
 The following people support this proposal and are committed to the Charter and projected meeting schedule. These members are known as SWG Founding or Charter members. The charter members agree to the SoW and IPR terms as defined in this charter. The charter members have voting rights beginning the day the SWG is officially formed. Charter Members are shown on the public SWG page.
 
 |===
-|J. Abhayaratna | PSMA Australia
-|N.J. Car | SURROUND Australia Pty Ltd
-|S. Cox | CSIRO
-|T. Homburg | Mainz University Of Applied Sciences
-|F. Knibbe |
-|M. Perry | Oracle
 |L.E. van den Brink | Geonovum
+|N.J. Car | SURROUND Australia Pty Ltd
+|J. Maso Pau | CREAF
+|L. Alemany Gómez | Centro Nacional de Información Geográfica
 |B. de Lathouwer | Gemeente Rotterdam
+|R. Atkinson | OGC Innovation Program
 |===
 
 === Conveners
 
 |===
 |Name |Organization
-|J. Abhayaratna | PSMA Australia
 |L.E. van den Brink | Geonovum
+|J. Maso Pau | CREAF
 |===

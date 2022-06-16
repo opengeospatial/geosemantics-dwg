@@ -654,13 +654,7 @@ In addition, formalised publication and identification supports the publicatioon
 <h2 id="_description_of_deliverables"><a class="anchor" href="#_description_of_deliverables"></a>4. Description of deliverables</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This SWG aims to revise and extend the GeoSPARQL standard.</p>
-</div>
-<div class="paragraph">
-<p>Initial goals of the working group are to incorporate several major and minor extension proposals to the GeoSPARQL standard which have been summarized in a published OGC white paper and were collected on the OGC Standards Tracker.</p>
-</div>
-<div class="paragraph">
-<p>Some of the proposed extensions include support for additional geospatial literal types, and support for coverage data, spatiotemporal representations and different semantic representations of CRS.</p>
+<p>Initial goals of the working group are to decouple the DCAT-AP concerns from the DCAT core concerns and publish these as normative profiles of the most recent versions of the DCAT Recommendation and DCAT-AP profile of this.</p>
 </div>
 <div class="paragraph">
 <p>To organize the working group we propose the following preliminary schedule.</p>
@@ -693,7 +687,7 @@ In addition, formalised publication and identification supports the publicatioon
 <p>The initial deliverables are based on the initial selection and prioritization of issues from the OGC Standards tracker. This selection will be determined in the first meetings of the working group and subsequently updated in this working group charter.</p>
 </div>
 <div class="paragraph">
-<p>After deciding on the initial issues to be worked on, this SWG will publish a roadmap to be used to manage scope and timeframes for delivery of a modular revision of the GeoSPARQL standard.</p>
+<p>After deciding on the initial issues to be worked on, this SWG will publish a roadmap to be used to manage scope and timeframes for delivery of a modular revision of the GeoDCAT profile standard.</p>
 </div>
 </div>
 <div class="sect2">
@@ -724,18 +718,12 @@ In addition, formalised publication and identification supports the publicatioon
 <div class="ulist">
 <ul>
 <li>
-<p>implementors of Semantic Web systems that support, or plan to support, spatial data;</p>
+<p>implementors of Semantic Web systems that support, or plan to support, cataloguing of spatial data resources using DCAT;</p>
 </li>
 <li>
-<p>integrators of spatial data on the web; and</p>
-</li>
-<li>
-<p>developers and data modelers using graph database systems for spatial data.</p>
+<p>application domains that require a mechanism to further specialise DCAT for particular resource types.</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p>We hope that this enhanced version of GeoSPARQL will be widely applicable as a spatial concepts and data representation model. It is expected to be of great interest to those implementing specialized or partly spatial Internet systems that need to share information with others due to its native web-based and inherently extensible form (as per all Semantic Web applications).</p>
 </div>
 </div>
 </div>
@@ -743,7 +731,7 @@ In addition, formalised publication and identification supports the publicatioon
 <h2 id="_domain_working_group_endorsement"><a class="anchor" href="#_domain_working_group_endorsement"></a>7. Domain Working Group Endorsement</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The Chairs of the Geosemantics Domain Working Group (DWG), Joseph Abhayaratna and Linda van den Brink, do formally endorse the formation of the GeoSPARQL Standards Working Group (SWG).</p>
+<p>The Chairs of the Geosemantics Domain Working Group (DWG), Joseph Abhayaratna and Linda van den Brink, do formally endorse the formation of the GeoDCAT Standards Working Group (SWG).</p>
 </div>
 </div>
 </div>
@@ -753,7 +741,7 @@ In addition, formalised publication and identification supports the publicatioon
 <div class="sect2">
 <h3 id="_collaboration"><a class="anchor" href="#_collaboration"></a>8.1. Collaboration</h3>
 <div class="paragraph">
-<p>The GeoSPARQL SWG will use</p>
+<p>The GeoDCAT SWG will use</p>
 </div>
 <div class="ulist">
 <ul>
@@ -777,35 +765,28 @@ In addition, formalised publication and identification supports the publicatioon
 </div>
 <div class="sect2">
 <h3 id="_similar_or_applicable_standards_work_ogc_and_elsewhere"><a class="anchor" href="#_similar_or_applicable_standards_work_ogc_and_elsewhere"></a>8.2. Similar or Applicable Standards Work (OGC and Elsewhere)</h3>
-<div class="paragraph">
-<p>The following standards and projects may be relevant to the SWG&#8217;s planned work, although none currently provide the functionality anticipated by this working group&#8217;s deliverables. The SWG intends to seek and if possible maintain liaison with each of the organizations that manage these activities.</p>
+<div class="sect3">
+<h4 id="_dcat_ap"><a class="anchor" href="#_dcat_ap"></a>8.2.1. DCAT-AP</h4>
+
 </div>
 <div class="sect3">
-<h4 id="_w3c_linked_building_data_community_group"><a class="anchor" href="#_w3c_linked_building_data_community_group"></a>8.2.1. W3C Linked Building Data Community Group</h4>
+<h4 id="_w3c_linked_building_data_community_group"><a class="anchor" href="#_w3c_linked_building_data_community_group"></a>8.2.2. W3C Linked Building Data Community Group</h4>
 <div class="sect4">
 <h5 id="_scope_of_activity"><a class="anchor" href="#_scope_of_activity"></a>Scope of Activity</h5>
 <div class="paragraph">
-<p>This group brings together experts in the area of building information modeling (BIM) and Web of Data technologies to define existing and future use cases and requirements for linked data based applications across the life cycle of buildings. A list of recommended use cases will be produced by this community group. The envisioned target beneficiaries of this group are both industrial and governmental organizations who use data from building information modeling applications and other data related to the building life cycle (sensor data, GIS data, material data, geographical data, and so forth) to achieve their business processes and whom will benefit from greater integration of data and interoperability between their data sets and the wider linked data communities. [10]</p>
+<p>The European Union publishes a profile of DCAT to meet administrative requirements for data publication in EU context.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_web_sites"><a class="anchor" href="#_web_sites"></a>Web Site(s)</h5>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://www.w3.org/community/lbd/" class="bare">https://www.w3.org/community/lbd/</a></p>
-</li>
-</ul>
+<div class="paragraph">
+<p>-</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_source_repositories"><a class="anchor" href="#_source_repositories"></a>Source Repositories</h5>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://github.com/w3c-lbd-cg/lbd" class="bare">https://github.com/w3c-lbd-cg/lbd</a></p>
-</li>
-</ul>
+<div class="paragraph">
+<p>-</p>
 </div>
 </div>
 <div class="sect4">
@@ -813,24 +794,21 @@ In addition, formalised publication and identification supports the publicatioon
 <div class="ulist">
 <ul>
 <li>
-<p>Mathias Bonduel</p>
-</li>
-<li>
-<p>Kris McGlinn</p>
-</li>
-<li>
-<p>Anna Wagner</p>
+<p>Andreas Perego? Antoine Isaac.</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p>=</p>
 </div>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_isoiec_jtc_1sc_32wg_3"><a class="anchor" href="#_isoiec_jtc_1sc_32wg_3"></a>8.2.2. ISO/IEC JTC 1/SC 32/WG 3</h4>
+<h4 id="_w3cogc_spatial_data_on_the_web_working_group"><a class="anchor" href="#_w3cogc_spatial_data_on_the_web_working_group"></a>8.2.3. W3C/OGC Spatial Data on the Web Working Group</h4>
 <div class="sect4">
 <h5 id="_scope_of_activity_2"><a class="anchor" href="#_scope_of_activity_2"></a>Scope of Activity</h5>
 <div class="paragraph">
-<p>ISO/IEC JTC1 SC32 WG 3 Database Languages’ mission is to identify marketplace trends and requirements in data management and develop standard languages for, features of, and APIs to access data management engines that provide the capabilities to address those trends and requirements.</p>
+<p>This group operates within the W3C as well as the OGC in order to develop and maintain vocabularies and best practices that encourage better sharing of spatial data on the Web; and identify areas where standards should be developed jointly by both W3C and the Open Geospatial Consortium (OGC). It allows members of both organizations to collaborate in the creation of standards an best practices related to both Web and spatial data.</p>
 </div>
 </div>
 <div class="sect4">
@@ -838,7 +816,7 @@ In addition, formalised publication and identification supports the publicatioon
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://isotc.iso.org/livelink/livelink?func=ll&amp;objId=8917590&amp;objAction=browse" class="bare">https://isotc.iso.org/livelink/livelink?func=ll&amp;objId=8917590&amp;objAction=browse</a></p>
+<p><a href="https://www.w3.org/2017/sdwwg/" class="bare">https://www.w3.org/2017/sdwwg/</a></p>
 </li>
 </ul>
 </div>
@@ -848,61 +826,13 @@ In addition, formalised publication and identification supports the publicatioon
 <div class="ulist">
 <ul>
 <li>
-<p>TBD</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_liaisons_2"><a class="anchor" href="#_liaisons_2"></a>Liaisons</h5>
-<div class="ulist">
-<ul>
-<li>
-<p>Joseph Abhayaratna</p>
-</li>
-<li>
-<p>Nicholas Car</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_w3cogc_spatial_data_on_the_web_interest_group"><a class="anchor" href="#_w3cogc_spatial_data_on_the_web_interest_group"></a>8.2.3. W3C/OGC Spatial Data on the Web Interest Group</h4>
-<div class="paragraph">
-<p>(And/or its successor, the Spatial Data on the Web Working Group)</p>
-</div>
-<div class="sect4">
-<h5 id="_scope_of_activity_3"><a class="anchor" href="#_scope_of_activity_3"></a>Scope of Activity</h5>
-<div class="paragraph">
-<p>This group operates within the W3C as well as the OGC in order to develop and maintain vocabularies and best practices that encourage better sharing of spatial data on the Web; and identify areas where standards should be developed jointly by both W3C and the Open Geospatial Consortium (OGC). It allows members of both organizations to collaborate in the creation of standards an best practices related to both Web and spatial data.</p>
-</div>
-<div class="paragraph">
-<p>The group is expected to be transformed into a working group over the course of the year 2020.</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_web_sites_3"><a class="anchor" href="#_web_sites_3"></a>Web Site(s)</h5>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://www.w3.org/2017/sdwig/" class="bare">https://www.w3.org/2017/sdwig/</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_source_repositories_3"><a class="anchor" href="#_source_repositories_3"></a>Source Repositories</h5>
-<div class="ulist">
-<ul>
-<li>
 <p><a href="https://github.com/w3c/sdw" class="bare">https://github.com/w3c/sdw</a></p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect4">
-<h5 id="_liaisons_3"><a class="anchor" href="#_liaisons_3"></a>Liaisons</h5>
+<h5 id="_liaisons_2"><a class="anchor" href="#_liaisons_2"></a>Liaisons</h5>
 <div class="ulist">
 <ul>
 <li>
@@ -918,15 +848,7 @@ In addition, formalised publication and identification supports the publicatioon
 </div>
 <div class="sect2">
 <h3 id="_other_related_work"><a class="anchor" href="#_other_related_work"></a>8.3. Other Related Work</h3>
-<div class="paragraph">
-<p>This proposed SWG is to enhance an existing OGC standard - an ontology - however the Best Practices for ontology publication have changed since the original GeoSPARQL publication. The ontology publication methods of other standards bodies, particularly the W3C who continuously generates new standard ontologies, will be considered to determine appropriate, Best Practice, ontology publication.</p>
-</div>
-<div class="paragraph">
-<p>This may include the use of tools to automatically generate human-readable ontology versions from the technical ontology artifact, such as those used by inputs to this work, for example the <a href="http://linked.data.gov.au/def/geox">GeoSPARQL Extensions Ontology</a>.</p>
-</div>
-<div class="paragraph">
-<p>It may also include the description of a next version of GeoSPARQL as a <strong>profile</strong> (of GeoSPARQL 1.0 and perhaps other ontologies) as well as an ontology, in line with recent work by OGC members and others to establish standard ways of indicating the dependencies between standards, as per <a href="https://www.w3.org/TR/dx-prof/">The Profiles Vocabulary</a>.</p>
-</div>
+
 </div>
 <div class="sect2">
 <h3 id="_details_of_first_meeting"><a class="anchor" href="#_details_of_first_meeting"></a>8.4. Details of first meeting</h3>
@@ -952,36 +874,28 @@ In addition, formalised publication and identification supports the publicatioon
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">J. Abhayaratna</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">PSMA Australia</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">L.E. van den Brink</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Geonovum</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">N.J. Car</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">SURROUND Australia Pty Ltd</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">S. Cox</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">CSIRO</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">J. Maso Pau</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">CREAF</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">T. Homburg</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Mainz University Of Applied Sciences</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">F. Knibbe</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">M. Perry</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Oracle</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">L.E. van den Brink</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Geonovum</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">L. Alemany Gómez</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Centro Nacional de Información Geográfica</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">B. de Lathouwer</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Gemeente Rotterdam</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">R. Atkinson</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">OGC Innovation Program</p></td>
 </tr>
 </tbody>
 </table>
@@ -999,12 +913,12 @@ In addition, formalised publication and identification supports the publicatioon
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Organization</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">J. Abhayaratna</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">PSMA Australia</p></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">L.E. van den Brink</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Geonovum</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">J. Maso Pau</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">CREAF</p></td>
 </tr>
 </tbody>
 </table>

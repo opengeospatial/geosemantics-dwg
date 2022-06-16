@@ -2,10 +2,7 @@
 
 The anticipated audience is:
 
-* implementors of Semantic Web systems that support, or plan to support, spatial data;
+* implementors of Semantic Web systems that support, or plan to support, cataloguing of spatial data resources using DCAT;
 
-* integrators of spatial data on the web; and
+* application domains that require a mechanism to further specialise DCAT for particular resource types.
 
-* developers and data modelers using graph database systems for spatial data.
-
-We hope that this enhanced version of GeoSPARQL will be widely applicable as a spatial concepts and data representation model. It is expected to be of great interest to those implementing specialized or partly spatial Internet systems that need to share information with others due to its native web-based and inherently extensible form (as per all Semantic Web applications).
