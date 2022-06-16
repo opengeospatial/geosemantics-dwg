@@ -1,4 +1,4 @@
-:swg-name: GeoSPARQL SWG
+:swg-name: GeoDCAT SWG
 :Title: OGC {swg-name} Charter
 :titletext: {Title}
 :doctype: book
@@ -10,9 +10,9 @@
 :numbered:
 :sectanchors:
 :source-highlighter: pygments
-:submission-date: 2020-07-16
-:approval-date: 2020-08-25
-:document-number: 20-028
+:submission-date: 
+:approval-date: 
+:document-number: 
 
 <<<
 [cols = ">",frame = "none",grid = "none"]
@@ -23,7 +23,7 @@
 |Approval Date:   {approval-date}
 |Internal reference number of this OGC(R) document:    {document-number}
 |Category: OGC(R) Standards Working Group Charter
-|Authors:   J. Abhayaratna, N.J. Car, T. Homburg, F. Knibbe, L. van den Brink
+|Authors:   R. Atkinson, L vd Brink
 |===
 
 [cols = "^", frame = "none"]
@@ -34,7 +34,7 @@
 [cols = "^", frame = "none", grid = "none"]
 |===
 |*Copyright notice*
-|Copyright (C) 2020 Open Geospatial Consortium
+|Copyright (C) 2022 Open Geospatial Consortium
 |To obtain additional rights of use, visit http://www.opengeospatial.org/legal/
 |===
 

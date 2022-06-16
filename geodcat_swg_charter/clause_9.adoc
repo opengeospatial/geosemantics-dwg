@@ -1,31 +1,17 @@
 == References
 
-[[GeoSPARQL1]]
-[1] Web: OGC: OGC GeoSPARQL - A Geographic Query Language for RDF Data, http://www.opengis.net/doc/IS/geosparql/1.0 (2012)
+[[DCAT]]
+[1] Web: W3C: Data Catalog Vocabulary (DCAT) - Version 2, https://www.w3.org/TR/vocab-dcat-2/ (2020)
 
-[[SemWeb]]
-[2] Web: W3C: Semantic Web, https://www.w3.org/standards/semanticweb/
+[[DCAT3]]
+[2] Web: W3C: Data Catalog Vocabulary (DCAT) - Version 3, https://www.w3.org/TR/vocab-dcat-3/
 
-[[OWL-TIME]]
-[3] Web: OGC & W3C: Time ontology in OWL, https://www.w3.org/TR/owl-time/
+[[SDWBP]]
+[3]  Web: OGC & W3C: Spatial Data on the Web Best Practices, https://www.w3.org/TR/sdw-bp/
 
-[[TB-DGGS]]
-[4] Web: OGC: OGC Testbed-16: Call for Participation (CFP) - 2.7. Discrete Global Grid System (DGGS), https://portal.ogc.org/files/?artifact_id=91644#DGGS
+[[GeoDCAT-AP]]
+[4] Web: OGC : GeoDCAT-AP Discussion Paper, http://www.opengis.net/doc/dp/GeoDCAT-AP
 
-[[GEOX]]
-[5] Web: Car, Nicholas J. & Cox, Simon J.D.: GeoSPARQL Extensions Ontology, http://linked.data.gov.au/def/geox
+[[PROF]]
+[5] Web: W3C: Profiles Vocabulary (DCAT), https://www.w3.org/TR/dx-prof/
 
-[[GOM]]
-[6] Web: Bonduel, Mathias. Pauwels, Pieter. & Wagner, Anna.: Geometry Metadata Ontology, https://w3id.org/gom
-
-[[OMG]]
-[7] Web: Bonduel, Mathias. Pauwels, Pieter. & Wagner, Anna.: Ontology for Managing Geometry, https://w3id.org/omg
-
-[[FOG]]
-[8] Web: Bonduel, Mathias. Pauwels, Pieter. & Wagner, Anna.: File Ontology for Geometry Formats, https://w3id.org/fog
-
-[[NEO]]
-[9] Web: National Geospatial-Intelligence Agency.: NSG Enterprise Ontology, http://api.nsgreg.nga.mil/ontology/neo-ent
-
-[[LBD]]
-[10] Web: W3C: Linked Building Data Community Group, https://www.w3.org/community/lbd/

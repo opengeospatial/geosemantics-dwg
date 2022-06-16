@@ -4,8 +4,7 @@
 Proposers will describe the purpose of the Standards Working Group and its overall mission in relation to OGC processes, the OGC standards baseline, and OGC’s business plan.
 ////
 
-The purpose of this SWG is to revise, and likely extend, the GeoSPARQL standard.
+The purpose of this SWG is to revise, publish and maintain GeoDCAT, a spatio-temporal profile of the W3C DCAT Recommendation [DCAT] , and provide guidance about its use and further specialisation.
 
-Its overall mission is to ensure that the features of GeoSPARQL remain up-to-date with the Semantic Web community whose needs now outstrip the current content of GeoSPARQL.
+The GeoDCAT profile of DCAT will be implemented as both human and machine-actionable resources.
 
-This revision will likely result in a major update of GeoSPARQL that will form a new base Semantic Web standard for people working with spatial data. This should include consideration of backwards-compatibility with GeoSPARQL 1.0 as part of its requirements.

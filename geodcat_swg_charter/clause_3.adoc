@@ -1,46 +1,38 @@
 == Scope of Work
 
-This Scope of Work is motivated by outstanding change requests for the existing OGC GeoSPARQL standard and a revision is required. The change requests have been submitted to the OGC Standards Tracker. Initially, review and prioritization of these change requests will be conducted by the SWG followed by work to create a candidate revision of the standard for public review. During and after public review, the SWG will consider submissions to further enhance GeoSPARQL and alignments with it to other, related, standards. A final GeoSPARQL revision will then be submitted for consideration by the OGC as a new or revised standard.
+The initial activities will be to update the GeoDCAT-AP discussion paper 18-001r1 to:
+* separate DCAT-AP concerns from DCAT profiles
+* update to meet the DCAT v3 candidate and final recommendation status
+* update as required to use current GeoSPARQL specification version
+* update GeoDCAT-AP and formally model dependency on currenty DCAT-AP versions
+* formalise machine readable versions of GeoDCAT and GeoDCAT-AP profiles
+* prepare and validate illustrative examples using the machine-readable description
+* define a mechanism for describing specialised profiles of GeoDCAT
+* publish using current OGC specification document methodology
+
+Future activities will include definition of additional specialised profiles as required and requested by specific applications domains (via OGC Domain Working Group inputs).
 
 
 === Statement of relationship of planned work to the current OGC standards baseline
 
-The scope of this proposed SWG is only the revision of the current GeoSPARQL standard. This revision may result in both specific enhancements - to cater for community requirements - and also a revision of the "upper ontology" structuring of GeoSPARQL - to provide direction for future enhancements and alignments with other ontologies.
+This scope is primarily aimed to progress the concept of GeoDCAT from an informative discussion paper into a normative and supported resource.
 
-There are possible alignments of a future GeoSPARQL to other ontologies, perhaps the W3C and OGC's Time ontology in OWL.
-
-There are possible relationships between a future GeoSPARQL and more spatial referencing systems than were considered by GeoSPARQL 1.0, like Discrete Global Grid Systems (DGGSs).
-
-There are possible alignments of a future GeoSPARQL with advancements in Coordinate Reference Systems that will need to be considered in consultation with related working groups.
+Further specialisations will provide transparent, interoperable and validatable patterns for the inclusion of OGC standards conformant resources into DCAT based catalogue implementations.
 
 === What is Out of Scope?
 
-Out of scope is work that does not result in a revised GeoSPARQL standard. This includes investigation of property graphs, though coordination with property graph related working groups will be undertaken.
+Revisions to DCAT itself is out of scope. Definition of new vocabularies or ontologies to extend DCAT should be strictly limited to defining concepts needed to describe aspects of OGC standards and would be progressed in conjunction with the relevant OGC SWG.
 
 
 === Specific Existing Work Used as Starting Point
 
-* GeoSPARQL (https://www.opengeospatial.org/standards/geosparql)
+* GeoDCAT-AP Discussion Paper [GeoDCAT-AP]
 
-* GeoSemantics DWG's White Paper on "OGC Benefits of Representing Spatial Data Using Semantic and Graph Technologies" (https://github.com/opengeospatial/geosemantics-dwg/tree/master/white_paper)
+* DCAT v2 [DCAT]
 
-GeoSemantics DWG's suggestions for spatial ontology investigations:
+* DCAT v3 draft [DCAT3]
 
-* OGC & W3C's Time Ontology in OWL [3]
-
-* CRMgeo v1.4 (https://github.com/erlangen-crm/ecrmgeo)
-
-* GeoSPARQL Extensions Ontology [5]
-
-* ISO's TC-211 Group on Ontology Management ontology repository (https://github.com/ISO-TC211/GOM/)
-
-* Geometry Metadata Ontology (GOM) [6]
-
-* Ontology for Managing Geometry (OMG) [7]
-
-* File Ontology for Geometry formats (FOG) [8]
-
-* NSG Enterprise Ontology (NEO) [9]
+* W3C Profiles Vocabulary [PROF]
 
 === Is This a Persistent SWG
 
@@ -50,4 +42,4 @@ GeoSemantics DWG's suggestions for spatial ontology investigations:
 
 === When can the SWG be Inactivated
 
-The SWG can be inactivated once the final standard has been developed and change requests become minimal or not applicable for consideration. The SWG can be re-activated at any time.
+The SWG can be inactivated once a registration mechanism (policies, technical standards and infrastructure support) for further application domain specialised profiles of DCAT allows use of the GeoDCAT profile without the need for additional modification.
