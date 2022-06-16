@@ -4,7 +4,7 @@
 Proposers will describe the purpose of the Standards Working Group and its overall mission in relation to OGC processes, the OGC standards baseline, and OGC’s business plan.
 ////
 
-The purpose of this SWG is to revise, publish and maintain GeoDCAT, a spatio-temporal profile of the W3C DCAT Recommendation [DCAT] , and provide guidance about its use and further specialisation.
+The purpose of this SWG is to revise, publish and maintain GeoDCAT, a spatio-temporal profile of the W3C DCAT Recommendation <<DCAT>> , and provide guidance about its use and further specialisation.
 
 The GeoDCAT profile of DCAT will be implemented as both human and machine-actionable resources.
 

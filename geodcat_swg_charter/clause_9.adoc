@@ -1,17 +1,17 @@
 == References
 
 [[DCAT]]
-[1] Web: W3C: Data Catalog Vocabulary (DCAT) - Version 2, https://www.w3.org/TR/vocab-dcat-2/ (2020)
+[DCAT] Web: W3C: Data Catalog Vocabulary (DCAT) - Version 2, https://www.w3.org/TR/vocab-dcat-2/ (2020)
 
 [[DCAT3]]
-[2] Web: W3C: Data Catalog Vocabulary (DCAT) - Version 3, https://www.w3.org/TR/vocab-dcat-3/
+[DCAT3] Web: W3C: Data Catalog Vocabulary (DCAT) - Version 3, https://www.w3.org/TR/vocab-dcat-3/
 
 [[SDWBP]]
-[3]  Web: OGC & W3C: Spatial Data on the Web Best Practices, https://www.w3.org/TR/sdw-bp/
+[SDWBP]  Web: OGC & W3C: Spatial Data on the Web Best Practices, https://www.w3.org/TR/sdw-bp/
 
 [[GeoDCAT-AP]]
-[4] Web: OGC : GeoDCAT-AP Discussion Paper, http://www.opengis.net/doc/dp/GeoDCAT-AP
+[GeoDCAT-AP] Web: OGC : GeoDCAT-AP Discussion Paper, http://www.opengis.net/doc/dp/GeoDCAT-AP
 
 [[PROF]]
-[5] Web: W3C: Profiles Vocabulary (DCAT), https://www.w3.org/TR/dx-prof/
+[PROF] Web: W3C: Profiles Vocabulary (DCAT), https://www.w3.org/TR/dx-prof/
 

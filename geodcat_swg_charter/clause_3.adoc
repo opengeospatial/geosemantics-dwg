@@ -27,13 +27,13 @@ Revisions to DCAT itself is out of scope. Definition of new vocabularies or onto
 
 === Specific Existing Work Used as Starting Point
 
-* GeoDCAT-AP Discussion Paper [GeoDCAT-AP]
+* GeoDCAT-AP Discussion Paper <<GeoDCAT-AP>>
 
-* DCAT v2 [DCAT]
+* DCAT v2 <<DCAT>>
 
-* DCAT v3 draft [DCAT3]
+* DCAT v3 draft <<DCAT3>>
 
-* W3C Profiles Vocabulary [PROF]
+* W3C Profiles Vocabulary <<PROF>>
 
 === Is This a Persistent SWG
 
