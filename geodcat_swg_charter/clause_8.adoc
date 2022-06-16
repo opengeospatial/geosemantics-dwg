@@ -112,6 +112,7 @@ The following people support this proposal and are committed to the Charter and 
 |F. Knibbe |
 |M. Perry | Oracle
 |L.E. van den Brink | Geonovum
+|B. de Lathouwer | Gemeente Rotterdam
 |===
 
 === Conveners
