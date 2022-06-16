@@ -1,14 +1,15 @@
 == Scope of Work
 
 The initial activities will be to update the GeoDCAT-AP discussion paper 18-001r1 to:
-* separate DCAT-AP concerns from DCAT profiles
-* update to meet the DCAT v3 candidate and final recommendation status
-* update as required to use current GeoSPARQL specification version
-* update GeoDCAT-AP and formally model dependency on currenty DCAT-AP versions
-* formalise machine readable versions of GeoDCAT and GeoDCAT-AP profiles
-* prepare and validate illustrative examples using the machine-readable description
-* define a mechanism for describing specialised profiles of GeoDCAT
-* publish using current OGC specification document methodology
+
+- separate DCAT-AP concerns from DCAT profiles
+- update to meet the DCAT v3 candidate and final recommendation status
+- update as required to use current GeoSPARQL specification version
+- update GeoDCAT-AP and formally model dependency on currenty DCAT-AP versions
+- formalise machine readable versions of GeoDCAT and GeoDCAT-AP profiles
+- prepare and validate illustrative examples using the machine-readable description
+- define a mechanism for describing specialised profiles of GeoDCAT
+- publish using current OGC specification document methodology
 
 Future activities will include definition of additional specialised profiles as required and requested by specific applications domains (via OGC Domain Working Group inputs).
 
