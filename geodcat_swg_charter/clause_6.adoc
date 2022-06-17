@@ -2,7 +2,11 @@
 
 The anticipated audience is:
 
-* implementors of Semantic Web systems that support, or plan to support, cataloguing of spatial data resources using DCAT;
+- Publishers of specialised application profiles of DCAT with geographic requirements
 
-* application domains that require a mechanism to further specialise DCAT for particular resource types.
+- implementors of Semantic Web systems that support, or plan to support, cataloguing of spatial data resources using DCAT;
+
+- application domains that require a best practice mechanism to further specialise DCAT for particular resource types.
+
+
 

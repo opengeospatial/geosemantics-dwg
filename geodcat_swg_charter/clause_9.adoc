@@ -15,3 +15,5 @@
 [[PROF]]
 [PROF] Web: W3C: Profiles Vocabulary (DCAT), https://www.w3.org/TR/dx-prof/
 
+[[DCAT-AP]]
+[DCAT-AP] Web: EU: DCAT Application Profile for data portals in Europe, https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe

@@ -5,6 +5,10 @@ This section provides a statement describing the value of this standards activit
 ////
 DCAT is a widely used metadata standard for datasets and data access services, tpyically within a spatio-temporal context. Some basic temporal and geographic properties have been adopted within the DCAT v2 <<DCAT>> and planned v3 <<DCAT3>>, however these do not address the full range of requirements identified in the <<GeoDCAT-AP>> Discussion paper. 
 
+The EU references GeoDCAT-AP as a "Good Practice" [at https://inspire.ec.europa.eu/good-practice/geodcat-ap] and notes "A draft for an OGC (Open Geospatial Consortium) Best Practice document is currently under development, and there are discussions to endorse GeoDCAT-AP as an OGC Community Standard."
+
+This charter provides the framework for realisation of this goal and further refinement of the concept outside the particular constraints of <<DCAT-AP>>.
+
 === Value to the OGC
 To maintain its place as the provider of standards for description and access to spatio-temporal data the OGC should provide guidance on representation of spatio-temporal concepts in data catalogues. <<GeoDCAT-AP>> is already referenced in the Spatial Data on the Web Best Practice <<SDWBP>>. The SWG will support publishing this as a normative resource, supporting the rationale for following SDWBP in general.
 In addition, the management of a family od sub-profiles of GeoDCAT may be defined to standardise the description of OGC API usage in such catalogues. 

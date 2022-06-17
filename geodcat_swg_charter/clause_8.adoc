@@ -25,9 +25,11 @@ It is proposed that the work of this SWG be conducted openly on GitHub, as the w
 
 ===== Scope of Activity
 
-The European Union publishes DCAT-AP - a profile of DCAT to meet administrative requirements for data publication in EU context.
+The European Union publishes <<DCAT-AP>> - a profile of DCAT to meet administrative requirements for data publication in EU context.
 
 This application profile is a specification for metadata records to meet the specific application needs of data portals in Europe while providing semantic interoperability with other applications on the basis of reuse of established controlled vocabularies (e.g. EuroVoc) and mappings to existing metadata vocabularies (e.g. Dublin Core, SDMX, INSPIRE metadata, etc.).
+
+GeoDCAT is expected to be combined with DCAT-AP to realise a normative implementation of <<GeoDCAT-AP>>
 
 ===== Web Site(s)
 
