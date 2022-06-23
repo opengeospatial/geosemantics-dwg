@@ -15,5 +15,8 @@
 [[PROF]]
 [PROF] Web: W3C: Profiles Vocabulary (DCAT), https://www.w3.org/TR/dx-prof/
 
+[[GeoDCAT-AP_IT]]
+[GeoDCAT-AP_IT] This is the issue tracker for the maintenance of GeoDCAT-AP. https://github.com/semiceu/geodcat-ap/
+
 [[DCAT-AP]]
 [DCAT-AP] Web: EU: DCAT Application Profile for data portals in Europe, https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe
