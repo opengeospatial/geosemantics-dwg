@@ -12,6 +12,9 @@
 [[GeoDCAT-AP]]
 [GeoDCAT-AP] Web: OGC : GeoDCAT-AP Discussion Paper, http://www.opengis.net/doc/dp/GeoDCAT-AP
 
+[[GeoDCAT-APv2]]
+[GeoDCAT-APv2] GeoDCAT-AP - Version 2.0.0 : SEMIC Editor's Draft 23 December 2020, https://semiceu.github.io/GeoDCAT-AP/drafts/latest/
+
 [[PROF]]
 [PROF] Web: W3C: Profiles Vocabulary (DCAT), https://www.w3.org/TR/dx-prof/
 
