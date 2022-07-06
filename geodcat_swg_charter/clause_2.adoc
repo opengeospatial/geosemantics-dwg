@@ -5,7 +5,7 @@ This section provides a statement describing the value of this standards activit
 ////
 DCAT is a widely used metadata standard for datasets and data access services, tpyically within a spatio-temporal context. Some basic temporal and geographic properties have been adopted within the DCAT v2 <<DCAT>> and planned v3 <<DCAT3>>, however these do not address the full range of requirements identified in the <<GeoDCAT-AP>> Discussion paper. 
 
-The EU references GeoDCAT-AP as a "Good Practice" [at https://inspire.ec.europa.eu/good-practice/geodcat-ap] and notes "A draft for an OGC (Open Geospatial Consortium) Best Practice document is currently under development, and there are discussions to endorse GeoDCAT-AP as an OGC Community Standard."
+The EU references GeoDCAT-AP as a "Good Practice" [at https://inspire.ec.europa.eu/good-practice/geodcat-ap] and notes "A draft for an OGC (Open Geospatial Consortium) Best Practice document is currently under development, and there are discussions to endorse GeoDCAT-AP as an OGC Community Standard." GeoDCAT-AP (EU) community has a home on the EC portal [at https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/geodcat-application-profile-data-portals-europe/about].
 
 This charter provides the framework for realisation of this goal and further refinement of the concept outside the particular constraints of <<DCAT-AP>>.
 
