@@ -22,7 +22,7 @@ Further specialisations will provide transparent, interoperable and validatable 
 
 === What is Out of Scope?
 
-Revisions to DCAT itself is out of scope. Definition of new vocabularies or ontologies to extend DCAT should be strictly limited to defining concepts needed to describe aspects of OGC standards and would be progressed in conjunction with the relevant OGC SWG.
+Revision to DCAT itself is out of scope. Definition of new vocabularies or ontologies to extend DCAT should be strictly limited to defining concepts needed to describe aspects of OGC standards and would be progressed in conjunction with the relevant OGC SWG.
 
 
 === Specific Existing Work Used as Starting Point
