@@ -16,7 +16,7 @@ In addition, the management of a family of sub-profiles of GeoDCAT may be define
 
 === Value to the OGC Membership
 Normative publication of GeoDCAT and API-centric implementation profiles provides a simplified pathway to assimilation of OGC standards into deployed systems.
-In addition, formalised publication and identification supports the publicatioon and access via FAIR principles of supporting human and mcahine-readable resources to facilitate and validate implementations.
+In addition, formalised publication and identification supports the publication and access via FAIR principles of supporting human and mcahine-readable resources to facilitate and validate implementations.
 
 === Value to the geospatial community
 The larger geospatial community will benefit from the standardisation of description of geospatial data and access services in DCAT based datacatalogs.
