@@ -43,4 +43,4 @@ Revision to DCAT itself is out of scope. Definition of new vocabularies or ontol
 
 === When can the SWG be Inactivated
 
-The SWG can be inactivated once a registration mechanism (policies, technical standards and infrastructure support) for further application domain specialised profiles of DCAT allows use of the GeoDCAT profile without the need for additional modification.
+The SWG can be inactivated once a registration mechanism (policies, technical standards, and infrastructure support) for further application domain specialised profiles of DCAT allows use of the GeoDCAT profile without the need for additional modification.
