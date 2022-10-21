@@ -16,7 +16,7 @@ Future activities will include definition of additional specialised profiles as 
 
 === Statement of relationship of planned work to the current OGC standards baseline
 
-This scope is primarily aimed to progress the concept of GeoDCAT from an informative discussion paper into a normative and supported resource.
+This scope is primarily intended to progress the concept of GeoDCAT from an informative discussion paper into a normative and supported resource.
 
 Further specialisations will provide transparent, interoperable and validatable patterns for the inclusion of OGC standards conformant resources into DCAT based catalogue implementations.
 
