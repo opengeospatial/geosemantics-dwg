@@ -1,7 +1,7 @@
 == References
 
 [[DCAT]]
-[DCAT] Web: W3C: Data Catalog Vocabulary (DCAT) - Version 2, https://www.w3.org/TR/vocab-dcat-2/ (2020)
+[DCAT] Web: W3C: Data Catalog Vocabulary (DCAT) — Version 2, https://www.w3.org/TR/vocab-dcat-2/ (2020)
 
 [[DCAT3]]
 [DCAT3] Web: W3C: Data Catalog Vocabulary (DCAT) - Version 3, https://www.w3.org/TR/vocab-dcat-3/
