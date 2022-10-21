@@ -1,5 +1,7 @@
 This is the open repository for work done within the OGC GeoSemantics DWG. 
 
+## GeoSPARQL
+
 This group has been gathering [change requests for GeoSPARQL 2.0](http://ogc.standardstracker.org/requestlist.cgi?quicksearch=geosparql) and working on a [white paper](whitepaper-ideas.md) explaining the business reasons, and requirements, for a geographical query language for graphs as well as an accompanying ontology. 
 
 We are now working on resurrecting the GeoSPARQL SWG, chartered to work on a new version of GeoSPARQL. 
@@ -8,3 +10,8 @@ The draft charter: [OGC GeoSPARQL SWG Charter](https://github.com/opengeospatial
 
 The white paper: [OGC Benefits of Representing Spatial Data Using Semantic and Graph Technologies](https://github.com/opengeospatial/geosemantics-dwg/blob/master/white_paper/wp.pdf)
 
+## GeoDCAT
+
+An SWG, jointly hosted by the GeoSemantics DWG and the MetaCat DWG, for the publication of GeoDCAT, GeoDCAT-AP, and other profiles of DCAT to support use of OGC standards. 
+
+[OGC GeoDCAT SWG Charter](geodcat_swg_charter/swg_charter.pdf)

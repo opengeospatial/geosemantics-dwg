@@ -1,0 +1,46 @@
+== Scope of Work
+
+The initial activities will be to update the GeoDCAT-AP discussion paper 18-001r1 to:
+
+- separate DCAT-AP concerns from DCAT profiles
+- update to meet the DCAT v3 candidate and final recommendation status
+- update as required to use current GeoSPARQL specification version
+- update GeoDCAT-AP and formally model dependency on currenty DCAT-AP versions
+- formalise machine readable versions of GeoDCAT and GeoDCAT-AP profiles
+- prepare and validate illustrative examples using the machine-readable description
+- define a mechanism for describing specialised profiles of GeoDCAT
+- publish using current OGC specification document methodology
+
+Future activities will include definition of additional specialised profiles as required and requested by specific applications domains (via OGC Domain Working Group inputs).
+
+
+=== Statement of relationship of planned work to the current OGC standards baseline
+
+This scope is primarily intended to progress the concept of GeoDCAT from an informative discussion paper into a normative and supported resource.
+
+Further specialisations will provide transparent, interoperable, and validatable patterns for the inclusion of OGC standards conformant resources into DCAT based catalogue implementations.
+
+=== What is Out of Scope?
+
+Revision to DCAT itself is out of scope. Definition of new vocabularies or ontologies to extend DCAT should be strictly limited to defining concepts needed to describe aspects of OGC standards and would be progressed in conjunction with the relevant OGC SWG.
+
+
+=== Specific Existing Work Used as Starting Point
+
+* GeoDCAT-AP Discussion Paper <<GeoDCAT-AP>>
+
+* DCAT v2 <<DCAT>>
+
+* DCAT v3 draft <<DCAT3>>
+
+* W3C Profiles Vocabulary <<PROF>>
+
+=== Is This a Persistent SWG
+
+[x] YES
+
+[ ] NO
+
+=== When can the SWG be Inactivated
+
+The SWG can be inactivated once a registration mechanism (policies, technical standards, and infrastructure support) for further application domain specialised profiles of DCAT allows use of the GeoDCAT profile without the need for additional modification.

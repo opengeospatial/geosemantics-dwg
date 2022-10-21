@@ -4,7 +4,7 @@ on: [workflow_dispatch]
   
 jobs:
   adoc_build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     name: asciidoctor dcat swg charter
     steps:
     - name: Checkout code
@@ -13,17 +13,18 @@ jobs:
       id: adocbuild
       uses: tonynv/asciidoctor-action@master
       with:
-          program: "asciidoctor geodcat_swg_charter/swg_charter/adoc"
+          program: "asciidoctor geodcat_swg_charter/swg_charter.adoc"
     - name: Get build container
       id: adocpdfbuild
       uses: tonynv/asciidoctor-action@master
       with:
-          program: "asciidoctor-pdf geodcat_swg_charter/swg_charter/adoc"
+          program: "asciidoctor-pdf geodcat_swg_charter/swg_charter.adoc"
     - name: Print execution time
       run: echo "Time ${{ steps.adocbuild.outputs.time }}"
-    - name: Deploy docs to ghpages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: commit generated docs
+      uses: EndBug/add-and-commit@v9 # You can change this to use a specific version
       with:
-        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        publish_branch: gh-pages
-        publish_dir: ./
+          add: .
+          message: "Generated charter doc"
+          default_author: github_actions
+    
