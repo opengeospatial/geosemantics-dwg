@@ -90,6 +90,7 @@ The following people support this proposal and are committed to the Charter and 
 |L. Alemany Gómez | Centro Nacional de Información Geográfica
 |B. de Lathouwer | Gemeente Rotterdam
 |R. Atkinson | OGC Innovation Program
+|J. Escriu | European Commission Joint Research Centre
 |===
 
 === Conveners
