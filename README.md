@@ -15,3 +15,5 @@ The white paper: [OGC Benefits of Representing Spatial Data Using Semantic and G
 An SWG, jointly hosted by the GeoSemantics DWG and the MetaCat DWG, is being set up for the publication of GeoDCAT, GeoDCAT-AP, and other profiles of DCAT to support use of OGC standards. 
 
 [OGC GeoDCAT SWG Charter](geodcat_swg_charter/swg_charter.pdf)
+
+[Notes from 22 NOv 2022 ad hoc meeting on OGC GeoDCAT](geodcat-adhoc/20221122-adhoc-notes.md)
