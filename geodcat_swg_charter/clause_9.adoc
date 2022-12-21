@@ -23,3 +23,12 @@
 
 [[DCAT-AP]]
 [DCAT-AP] Web: EU: DCAT Application Profile for data portals in Europe, https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe
+
+[[ISO19115]]
+[ISO19115]: ISO 19115-1:2014. Geographic information — Metadata — Part 1: Fundamentals, https://www.iso.org/standard/53798.html
+
+[[OAR]]
+[OAR]: DRAFT OGC API - Records - Part 1: Core, http://docs.ogc.org/DRAFTS/20-004.html
+
+[[STAC]]
+[STAC]: Spatio Temporal Asset Catalogs (STAC), https://stacspec.org/en
