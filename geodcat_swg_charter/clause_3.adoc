@@ -2,35 +2,35 @@
 
 The initial activities will be to:
 
-- describe new best practices and examples of use, which have emerged since publication of the OGC discussion paper about GeoDCAT-AP (doc nr 18-001r1)
-- assess the need for a geospatial extension of DCAT, separate from specific application profiles
-- separate DCAT-AP from GeoDCAT
-- update GeoDCAT as required to meet the DCAT v3 candidate and final recommendation status
-- update as required to use current GeoSPARQL specification version
-- formalise machine readable versions of GeoDCAT profile
-- prepare and validate illustrative examples using the machine-readable description
-- define a mechanism for describing specialised profiles of GeoDCAT
-- publish using current OGC specification document methodology
+- describe new best practices and examples of use, which have emerged since publication of the OGC discussion paper about GeoDCAT-AP (OGC 18-001r1);
+- assess the need for a geospatial extension of DCAT, separate from specific application profiles;
+- separate DCAT-AP from GeoDCAT;
+- update GeoDCAT as required to meet the DCAT v3 candidate and final recommendation status;
+- update as required to use current GeoSPARQL Standard version;
+- formalize machine readable versions of GeoDCAT profile;
+- prepare and validate illustrative examples using the machine-readable description;
+- define a mechanism for describing specialized profiles of GeoDCAT; and
+- publish using current OGC Standard document methodology.
 
-The SWG will assess, based on the review of best practices and examples of use, if there is sufficient motivation to create GeoDCAT as an OGC standard. 
+The SWG will assess, based on the review of best practices and examples of use, if there is sufficient motivation to create GeoDCAT as an OGC Standard. 
 
 The SWG aims to set up GeoDCAT in a modularized way. 
 
-The swg will look into the relationships with other relevant standards and possibly provide conceptual mappings. Part of the GeoDCAT vocabulary deliverable will be the relationship with other relevant standards e.g. GeoDCAT-AP, ISO 19115, OGC API Records, STAC, GeoSPARQL, Dublin Core, schema.org and others. 
+The SWG will look into the relationships with other relevant standards and possibly provide conceptual mappings. Part of the GeoDCAT vocabulary deliverable will be the relationship with other relevant standards e.g., GeoDCAT-AP, ISO 19115, OGC API Records, STAC, GeoSPARQL, Dublin Core, schema.org, and others. 
 
 NOTE each of the standards mentioned above have their own lifecycle and governance. It is up to the SWG to decide if created mappings between GeoDCAT and these standards will be kept up to date. 
 
-Future activities will include definition of additional specialised profiles as required and requested by specific applications domains (via OGC Domain Working Group inputs).
+Future activities will include definition of additional specialized profiles as required and requested by specific applications domains (via OGC Domain Working Group inputs).
 
 === Statement of relationship of planned work to the current OGC standards baseline
 
 This scope is primarily intended to progress the concept of GeoDCAT from an informative discussion paper into a normative and supported resource.
 
-Further specialisations will provide transparent, interoperable, and validatable patterns for the inclusion of OGC standards conformant resources into DCAT based catalogue implementations.
+Further specializations will provide transparent, interoperable, and validatable patterns for the inclusion of OGC Standards-conformant resources into DCAT based catalogue implementations.
 
 === What is Out of Scope?
 
-Revision to DCAT itself is out of scope. Definition of new vocabularies or ontologies to extend DCAT should be strictly limited to defining concepts needed to describe aspects of OGC standards and would be progressed in conjunction with the relevant OGC SWG. Technical implementations of any conceptual mappings with other relevant standards created by the SWG are also out of scope.
+Revision to DCAT itself is out of scope. Definition of new vocabularies or ontologies to extend DCAT should be strictly limited to defining concepts needed to describe aspects of OGC Standards and would be progressed in conjunction with the relevant OGC SWG. Technical implementations of any conceptual mappings with other relevant Standards created by the SWG are also out of scope.
 
 === Specific Existing Work Used as Starting Point
 
@@ -56,4 +56,4 @@ Revision to DCAT itself is out of scope. Definition of new vocabularies or ontol
 
 === When can the SWG be Inactivated
 
-The SWG can be inactivated once a registration mechanism (policies, technical standards, and infrastructure support) for further application domain specialised profiles of DCAT allows use of the GeoDCAT profile without the need for additional modification.
+The SWG can be inactivated once a registration mechanism (policies, technical standards, and infrastructure support) for further application domain specialized profiles of DCAT allows use of the GeoDCAT profile without the need for additional modification.
