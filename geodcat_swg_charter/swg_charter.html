@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.17">
+<meta name="generator" content="Asciidoctor 2.0.18">
 <title>OGC GeoDCAT SWG Charter</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -84,10 +84,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
-ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
-ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -490,7 +490,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong>Copyright notice</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Copyright &#169; 2022 Open Geospatial Consortium</p></td>
+<td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Copyright &#169; 2023 Open Geospatial Consortium</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top" style="background-color: #FFFFFF;"><p class="tableblock">To obtain additional rights of use, visit <a href="http://www.opengeospatial.org/legal/" class="bare">http://www.opengeospatial.org/legal/</a></p></td>
@@ -502,7 +502,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>To: OGC members &amp; interested parties</p>
 </div>
 <div class="paragraph">
-<p>A new OGC Standards Working Group is being formed. The OGC members listed below have proposed the OGC GeoDCAT SWG.  The SWG proposal provided in this document meets the requirements of the OGC Technical Committee (TC) Policies and Procedures.</p>
+<p>A new OGC Standards Working Group (SWG) is being formed. The OGC members listed below have proposed the OGC GeoDCAT SWG.  The SWG proposal provided in this document meets the requirements of the OGC Technical Committee (TC) Policies and Procedures.</p>
 </div>
 <div class="paragraph">
 <p>The SWG name, statement of purpose, scope, list of deliverables, audience, and language specified in the proposal will constitute the SWG&#8217;s official charter. Technical discussions may occur no sooner than the SWG&#8217;s first meeting.</p>
@@ -542,7 +542,7 @@ member of OGC;</p>
 <h2 id="_purpose_of_the_standards_working_group"><a class="anchor" href="#_purpose_of_the_standards_working_group"></a>1. Purpose of the Standards Working Group</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The purpose of this SWG is to revise, publish and maintain GeoDCAT, a spatio-temporal profile of the W3C DCAT Recommendation <a href="#DCAT">[DCAT]</a> , and provide guidance about its use and further specialisation.</p>
+<p>The purpose of this SWG is to revise, publish, and maintain GeoDCAT, a spatio-temporal profile of the W3C DCAT Recommendation <a href="#DCAT">[DCAT]</a> , and provide guidance about its use and further specialization.</p>
 </div>
 <div class="paragraph">
 <p>The GeoDCAT profile of DCAT will be implemented as both human and machine-actionable resources.</p>
@@ -559,34 +559,33 @@ member of OGC;</p>
 <p>The EU references GeoDCAT-AP as a "Good Practice" [at <a href="https://inspire.ec.europa.eu/good-practice/geodcat-ap" class="bare">https://inspire.ec.europa.eu/good-practice/geodcat-ap</a>] and notes "A draft for an OGC (Open Geospatial Consortium) Best Practice document is currently under development, and there are discussions to endorse GeoDCAT-AP as an OGC Community Standard."</p>
 </div>
 <div class="paragraph">
-<p>This charter provides the framework for realisation of this goal and further refinement of the concept outside the particular constraints of <a href="#DCAT-AP">[DCAT-AP]</a>.</p>
+<p>This charter provides the framework for realization of this goal through development of a GeoDCAT Standard and further refinement of the concept outside the particular constraints of <a href="#DCAT-AP">[DCAT-AP]</a>. I.e., the work aims to separate a general geospatial profile of DCAT, called "GeoDCAT," out from GeoDCAT-AP; the Europe-specific Application Profile (AP) will not be part of the OGC standardization work.</p>
 </div>
 <div class="sect2">
 <h3 id="_value_to_the_ogc"><a class="anchor" href="#_value_to_the_ogc"></a>2.1. Value to the OGC</h3>
 <div class="paragraph">
-<p>To maintain its place as the provider of standards for description and access to spatio-temporal data the OGC should provide guidance on representation of spatio-temporal concepts in data catalogues. <a href="#GeoDCAT-AP">[GeoDCAT-AP]</a> is already referenced in the Spatial Data on the Web Best Practice <a href="#SDWBP">[SDWBP]</a>. The SWG will support publishing this as a set of normative resources, with a general profile of DCAT (GeoDCAT) and a specialised profile (GeoDCAT-AP) meeting the specific requirements of the original DCAT-AP context.</p>
+<p>To maintain its place as the provider of standards for description and access to spatio-temporal data, the OGC should provide guidance on representation of spatio-temporal concepts in data catalogues. <a href="#GeoDCAT-AP">[GeoDCAT-AP]</a> is already referenced in the Spatial Data on the Web Best Practice <a href="#SDWBP">[SDWBP]</a>. The SWG will support publishing this as a set of normative resources, with a general profile of DCAT (GeoDCAT) which can be the basis for specialized profiles that are developed outside the SWG (such as GeoDCAT-AP), meeting the specific requirements of the original DCAT-AP context.</p>
 </div>
 <div class="paragraph">
-<p>In addition, the management of a family of sub-profiles of GeoDCAT may be defined to standardise the description of OGC API usage in such catalogues.</p>
+<p>In addition, the management of a family of sub-profiles of GeoDCAT may be defined to standardize the description of OGC API usage in such catalogues.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_value_to_the_ogc_membership"><a class="anchor" href="#_value_to_the_ogc_membership"></a>2.2. Value to the OGC Membership</h3>
 <div class="paragraph">
-<p>Normative publication of GeoDCAT and API-centric implementation profiles provides a simplified pathway to assimilation of OGC standards into deployed systems.
-In addition, formalised publication and identification supports the publicatioon and access via FAIR principles of supporting human and mcahine-readable resources to facilitate and validate implementations.</p>
+<p>Normative publication of GeoDCAT and API-centric implementation profiles provides a simplified pathway to assimilation of OGC standards into deployed systems. In addition, formalized publication and identification supports the publication and access via FAIR principles of supporting human and machine-readable resources to facilitate and validate implementations.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_value_to_the_geospatial_community"><a class="anchor" href="#_value_to_the_geospatial_community"></a>2.3. Value to the geospatial community</h3>
 <div class="paragraph">
-<p>The larger geospatial community will benefit from the standardisation of description of geospatial data and access services in DCAT based datacatalogs.</p>
+<p>The larger geospatial community will benefit from the standardization of description of geospatial data and access services in DCAT based data catalogs. Portals that describe their data catalogs using either GeoDCAT or GeoDCAT-AP will be interoperable with each other as well as with general data catalog that use DCAT.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_value_to_the_wider_it_community"><a class="anchor" href="#_value_to_the_wider_it_community"></a>2.4. Value to the wider IT community</h3>
 <div class="paragraph">
-<p>The publication of a formal profile of DCAT will present a best practice for the domain specialisation of general data model standards, and a pattern for further specialisation as required.</p>
+<p>The publication of a formal profile of DCAT will present a best practice for the domain specialization of general data model standards, and a pattern for further specialization as required.</p>
 </div>
 </div>
 </div>
@@ -595,52 +594,67 @@ In addition, formalised publication and identification supports the publicatioon
 <h2 id="_scope_of_work"><a class="anchor" href="#_scope_of_work"></a>3. Scope of Work</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The initial activities will be to update the GeoDCAT-AP discussion paper 18-001r1 to:</p>
+<p>The initial activities will be to:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>separate DCAT-AP concerns from DCAT profiles</p>
+<p>describe new best practices and examples of use, which have emerged since publication of the OGC discussion paper about GeoDCAT-AP (OGC 18-001r1);</p>
 </li>
 <li>
-<p>update to meet the DCAT v3 candidate and final recommendation status</p>
+<p>assess the need for a geospatial extension of DCAT, separate from specific application profiles;</p>
 </li>
 <li>
-<p>update as required to use current GeoSPARQL specification version</p>
+<p>separate DCAT-AP from GeoDCAT;</p>
 </li>
 <li>
-<p>update GeoDCAT-AP and formally model dependency on currenty DCAT-AP versions</p>
+<p>update GeoDCAT as required to meet the DCAT v3 candidate and final recommendation status;</p>
 </li>
 <li>
-<p>formalise machine readable versions of GeoDCAT and GeoDCAT-AP profiles</p>
+<p>update as required to use current GeoSPARQL Standard version;</p>
 </li>
 <li>
-<p>prepare and validate illustrative examples using the machine-readable description</p>
+<p>formalize machine readable versions of GeoDCAT profile;</p>
 </li>
 <li>
-<p>define a mechanism for describing specialised profiles of GeoDCAT</p>
+<p>prepare and validate illustrative examples using the machine-readable description;</p>
 </li>
 <li>
-<p>publish using current OGC specification document methodology</p>
+<p>define a mechanism for describing specialized profiles of GeoDCAT; and</p>
+</li>
+<li>
+<p>publish using current OGC Standard document methodology.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Future activities will include definition of additional specialised profiles as required and requested by specific applications domains (via OGC Domain Working Group inputs).</p>
+<p>The SWG will assess, based on the review of best practices and examples of use, if there is sufficient motivation to create GeoDCAT as an OGC Standard.</p>
+</div>
+<div class="paragraph">
+<p>The SWG aims to set up GeoDCAT in a modularized way.</p>
+</div>
+<div class="paragraph">
+<p>The SWG will look into the relationships with other relevant standards and possibly provide conceptual mappings. Part of the GeoDCAT vocabulary deliverable will be the relationship with other relevant standards e.g., GeoDCAT-AP, ISO 19115, OGC API Records, STAC, GeoSPARQL, Dublin Core, schema.org, and others.</p>
+</div>
+<div class="paragraph">
+<p>NOTE each of the standards mentioned above have their own lifecycle and governance. It is up to the SWG to decide if created mappings between GeoDCAT and these standards will be kept up to date.</p>
+</div>
+<div class="paragraph">
+<p>Future activities will include definition of additional specialized profiles as required and requested by specific applications domains (via OGC Domain Working Group inputs).</p>
 </div>
 <div class="sect2">
 <h3 id="_statement_of_relationship_of_planned_work_to_the_current_ogc_standards_baseline"><a class="anchor" href="#_statement_of_relationship_of_planned_work_to_the_current_ogc_standards_baseline"></a>3.1. Statement of relationship of planned work to the current OGC standards baseline</h3>
 <div class="paragraph">
-<p>This scope is primarily aimed to progress the concept of GeoDCAT from an informative discussion paper into a normative and supported resource.</p>
+<p>This scope is primarily intended to progress the concept of GeoDCAT from an informative discussion paper into a normative and supported resource.</p>
 </div>
 <div class="paragraph">
-<p>Further specialisations will provide transparent, interoperable and validatable patterns for the inclusion of OGC standards conformant resources into DCAT based catalogue implementations.</p>
+<p>Further specializations will provide transparent, interoperable, and validatable patterns for the inclusion of OGC Standards-conformant resources into DCAT based catalogue implementations.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_what_is_out_of_scope"><a class="anchor" href="#_what_is_out_of_scope"></a>3.2. What is Out of Scope?</h3>
 <div class="paragraph">
-<p>Revision to DCAT itself is out of scope. Definition of new vocabularies or ontologies to extend DCAT should be strictly limited to defining concepts needed to describe aspects of OGC standards and would be progressed in conjunction with the relevant OGC SWG.</p>
+<p>Revision to DCAT itself is out of scope. Definition of new vocabularies or ontologies to extend DCAT should be strictly limited to defining concepts needed to describe aspects of OGC Standards and would be progressed in conjunction with the relevant OGC SWG. Technical implementations of any conceptual mappings with other relevant Standards created by the SWG are also out of scope.</p>
 </div>
 </div>
 <div class="sect2">
@@ -659,6 +673,15 @@ In addition, formalised publication and identification supports the publicatioon
 <li>
 <p>W3C Profiles Vocabulary <a href="#PROF">[PROF]</a></p>
 </li>
+<li>
+<p>ISO 19115 <a href="#ISO19115">[ISO19115]</a></p>
+</li>
+<li>
+<p>OGC API Records <a href="#OAR">[OAR]</a></p>
+</li>
+<li>
+<p>Spatio Temporal Asset Catalogs (STAC) <a href="#STAC">[STAC]</a></p>
+</li>
 </ul>
 </div>
 </div>
@@ -674,7 +697,7 @@ In addition, formalised publication and identification supports the publicatioon
 <div class="sect2">
 <h3 id="_when_can_the_swg_be_inactivated"><a class="anchor" href="#_when_can_the_swg_be_inactivated"></a>3.5. When can the SWG be Inactivated</h3>
 <div class="paragraph">
-<p>The SWG can be inactivated once a registration mechanism (policies, technical standards and infrastructure support) for further application domain specialised profiles of DCAT allows use of the GeoDCAT profile without the need for additional modification.</p>
+<p>The SWG can be inactivated once a registration mechanism (policies, technical standards, and infrastructure support) for further application domain specialized profiles of DCAT allows use of the GeoDCAT profile without the need for additional modification.</p>
 </div>
 </div>
 </div>
@@ -686,34 +709,34 @@ In addition, formalised publication and identification supports the publicatioon
 <p>Initial goals of the working group are to decouple the DCAT-AP concerns from the DCAT core concerns and publish these as normative profiles of the most recent versions of the DCAT Recommendation and DCAT-AP profile of this.</p>
 </div>
 <div class="paragraph">
-<p>To organize the working group we propose the following preliminary schedule.</p>
+<p>To organize the working group, the organizers propose the following preliminary schedule.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>1st meeting: Review and prioritization of issues submitted to the OGC Standards Tracker</p>
+<p>1st meeting: Review and prioritization of issues submitted to the OGC Standards Tracker.</p>
 </li>
 <li>
-<p>Next months: Work towards a candidate standard for public review</p>
+<p>Next months: Work towards a candidate standard for public review.</p>
 </li>
 <li>
-<p>Release of the candidate standard for public review</p>
+<p>Release of the candidate standard for public review.</p>
 </li>
 <li>
-<p>Iterative approach to improve the candidate standard by considering comments and further upcoming issues</p>
+<p>Iterative approach to improve the candidate standard by considering comments and further upcoming issues.</p>
 </li>
 <li>
-<p>Final revision of the standard</p>
+<p>Final revision of the standard.</p>
 </li>
 <li>
-<p>Recommendation of the final standard to the OGC</p>
+<p>Recommendation of the final standard to the OGC.</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
 <h3 id="_initial_deliverables"><a class="anchor" href="#_initial_deliverables"></a>4.1. Initial Deliverables</h3>
 <div class="paragraph">
-<p>The initial deliverables are based on the initial selection and prioritization of issues from the OGC Standards tracker. This selection will be determined in the first meetings of the working group and subsequently updated in this working group charter.</p>
+<p>The initial deliverables are based on the initial selection and prioritization of issues from the OGC Standards Tracker. This selection will be determined in the first meetings of the working group and subsequently updated in this working group charter.</p>
 </div>
 <div class="paragraph">
 <p>After deciding on the initial issues to be worked on, this SWG will publish a roadmap to be used to manage scope and timeframes for delivery of a modular revision of the GeoDCAT profile standard.</p>
@@ -747,13 +770,13 @@ In addition, formalised publication and identification supports the publicatioon
 <div class="ulist">
 <ul>
 <li>
-<p>Publishers of specialised application profiles of DCAT with geographic requirements</p>
+<p>publishers of specialized application profiles of DCAT with geographic requirements;</p>
 </li>
 <li>
-<p>implementors of Semantic Web systems that support, or plan to support, cataloguing of spatial data resources using DCAT;</p>
+<p>implementors of Semantic Web systems that support, or plan to support, cataloguing of spatial data resources using DCAT; and</p>
 </li>
 <li>
-<p>application domains that require a best practice mechanism to further specialise DCAT for particular resource types.</p>
+<p>application domains that require a best practice mechanism to further specialize DCAT for particular resource types.</p>
 </li>
 </ul>
 </div>
@@ -763,10 +786,10 @@ In addition, formalised publication and identification supports the publicatioon
 <h2 id="_domain_working_group_endorsement"><a class="anchor" href="#_domain_working_group_endorsement"></a>7. Domain Working Group Endorsement</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This SWG scope addresses requirements for interoperable best practices in both geosemantics and metadata catalogs, and hence will report to both the Geosemantics and MetCat Domain Working Groups.</p>
+<p>This SWG scope addresses requirements for interoperable best practices in both geosemantics and metadata catalogs, and hence will report to both the Geosemantics and Metadata and Catalogs Domain Working Groups (DWGs).</p>
 </div>
 <div class="paragraph">
-<p>The Chairs of the Geosemantics DWG, Joseph Abhayaratna and Linda van den Brink, and the chairs of the MetaCat DWG, Danny Vandenbrouke and Byron Cochrane do formally endorse the formation of the GeoDCAT Standards Working Group (SWG).</p>
+<p>The Chairs of the Geosemantics DWG, Joseph Abhayaratna and Linda van den Brink, and the chairs of the MetaCat DWG, Danny Vandenbrouke and Byron Cochrane, do formally endorse the formation of the GeoDCAT Standards Working Group (SWG).</p>
 </div>
 </div>
 </div>
@@ -787,7 +810,7 @@ In addition, formalised publication and identification supports the publicatioon
 <p>Creation and management of outstanding work items, using Standards Tracker as the authoritative register;</p>
 </li>
 <li>
-<p>Prioritisation of work items into iterations of work; and</p>
+<p>Prioritization of work items into iterations of work; and</p>
 </li>
 <li>
 <p>The Standard Document itself.</p>
@@ -795,7 +818,7 @@ In addition, formalised publication and identification supports the publicatioon
 </ul>
 </div>
 <div class="paragraph">
-<p>It is proposed that the work of this SWG be conducted openly on GitHub, as the work of the motivating GeoSemantics DWG is.</p>
+<p>It is proposed that the work of this SWG be conducted openly on GitHub, as the work of the motivating GeoSemantics DWG is already on GitHub.</p>
 </div>
 </div>
 <div class="sect2">
@@ -809,13 +832,13 @@ In addition, formalised publication and identification supports the publicatioon
 <div class="sect4">
 <h5 id="_scope_of_activity"><a class="anchor" href="#_scope_of_activity"></a>Scope of Activity</h5>
 <div class="paragraph">
-<p>The European Union publishes <a href="#DCAT-AP">[DCAT-AP]</a> - a profile of DCAT to meet administrative requirements for data publication in EU context.</p>
+<p>The European Union publishes <a href="#DCAT-AP">[DCAT-AP]</a> — a profile of DCAT to meet administrative requirements for data publication in EU context.</p>
 </div>
 <div class="paragraph">
-<p>This application profile is a specification for metadata records to meet the specific application needs of data portals in Europe while providing semantic interoperability with other applications on the basis of reuse of established controlled vocabularies (e.g. EuroVoc) and mappings to existing metadata vocabularies (e.g. Dublin Core, SDMX, INSPIRE metadata, etc.).</p>
+<p>This application profile is a specification for metadata records to meet the specific application needs of data portals in Europe while providing semantic interoperability with other applications on the basis of reuse of established controlled vocabularies (e.g., EuroVoc) and mappings to existing metadata vocabularies (e.g., Dublin Core, SDMX, INSPIRE metadata).</p>
 </div>
 <div class="paragraph">
-<p>GeoDCAT is expected to be combined with DCAT-AP to realise a normative implementation of <a href="#GeoDCAT-AP">[GeoDCAT-AP]</a></p>
+<p>GeoDCAT is expected to be combined with DCAT-AP to realize a normative implementation of <a href="#GeoDCAT-AP">[GeoDCAT-AP]</a></p>
 </div>
 </div>
 <div class="sect4">
@@ -850,9 +873,6 @@ In addition, formalised publication and identification supports the publicatioon
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>=</p>
-</div>
 </div>
 </div>
 <div class="sect3">
@@ -860,7 +880,7 @@ In addition, formalised publication and identification supports the publicatioon
 <div class="sect4">
 <h5 id="_scope_of_activity_2"><a class="anchor" href="#_scope_of_activity_2"></a>Scope of Activity</h5>
 <div class="paragraph">
-<p>This group operates within the W3C as well as the OGC in order to develop and maintain vocabularies and best practices that encourage better sharing of spatial data on the Web; and identify areas where standards should be developed jointly by both W3C and the Open Geospatial Consortium (OGC). It allows members of both organizations to collaborate in the creation of standards an best practices related to both Web and spatial data.</p>
+<p>This group operates within the W3C as well as the OGC in order to develop and maintain vocabularies and best practices that encourage better sharing of spatial data on the Web; and identify areas where Standards should be developed jointly by both W3C and the Open Geospatial Consortium (OGC). It allows members of both organizations to collaborate in the creation of standards an best practices related to both Web and spatial data.</p>
 </div>
 </div>
 <div class="sect4">
@@ -905,19 +925,19 @@ In addition, formalised publication and identification supports the publicatioon
 <div class="sect2">
 <h3 id="_details_of_first_meeting"><a class="anchor" href="#_details_of_first_meeting"></a>8.4. Details of first meeting</h3>
 <div class="paragraph">
-<p>The first meeting of the SWG will be held by telephone conference call at 6AM EDT on the first Thursday immediately following the week of Technical Committee approval of this Charter. Call-in information will be provided to the SWG&#8217;s e-mail list and on the portal calendar in advance of the meeting.</p>
+<p>The first meeting of the SWG will be held by telephone conference call at 6AM ET on the first Thursday immediately following the week of Technical Committee approval of this Charter. Call-in information will be provided to the SWG&#8217;s e-mail list and on the portal calendar in advance of the meeting.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_projected_on_going_meeting_schedule"><a class="anchor" href="#_projected_on_going_meeting_schedule"></a>8.5. Projected on-going meeting schedule</h3>
 <div class="paragraph">
-<p>The work of the SWG will be carried out primarily by email and conference calls, possibly every two weeks, with face-to-face meetings perhaps at each of the OGC TC meetings.</p>
+<p>The work of the SWG will be carried out primarily by email and conference calls, possibly every two weeks, with face-to-face meetings perhaps at each of the OGC Member Meetings.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_supporters_of_this_charter"><a class="anchor" href="#_supporters_of_this_charter"></a>8.6. Supporters of this Charter</h3>
 <div class="paragraph">
-<p>The following people support this proposal and are committed to the Charter and projected meeting schedule. These members are known as SWG Founding or Charter members. The charter members agree to the SoW and IPR terms as defined in this charter. The charter members have voting rights beginning the day the SWG is officially formed. Charter Members are shown on the public SWG page.</p>
+<p>The following people support this proposal and are committed to the Charter and projected meeting schedule. These members are known as SWG Founding or Charter Members. The Charter Members agree to the SoW and IPR terms as defined in this charter. The Charter Members have voting rights beginning the day the SWG is officially formed. Charter Members are shown on the public SWG page.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -948,6 +968,10 @@ In addition, formalised publication and identification supports the publicatioon
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">R. Atkinson</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">OGC Innovation Program</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">J. Escriu</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">European Commission Joint Research Centre</p></td>
 </tr>
 </tbody>
 </table>
@@ -981,10 +1005,10 @@ In addition, formalised publication and identification supports the publicatioon
 <h2 id="_references"><a class="anchor" href="#_references"></a>9. References</h2>
 <div class="sectionbody">
 <div id="DCAT" class="paragraph">
-<p>[DCAT] Web: W3C: Data Catalog Vocabulary (DCAT) - Version 2, <a href="https://www.w3.org/TR/vocab-dcat-2/" class="bare">https://www.w3.org/TR/vocab-dcat-2/</a> (2020)</p>
+<p>[DCAT] Web: W3C: Data Catalog Vocabulary (DCAT) — Version 2, <a href="https://www.w3.org/TR/vocab-dcat-2/" class="bare">https://www.w3.org/TR/vocab-dcat-2/</a> (2020)</p>
 </div>
 <div id="DCAT3" class="paragraph">
-<p>[DCAT3] Web: W3C: Data Catalog Vocabulary (DCAT) - Version 3, <a href="https://www.w3.org/TR/vocab-dcat-3/" class="bare">https://www.w3.org/TR/vocab-dcat-3/</a></p>
+<p>[DCAT3] Web: W3C: Data Catalog Vocabulary (DCAT) — Version 3, <a href="https://www.w3.org/TR/vocab-dcat-3/" class="bare">https://www.w3.org/TR/vocab-dcat-3/</a></p>
 </div>
 <div id="SDWBP" class="paragraph">
 <p>[SDWBP]  Web: OGC &amp; W3C: Spatial Data on the Web Best Practices, <a href="https://www.w3.org/TR/sdw-bp/" class="bare">https://www.w3.org/TR/sdw-bp/</a></p>
@@ -993,7 +1017,7 @@ In addition, formalised publication and identification supports the publicatioon
 <p>[GeoDCAT-AP] Web: OGC : GeoDCAT-AP Discussion Paper, <a href="http://www.opengis.net/doc/dp/GeoDCAT-AP" class="bare">http://www.opengis.net/doc/dp/GeoDCAT-AP</a></p>
 </div>
 <div id="GeoDCAT-APv2" class="paragraph">
-<p>[GeoDCAT-APv2] GeoDCAT-AP - Version 2.0.0 : SEMIC Editor&#8217;s Draft 23 December 2020, <a href="https://semiceu.github.io/GeoDCAT-AP/drafts/latest/" class="bare">https://semiceu.github.io/GeoDCAT-AP/drafts/latest/</a></p>
+<p>[GeoDCAT-APv2] GeoDCAT-AP — Version 2.0.0 : SEMIC Editor&#8217;s Draft 23 December 2020, <a href="https://semiceu.github.io/GeoDCAT-AP/drafts/latest/" class="bare">https://semiceu.github.io/GeoDCAT-AP/drafts/latest/</a></p>
 </div>
 <div id="PROF" class="paragraph">
 <p>[PROF] Web: W3C: Profiles Vocabulary (DCAT), <a href="https://www.w3.org/TR/dx-prof/" class="bare">https://www.w3.org/TR/dx-prof/</a></p>
@@ -1004,12 +1028,21 @@ In addition, formalised publication and identification supports the publicatioon
 <div id="DCAT-AP" class="paragraph">
 <p>[DCAT-AP] Web: EU: DCAT Application Profile for data portals in Europe, <a href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe" class="bare">https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe</a></p>
 </div>
+<div id="ISO19115" class="paragraph">
+<p>[ISO19115]: ISO 19115-1:2014. Geographic information — Metadata — Part 1: Fundamentals, <a href="https://www.iso.org/standard/53798.html" class="bare">https://www.iso.org/standard/53798.html</a></p>
+</div>
+<div id="OAR" class="paragraph">
+<p>[OAR]: DRAFT OGC API - Records - Part 1: Core, <a href="http://docs.ogc.org/DRAFTS/20-004.html" class="bare">http://docs.ogc.org/DRAFTS/20-004.html</a></p>
+</div>
+<div id="STAC" class="paragraph">
+<p>[STAC]: Spatio Temporal Asset Catalogs (STAC), <a href="https://stacspec.org/en" class="bare">https://stacspec.org/en</a></p>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-10-06 04:00:20 UTC
+Last updated 2023-01-10 14:35:57 -0700
 </div>
 </div>
 </body>
