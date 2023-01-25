@@ -9,7 +9,7 @@ The EU references GeoDCAT-AP as a "Good Practice" [at https://inspire.ec.europa.
 
 This charter provides the framework for realization of this goal through development of a GeoDCAT Standard and further refinement of the concept outside the particular constraints of <<DCAT-AP>>. I.e., the work aims to separate a general geospatial profile of DCAT, called "GeoDCAT," out from GeoDCAT-AP; the Europe-specific Application Profile (AP) will not be part of the OGC standardization work.
 
-GeoDCAT will provide a standardized vocabulary and encoding for spatial dataset descriptions and service descriptions (metadata records), based on general Web standards as is described in the Spatial Data on the Web Best Practices. GeoDCAT could in future be used as encoding in catalog API standards such as OGC API Records and STAC.
+GeoDCAT will provide a standardized vocabulary and encoding for spatial dataset descriptions and service descriptions (metadata records), based on general Web standards as are described in the Spatial Data on the Web Best Practices. GeoDCAT could in future be used as encoding in catalog API standards such as OGC API Records and STAC.
 
 === Value to the OGC
 To maintain its place as the provider of standards for description and access to spatio-temporal data, the OGC should provide guidance on representation of spatio-temporal concepts in data catalogues. <<GeoDCAT-AP>> is already referenced in the Spatial Data on the Web Best Practice <<SDWBP>>. The SWG will support publishing this as a set of normative resources, with a general profile of DCAT (GeoDCAT) which can be the basis for specialized profiles that are developed outside the SWG (such as GeoDCAT-AP), meeting the specific requirements of the original DCAT-AP context. 
