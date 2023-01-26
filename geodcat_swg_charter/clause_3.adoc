@@ -18,7 +18,7 @@ The primary goal of this SWG's work is to define GeoDCAT as a set of modules or 
 
 The SWG will look into the relationships with other relevant standards and possibly provide conceptual mappings. Part of the GeoDCAT vocabulary deliverable will be the relationship with other relevant standards, e.g., GeoDCAT-AP, ISO 19115, OGC API Records, STAC, GeoSPARQL, Dublin Core, schema.org, and others. 
 
-NOTE each of the standards mentioned above have their own lifecycle and governance. It is up to the SWG to decide if created mappings between GeoDCAT and these standards will be kept up to date. 
+**__NOTE:__** __Each of the standards mentioned above has its own lifecycle and governance. It is up to the SWG to decide whether mappings created between GeoDCAT and these standards will be kept up to date.__
 
 Future activities will include definition of additional specialized profiles as required and requested by specific applications domains (via OGC Domain Working Group inputs).
 
