@@ -85,6 +85,7 @@ The following people support this proposal and are committed to the Charter and 
 |B. de Lathouwer | Gemeente Rotterdam
 |R. Atkinson | OGC Innovation Program
 |J. Escriu | European Commission Joint Research Centre
+|U. Voges | contTerra GmbH
 |===
 
 === Conveners
