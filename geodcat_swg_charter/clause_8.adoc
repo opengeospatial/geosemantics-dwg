@@ -86,6 +86,7 @@ The following people support this proposal and are committed to the Charter and 
 |R. Atkinson | OGC Innovation Program
 |J. Escriu | European Commission Joint Research Centre
 |U. Voges | contTerra GmbH
+|F. Vinci | Epsilon Italia
 |===
 
 === Conveners
