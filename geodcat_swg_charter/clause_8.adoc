@@ -87,6 +87,7 @@ The following people support this proposal and are committed to the Charter and 
 |J. Escriu | European Commission Joint Research Centre
 |U. Voges | contTerra GmbH
 |F. Vinci | Epsilon Italia
+|D. Vandenbroucke | KU Leuven
 |===
 
 === Conveners
