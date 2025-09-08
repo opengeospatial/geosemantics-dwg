@@ -1,0 +1,40 @@
+== Scope of Work
+
+This will SWG will define standards for a range of mechanisms to enable semantic interoperability of content provided by  OGC API and data standards, including:
+
+- reusable schema "Building Blocks" for referencing terminology resources as Linked Data
+- reusable schema "Building Blocks" for minimal profiles of terminology definition standards - including at least the SKOS standard.
+- terminology access API compatible with OGC API common collections and items model
+- Terminology subscription mechanisms - possibly as an example of PubSub
+- Mappings between legacy and external standards and the preferred canonical schemas
+- Extension of terminology with rich object models
+- Specification of OGC APIs (i.e. methods) if required for specific terminology object models key to the OGC domain, including Feature Types, ObservableProperties, CRS
+
+
+
+
+=== Statement of relationship of planned work to the current OGC standards baseline
+
+The scope of this SWG is to augment the semantic interoperability capabilities of existing and future OGC standards by defining profiles and extensions to standardise use of terminology resources.
+
+
+=== What is Out of Scope?
+
+Developing new functional standards not related to terminology usage in other OGC standards.
+
+=== Specific Existing Work Used as Starting Point
+
+
+
+=== Is This a Persistent SWG
+
+[x] YES
+
+[ ] NO
+
+=== When can the SWG be Inactivated
+
+If and when:
+
+- building blocks have been defined and it an adopted OGC policy to use these in new OGC standards to support semantic interoperability, and
+- the wider community routinely addresses semantic interoperability with solutions covered by OGC standards.

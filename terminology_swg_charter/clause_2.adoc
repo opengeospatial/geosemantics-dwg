@@ -1,0 +1,19 @@
+== Business Value Proposition
+
+////
+This section provides a statement describing the value of this standards activity in relation to the OGC Membership, the geospatial community, and the wider IT community. This statement can be in terms of the interoperability problem being solved, processing Change requests to meet market (and Member requirements), a policy requirement and/or some other business value proposition. The proposition described in this section does not have to be in economic terms.
+////
+
+=== Value to the OGC
+To maintain its place as the provider of standards for description and access to spatio-temporal data, the OGC should provide guidance on representation of spatio-temporal concepts in data catalogues. <<GeoDCAT-AP>> is already referenced in the Spatial Data on the Web Best Practice <<SDWBP>>. The SWG will support publishing this as a set of normative resources, with a general profile of DCAT (GeoDCAT) which can be the basis for specialized profiles that are developed outside the SWG (such as GeoDCAT-AP), meeting the specific requirements of the original DCAT-AP context. 
+
+In addition, the management of a family of sub-profiles of GeoDCAT may be defined to standardize the description of OGC API usage in such catalogues. 
+
+=== Value to the OGC Membership
+Normative publication of GeoDCAT and API-centric implementation profiles provides a simplified pathway to assimilation of OGC standards into deployed systems. In addition, formalized publication and identification supports the publication and access via FAIR principles of supporting human and machine-readable resources to facilitate and validate implementations.
+
+=== Value to the geospatial community
+The larger geospatial community will benefit from the standardization of description of geospatial data and access services in DCAT based data catalogs. Portals that describe their data catalogs using either GeoDCAT or GeoDCAT-AP will be interoperable with each other as well as with general data catalog that use DCAT.
+
+=== Value to the wider IT community
+The publication of a formal profile of DCAT will present a best practice for the domain specialization of general data model standards, and a pattern for further specialization as required.

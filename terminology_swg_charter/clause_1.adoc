@@ -1,0 +1,8 @@
+== Purpose of the Standards Working Group
+
+////
+Proposers will describe the purpose of the Standards Working Group and its overall mission in relation to OGC processes, the OGC standards baseline, and OGC’s business plan.
+////
+
+The purpose of this SWG is to revise, publish, and maintain standard methods of referencing and maintaining standardised terminology resources across OGC standards.
+

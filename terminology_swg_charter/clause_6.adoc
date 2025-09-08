@@ -1,0 +1,23 @@
+This will include a range of supporting mechanisms including:
+
+- reusable schema "Building Blocks" for referencing terminology resources as Linked Data
+- reusable schema "Building Blocks" for minimal profiles of terminology definition standards - including at least the SKOS standard.
+- terminology access API compatible with OGC API common collections and items model
+- Terminology subscription mechanisms - possibly as an example of PubSub
+- Mappings between legacy and external standards and the preferred canonical schemas
+- Extension of terminology with rich object models
+- Specification of OGC APIs (i.e. methods) if required for specific terminology object models key to the OGC domain, including Feature Types, ObservableProperties, CRS
+
+
+== Anticipated Audience / Participants
+
+The anticipated audience is:
+
+- publishers of specialized application profiles of DCAT with geographic requirements;
+
+- implementors of Semantic Web systems that support, or plan to support, cataloguing of spatial data resources using DCAT; and
+
+- application domains that require a best practice mechanism to further specialize DCAT for particular resource types.
+
+
+
