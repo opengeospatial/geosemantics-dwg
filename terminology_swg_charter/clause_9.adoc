@@ -9,20 +9,8 @@
 [[SDWBP]]
 [SDWBP]  Web: OGC & W3C: Spatial Data on the Web Best Practices, https://www.w3.org/TR/sdw-bp/
 
-[[GeoDCAT-AP]]
-[GeoDCAT-AP] Web: OGC : GeoDCAT-AP Discussion Paper, http://www.opengis.net/doc/dp/GeoDCAT-AP
-
-[[GeoDCAT-APv2]]
-[GeoDCAT-APv2] GeoDCAT-AP — Version 2.0.0 : SEMIC Editor's Draft 23 December 2020, https://semiceu.github.io/GeoDCAT-AP/drafts/latest/
-
 [[PROF]]
 [PROF] Web: W3C: Profiles Vocabulary (DCAT), https://www.w3.org/TR/dx-prof/
-
-[[GeoDCAT-AP_IT]]
-[GeoDCAT-AP_IT] This is the issue tracker for the maintenance of GeoDCAT-AP. https://github.com/semiceu/geodcat-ap/
-
-[[DCAT-AP]]
-[DCAT-AP] Web: EU: DCAT Application Profile for data portals in Europe, https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe
 
 [[ISO19115]]
 [ISO19115]: ISO 19115-1:2014. Geographic information — Metadata — Part 1: Fundamentals, https://www.iso.org/standard/53798.html

@@ -9,6 +9,8 @@ The OGC is faced with many instances where terminology is referenced, and a rang
 
 Having a dedicated SWG to standardise approaches, working in conjunction with other WGs such as the OGC API "umbrella" SWG, the OAB and the Spatial Data on the Web WG allows for solutions to be validated and shared to cover the spectrum of terminology and terminology services approaches.
 
+A key value proposition is establishing effective collaborations with domain specific standards groups that maintain terminology resources, such as buildingSMART International. Such collaborations support potential adoption of OGC standards in these environments.
+
 === Value to the OGC Membership
 A centralised forum to assess and debate solutions to terminology interoperability frees OGC members from the complexities of reviewing a wide range of internal and external implementations. It allows conformance and software support for basic capabilities to be widely understood and implemented.
 

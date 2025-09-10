@@ -37,6 +37,7 @@ Developing new functional standards not related to terminology usage in other OG
 - [SKOS JSON schema draft "Building Block"](https://ogcincubator.github.io/bblocks-skos/)
 - [OGC Building Blocks profiling](https://ogcincubator.github.io/bblocks-docs/overview/profiles)
 - STAC extensions - embedded vocabularies
+- BuildingSmartInternational BSI Data Dictionary
 - other approaches such as Ontoportal Alliance federated vocabulary services (software specific)
 
 === Is This a Persistent SWG

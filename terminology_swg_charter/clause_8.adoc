@@ -2,46 +2,20 @@
 
 === Collaboration
 
-The GeoDCAT SWG will use
+==== bSI
 
-- Project Related Documentation;
+GIS/BIM integration has been a long-standing challenge. bSI has a strong community using controlled vocabularies, so identifying how these may be used in the context of OGC standards such as OGC API Features, CityGML, IndoorGML, MUDDI etc is a problem of standardising terminology referencing mechanisms.
 
-- Creation and management of outstanding work items, using Standards Tracker as the authoritative register;
+"On behalf of buildingSMART International (bSI), I am writing to express our strong interest in the OGC Call for Participation for the Vocabulary Service Standard (https://www.ogc.org/requests/vocabulary-service-standard/). We see significant synergy between this initiative and our buildingSMART Data Dictionary (bSDD) service (read more: https://www.buildingsmart.org/users/services/buildingsmart-data-dictionary/).
 
-- Prioritization of work items into iterations of work; and
+In short, the bSDD is a service for sharing and accessing data dictionaries to be used in BIM data, information requirements etc. The service is to a great extent based on the ISO23386 and ISO12006-3 on interconnected data dictionaries. As of today, there are 195 organisations who published over 300 data dictionaries in the bSDD, all can be browsed here: https://search.bsdd.buildingsmart.org/. The service has around 1000 unique daily users doing around 3M requests a month. We also provide an open API (JSON, RDF) to enable easy integrations with software, and there are 26 known software integrations with the bSDD.
 
-- The Standard Document itself.
-
-It is proposed that the work of this SWG be conducted openly on GitHub, as the work of the motivating GeoSemantics DWG is already on GitHub.
+As you know, the OGC and bSI have a longstanding Memorandum of Understanding, renewed in 2023, fostering cooperation in standards development and interoperability between BIM and GIS (more on MOU: https://www.buildingsmart.org/buildingsmart-international-and-geospatial-world-sign-mou-to-advance-bim-and-gis-workflows/). The Vocabulary Service Standard goals reflect the purpose and to great extent capabilities that the bSDD provides. Many of the ideas you describe are already implemented and actively used in the bSDD. By aligning and potentially integrating these efforts, I believe we can harmonize access and enhance great interoperability and improved consistency of BIM and GIS data.
+"
 
 === Similar or Applicable Standards Work (OGC and Elsewhere)
 
 // Review and update normative references
-
-==== DCAT-AP
-
-==== W3C Linked Building Data Community Group
-
-===== Scope of Activity
-
-The European Union publishes <<DCAT-AP>> — a profile of DCAT to meet administrative requirements for data publication in EU context.
-
-This application profile is a specification for metadata records to meet the specific application needs of data portals in Europe while providing semantic interoperability with other applications on the basis of reuse of established controlled vocabularies (e.g., EuroVoc) and mappings to existing metadata vocabularies (e.g., Dublin Core, SDMX, INSPIRE metadata).
-
-GeoDCAT is expected to be combined with DCAT-AP to realize a normative implementation of <<GeoDCAT-AP>>
-
-===== Web Site(s)
-
-- https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe
-
-===== Source Repositories
-
-- https://github.com/SEMICeu/DCAT-AP
-
-===== Liaisons
-
-- Andrea Perego
-- Antoine Isaac
 
 ==== W3C/OGC Spatial Data on the Web Working Group
 
@@ -59,15 +33,14 @@ This group operates within the W3C as well as the OGC in order to develop and ma
 
 ===== Liaisons
 
-- Linda van den Brink
-
-- Jeremy Tandy
+- Luis de Sousa (co-chair)
+- Rob Atkinson (co-chair)
 
 === Other Related Work
 
 === Details of first meeting
 
-The first meeting of the SWG will be held by telephone conference call at 6AM ET on the first Thursday immediately following the week of Technical Committee approval of this Charter. Call-in information will be provided to the SWG's e-mail list and on the portal calendar in advance of the meeting.
+TBD
 
 === Projected on-going meeting schedule
 
@@ -78,22 +51,14 @@ The work of the SWG will be carried out primarily by email and conference calls,
 The following people support this proposal and are committed to the Charter and projected meeting schedule. These members are known as SWG Founding or Charter Members. The Charter Members agree to the SoW and IPR terms as defined in this charter. The Charter Members have voting rights beginning the day the SWG is officially formed. Charter Members are shown on the public SWG page.
 
 |===
-|L.E. van den Brink | Geonovum
-|N.J. Car | SURROUND Australia Pty Ltd
-|J. Maso Pau | CREAF
-|L. Alemany Gómez | Centro Nacional de Información Geográfica
-|B. de Lathouwer | Gemeente Rotterdam
-|R. Atkinson | OGC Innovation Program
-|J. Escriu | European Commission Joint Research Centre
-|U. Voges | contTerra GmbH
-|F. Vinci | Epsilon Italia
-|D. Vandenbroucke | KU Leuven
+
+TBD
+
 |===
 
 === Conveners
-
+TBD
 |===
 |Name |Organization
-|L.E. van den Brink | Geonovum
-|J. Maso Pau | CREAF
+
 |===
