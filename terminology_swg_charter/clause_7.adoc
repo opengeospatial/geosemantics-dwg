@@ -1,6 +1,7 @@
 == Domain Working Group Endorsement
 
-This SWG scope addresses requirements for interoperable best practices in both geosemantics and metadata catalogs, and hence will report to both the Geosemantics and Metadata and Catalogs Domain Working Groups (DWGs).
+This SWG scope addresses requirements for interoperable best practices in across multiple environments.
 
-The Chairs of the Geosemantics DWG, Joseph Abhayaratna and Linda van den Brink, and the chairs of the MetaCat DWG, Danny Vandenbrouke and Byron Cochrane, do formally endorse the formation of the GeoDCAT Standards Working Group (SWG).
+As terminology is both a semantic and implementation concern, the GeoSemantics DWG should work with relevant SWG implementing functionality to identify requirements and opportunities for standardisation.
 
+_As one or more APIs and profiles of OGC APIs are envisaged the OGC APIs SWG should be engaged, however these activities can be limited to best practices for use of existing OGC APIs and schemas and does not have any impact on legacy standards._

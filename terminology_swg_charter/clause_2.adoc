@@ -5,15 +5,19 @@ This section provides a statement describing the value of this standards activit
 ////
 
 === Value to the OGC
-To maintain its place as the provider of standards for description and access to spatio-temporal data, the OGC should provide guidance on representation of spatio-temporal concepts in data catalogues. <<GeoDCAT-AP>> is already referenced in the Spatial Data on the Web Best Practice <<SDWBP>>. The SWG will support publishing this as a set of normative resources, with a general profile of DCAT (GeoDCAT) which can be the basis for specialized profiles that are developed outside the SWG (such as GeoDCAT-AP), meeting the specific requirements of the original DCAT-AP context. 
+The OGC is faced with many instances where terminology is referenced, and a range of legacy solutions from either developed or adopted standards.  Often these solutions are based on duplication of content such as keywords, without reference to the allowable range of such keywords. Most typically applications of OGC standards face the problem of specifying the terminology needed to achieve semantic interoperability of content, or full description of application specific services.
 
-In addition, the management of a family of sub-profiles of GeoDCAT may be defined to standardize the description of OGC API usage in such catalogues. 
+Having a dedicated SWG to standardise approaches, working in conjunction with other WGs such as the OGC API "umbrella" SWG, the OAB and the Spatial Data on the Web WG allows for solutions to be validated and shared to cover the spectrum of terminology and terminology services approaches.
 
 === Value to the OGC Membership
-Normative publication of GeoDCAT and API-centric implementation profiles provides a simplified pathway to assimilation of OGC standards into deployed systems. In addition, formalized publication and identification supports the publication and access via FAIR principles of supporting human and machine-readable resources to facilitate and validate implementations.
+A centralised forum to assess and debate solutions to terminology interoperability frees OGC members from the complexities of reviewing a wide range of internal and external implementations. It allows conformance and software support for basic capabilities to be widely understood and implemented.
+
+This SWG represents the principles of "encapsulation" of a complex problem through sharing the simplest possible common solutions.
 
 === Value to the geospatial community
-The larger geospatial community will benefit from the standardization of description of geospatial data and access services in DCAT based data catalogs. Portals that describe their data catalogs using either GeoDCAT or GeoDCAT-AP will be interoperable with each other as well as with general data catalog that use DCAT.
+The larger geospatial community will benefit from an ability to achieve semantic interoperability across the suite of OGC standards implementations, without having to develop specific application solutions for every deployment having potentially different solutions.
 
 === Value to the wider IT community
-The publication of a formal profile of DCAT will present a best practice for the domain specialization of general data model standards, and a pattern for further specialization as required.
+This is a problem not solved in the wider IT community - OpenAPI for example has stated a desire to look to OGC for understanding of requirements.  This is natural, since terminology differences are inherent in geography, both in terms of formal jurisdictions and social context.
+
+By demonstrating approaches relevant to OGC standards, which in turn build on wider IT community standards, this SWG can support a "design pattern" approach, or more formal interactions with other specifications.

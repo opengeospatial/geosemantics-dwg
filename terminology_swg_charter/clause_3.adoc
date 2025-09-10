@@ -4,18 +4,25 @@ This will SWG will define standards for a range of mechanisms to enable semantic
 
 - reusable schema "Building Blocks" for referencing terminology resources as Linked Data
 - reusable schema "Building Blocks" for minimal profiles of terminology definition standards - including at least the SKOS standard.
-- terminology access API compatible with OGC API common collections and items model
-- Terminology subscription mechanisms - possibly as an example of PubSub
-- Mappings between legacy and external standards and the preferred canonical schemas
+- mappings or translations between legacy and external standards and the preferred canonical schemas
+- a terminology access API compatible with OGC API common collections and items model
+- Terminology service subscription mechanisms - possibly as an example of PubSub
+- Terminology service federation mechanisms supporting geographically relevant subsets of vocabularies.
 - Extension of terminology with rich object models
 - Specification of OGC APIs (i.e. methods) if required for specific terminology object models key to the OGC domain, including Feature Types, ObservableProperties, CRS
 
+For example, an application may need to standardise content with a combination of a subset of terminology from a large dataset augmented with a subset of terminology from another source. For example a planning authority may need to combine a subset of land use categories from the _International Urban and Regional Information Systems Association (URISA) Land Use Classification_
+and combine with a subset of cultural landuses relevant to their region.
+
+One need is to declare the source of this terminology in metadata and data to support discovery and interpretation of the data using this terminology. Interpretation and analysis may require access to richer models describing the characteristics of these lan ude categories.
 
 
 
 === Statement of relationship of planned work to the current OGC standards baseline
 
 The scope of this SWG is to augment the semantic interoperability capabilities of existing and future OGC standards by defining profiles and extensions to standardise use of terminology resources.
+
+This SWG can identify common semantics and canonical translations between the many forms of terminology references already present in OGC and other standards, and help avoid proliferation of more forms.
 
 
 === What is Out of Scope?
@@ -24,7 +31,13 @@ Developing new functional standards not related to terminology usage in other OG
 
 === Specific Existing Work Used as Starting Point
 
-
+- Keyword and theme references in OGC API Records schemas
+- STAC extensions [Themes](https://github.com/stac-extensions/themes) - and fields in many extensions that could or should use controlled terminology.
+- GML and ISO XML schemas for dictionaries
+- [SKOS JSON schema draft "Building Block"](https://ogcincubator.github.io/bblocks-skos/)
+- [OGC Building Blocks profiling](https://ogcincubator.github.io/bblocks-docs/overview/profiles)
+- STAC extensions - embedded vocabularies
+- other approaches such as Ontoportal Alliance federated vocabulary services (software specific)
 
 === Is This a Persistent SWG
 

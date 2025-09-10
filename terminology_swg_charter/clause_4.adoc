@@ -1,13 +1,23 @@
 == Description of deliverables
 
+- Schema Building Blocks supporting terminology references
+- API Building Blocks for augmenting OGC API endpoints with terminology
+- Ontology Building Blocks for profiling and extending SKOS to support federation and terminology provenance
 
+Note that these Building Blocks will include canonical resources with persistent URL locations, validation resources, examples and transformation rules with testing.
+
+Profiles of existing OGC standards will be described as Building Blocks supported further profiling and combination using the same mechanisms as profile constraint specifications (i.e. a scalable, reusable solution)
 
 === Initial Deliverables
 
-The initial deliverables are based on the initial selection and prioritization of issues from the OGC Standards Tracker. This selection will be determined in the first meetings of the working group and subsequently updated in this working group charter.
+The following set of deliverables provides a minimal capability:
 
-After deciding on the initial issues to be worked on, this SWG will publish a roadmap to be used to manage scope and timeframes for delivery of a modular revision of the GeoDCAT profile standard.
+- JSON schema for a minimal SKOS profile (using JSON-LD for simple interpretation as SKOS)
+- OGC API - Terminology using the minimal SKOS profile JSON schema to serve terminology definitions
+- OGC API Records profile constraining references to managed terminology resources, including terminology resource subsets as range of property values
+- OGC API Features profile constraining terminology to references to managed terminology resources
 
+After these federation mechanisms for terminology services can be explored in the context of wider IT community directions, using the above mechanisms as driving Use Cases to drive requirements.
 
 === Additional SWG Tasks
 
