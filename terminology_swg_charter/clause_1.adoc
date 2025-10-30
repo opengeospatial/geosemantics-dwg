@@ -4,5 +4,9 @@
 Proposers will describe the purpose of the Standards Working Group and its overall mission in relation to OGC processes, the OGC standards baseline, and OGC’s business plan.
 ////
 
-The purpose of this SWG is to revise, publish, and maintain standard methods of referencing and maintaining terminology resources across OGC standards.  These methods include schema patterns, profile descriptions and validations and service APIs.
+The purpose of this SWG is to revise, publish, and maintain standard methods of referencing and maintaining terminology resources across OGC standards.
+
+These methods include schema patterns, profile descriptions and validations and service APIs.
+
+Incorporation of SWG outputs into other standards may be through direct dependencies or through publications of profiles for best practices.
 

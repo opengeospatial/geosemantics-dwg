@@ -10,9 +10,9 @@
 :numbered:
 :sectanchors:
 :source-highlighter: pygments
-:submission-date: 2023-01-31
-:approval-date: 2023-05-07
-:document-number: 23-006
+:submission-date:
+:approval-date:
+:document-number:
 
 <<<
 [cols = ">",frame = "none",grid = "none"]

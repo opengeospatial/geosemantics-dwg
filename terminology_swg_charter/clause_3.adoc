@@ -29,6 +29,9 @@ This SWG can identify common semantics and canonical translations between the ma
 
 Developing new functional standards not related to terminology usage in other OGC standards.
 
+Note: The OGC RAINBOW  service will _implement_ relevant outputs of this SWG but is not the driver or sole target of the SWG.
+
+
 === Specific Existing Work Used as Starting Point
 
 - Keyword and theme references in OGC API Records schemas
