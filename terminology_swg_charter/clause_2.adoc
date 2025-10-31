@@ -5,11 +5,11 @@ This section provides a statement describing the value of this standards activit
 ////
 
 === Value to the OGC
-The OGC is faced with many instances where terminology is referenced, and a range of legacy solutions from either developed or adopted standards.  Often these solutions are based on duplication of content such as keywords, without reference to the allowable range of such keywords. Most typically applications of OGC standards face the problem of specifying the terminology needed to achieve semantic interoperability of content, or full description of application specific services.
+The OGC is faced with many instances where terminology is referenced using a range of legacy solutions from either developed or adopted standards.  Often these solutions are based on duplication of content, such as keywords, without reference to the allowable range of such keywords. Typically, applications of OGC standards face the problem of having to re-specify the terminology needed to achieve semantic interoperability of content, or the full description of application specific services.
 
-Having a dedicated SWG to standardise approaches, working in conjunction with other WGs such as the OGC API "umbrella" SWG, the OAB and the Spatial Data on the Web WG allows for solutions to be validated and shared to cover the spectrum of terminology and terminology services approaches.
+Having a dedicated SWG to standardise approaches, working in conjunction with other WGs such as the OGC API "umbrella" SWG, the OAB and the Spatial Data on the Web WG will allow for solutions to be validated and shared to cover the spectrum of terminology and terminology services approaches.
 
-A key value proposition is establishing effective collaborations with domain specific standards groups that maintain terminology resources, such as buildingSMART International. Such collaborations support potential adoption of OGC standards in these environments.
+A key value proposition is establishing effective collaborations with domain-specific standards groups that maintain terminology resources, such as buildingSMART International. Such collaborations support potential adoption of OGC standards in these environments.
 
 === Value to the OGC Membership
 A centralised forum to assess and debate solutions to terminology interoperability frees OGC members from the complexities of reviewing a wide range of internal and external implementations. It allows conformance and software support for basic capabilities to be widely understood and implemented.
@@ -19,7 +19,9 @@ This SWG represents the principles of "encapsulation" of a complex problem throu
 === Value to the geospatial community
 The larger geospatial community will benefit from an ability to achieve semantic interoperability across the suite of OGC standards implementations, without having to develop specific application solutions for every deployment having potentially different solutions.
 
+The OGC is also providing terminology services to other organisations within the geospatial community, such as the ISO's Technical Committee 211 that the OGC hosts codelist vocabularies for via the OGC Rainbow. This SWG will provide those users of OGC terminology services with direction and ultimately certainty regarding how their content should be presented to maximise its interoperability with the larger set of OGC terminology. Current arrangements with such OGC service users are informal and un-standardised.
+
 === Value to the wider IT community
-This is a problem not solved in the wider IT community - OpenAPI for example has stated a desire to look to OGC for understanding of requirements.  This is natural, since terminology differences are inherent in geography, both in terms of formal jurisdictions and social context.
+This is a problem not solved in the wider IT community: OpenAPI for example has stated a desire to look to OGC for understanding of requirements.  This is natural, since terminology differences are inherent in geography, both in terms of formal jurisdictions and social context.
 
 By demonstrating approaches relevant to OGC standards, which in turn build on wider IT community standards, this SWG can support a "design pattern" approach, or more formal interactions with other specifications.

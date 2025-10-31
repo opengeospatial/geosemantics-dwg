@@ -3,8 +3,9 @@
 - Schema Building Blocks supporting terminology references
 - API Building Blocks for augmenting OGC API endpoints with terminology
 - Ontology Building Blocks for profiling and extending SKOS to support federation and terminology provenance
+- organisation of Building Blocks and other semantic terminology objects within a classification vocabulary of themes or a terminology metamodel
 
-Note that these Building Blocks will include canonical resources with persistent URL locations, validation resources, examples and transformation rules with testing.
+NOTE:: These Building Blocks will include canonical resources with persistent URL locations, validation resources, examples and transformation rules with testing.
 
 Profiles of existing OGC standards will be described as Building Blocks supported further profiling and combination using the same mechanisms as profile constraint specifications (i.e. a scalable, reusable solution)
 
@@ -17,7 +18,7 @@ The following set of deliverables provides a minimal capability:
 - OGC API Records profile constraining references to managed terminology resources, including terminology resource subsets as range of property values
 - OGC API Features profile constraining terminology to references to managed terminology resources
 
-After these federation mechanisms for terminology services can be explored in the context of wider IT community directions, using the above mechanisms as driving Use Cases to drive requirements.
+After these, federation mechanisms for terminology services can be explored in the context of wider IT community directions, using the above mechanisms as driving Use Cases to drive requirements.
 
 === Additional SWG Tasks
 

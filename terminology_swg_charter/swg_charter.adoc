@@ -23,7 +23,7 @@
 |Approval Date:   {approval-date}
 |Internal reference number of this OGC(R) document:    {document-number}
 |Category: OGC(R) Standards Working Group Charter
-|Authors:   R. Atkinson
+|Authors:   R. Atkinson, N.J. Car
 |===
 
 [cols = "^", frame = "none"]
@@ -34,7 +34,7 @@
 [cols = "^", frame = "none", grid = "none"]
 |===
 |*Copyright notice*
-|Copyright (C) 2023 Open Geospatial Consortium
+|Copyright (C) 2025 Open Geospatial Consortium
 |To obtain additional rights of use, visit http://www.opengeospatial.org/legal/
 |===
 
@@ -67,7 +67,7 @@ member of OGC;
 
 * The OGC member must have signed the OGC Membership agreement;
 
-* You must notify the SWG chair of your intent to participate to the first meeting. Members may do so by logging onto the OGC Portal and navigating to the Observer page and clicking on the link for the SWG they wish to join and;
+* You must notify the SWG chair of your intent to participate in your first meeting. Members may do so by logging onto the OGC Portal and navigating to the Observer page and clicking on the link for the SWG they wish to join and;
 
 * You must attend meetings of the SWG. The first meeting of this SWG is at the time and date fixed below. Attendance may be by teleconference.
 

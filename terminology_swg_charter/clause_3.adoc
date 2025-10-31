@@ -1,22 +1,20 @@
 == Scope of Work
 
-This will SWG will define standards for a range of mechanisms to enable semantic interoperability of content provided by  OGC API and data standards, including:
+This will SWG will define standards for a range of mechanisms to enable semantic interoperability of content provided by OGC API and data standards, including:
 
 - reusable schema "Building Blocks" for referencing terminology resources as Linked Data
-- reusable schema "Building Blocks" for minimal profiles of terminology definition standards - including at least the SKOS standard.
+- reusable schema "Building Blocks" for minimal profiles (as per <<PROF, PROF>>) of terminology definition standards - including at least the SKOS standard
 - mappings or translations between legacy and external standards and the preferred canonical schemas
 - a terminology access API compatible with OGC API common collections and items model
-- Terminology service subscription mechanisms - possibly as an example of PubSub
-- Terminology service federation mechanisms supporting geographically relevant subsets of vocabularies.
-- Extension of terminology with rich object models
-- Specification of OGC APIs (i.e. methods) if required for specific terminology object models key to the OGC domain, including Feature Types, ObservableProperties, CRS
+- terminology service subscription mechanisms - possibly as an example of PubSub
+- terminology service federation mechanisms supporting geographically relevant subsets of vocabularies.
+- extension of terminology with rich object models
+- specification of OGC APIs (i.e. methods), if required, for specific terminology object models key to the OGC domain, including Feature Types, Observable Properties, CRS
+- terminology meta-classification: theme/subject vocabularies for the classification and organisation of terminology objects
 
-For example, an application may need to standardise content with a combination of a subset of terminology from a large dataset augmented with a subset of terminology from another source. For example a planning authority may need to combine a subset of land use categories from the _International Urban and Regional Information Systems Association (URISA) Land Use Classification_
-and combine with a subset of cultural landuses relevant to their region.
+An example scenario: an application may need to standardise content with a combination of a subset of terminology from a large dataset augmented with a subset of terminology from another source. Perhaps a planning authority needs to combine a subset of land use categories from the _International Urban and Regional Information Systems Association (URISA) Land Use Classification_ with a subset of cultural land uses relevant to their region.
 
-One need is to declare the source of this terminology in metadata and data to support discovery and interpretation of the data using this terminology. Interpretation and analysis may require access to richer models describing the characteristics of these lan ude categories.
-
-
+For basic discovery and interpretation of the data using the combined set of terminology, the individual terminology elements will need to be themselves discoverable and de-referencable to further information about them so they can be understood - common terminology requirements - but for deeper interpretation and analysis, how the total set of terminology used was assembled from the URISA and other source terminology sets must also be discoverable: what logic was used to determine what URISA terms were excluded from use? This, and deeper terminology questions like it, need terminology access and management methods beyond just vocabulary models when the sets of terminology used are not all vocabs, when they are different styles of vocabs, when they have interrelations that are important to know and so on. This is the state of OGC terminology as it has developed organically, across multiple standards that haven't all used the same sorts of terminology definition mechanisms.
 
 === Statement of relationship of planned work to the current OGC standards baseline
 
@@ -29,19 +27,20 @@ This SWG can identify common semantics and canonical translations between the ma
 
 Developing new functional standards not related to terminology usage in other OGC standards.
 
-Note: The OGC RAINBOW  service will _implement_ relevant outputs of this SWG but is not the driver or sole target of the SWG.
+NOTE:: The OGC RAINBOW  service will _implement_ relevant outputs of this SWG but is not the driver or sole target of the SWG.
 
 
 === Specific Existing Work Used as Starting Point
 
-- Keyword and theme references in OGC API Records schemas
-- STAC extensions [Themes](https://github.com/stac-extensions/themes) - and fields in many extensions that could or should use controlled terminology.
+- Keyword and theme references in OGC API Records <<OAR, OAR>> schemas
+- <<STAC, STAC>> extensions [Themes](https://github.com/stac-extensions/themes) - and fields in many extensions that could or should use controlled terminology.
 - GML and ISO XML schemas for dictionaries
 - [SKOS JSON schema draft "Building Block"](https://ogcincubator.github.io/bblocks-skos/)
 - [OGC Building Blocks profiling](https://ogcincubator.github.io/bblocks-docs/overview/profiles)
 - STAC extensions - embedded vocabularies
 - BuildingSmartInternational BSI Data Dictionary
 - other approaches such as Ontoportal Alliance federated vocabulary services (software specific)
+- classification terminology or a metamodel for terminological objects
 
 === Is This a Persistent SWG
 
@@ -53,5 +52,5 @@ Note: The OGC RAINBOW  service will _implement_ relevant outputs of this SWG but
 
 If and when:
 
-- building blocks have been defined and it an adopted OGC policy to use these in new OGC standards to support semantic interoperability, and
+- Building Blocks have been defined and it an adopted OGC policy to use these in new OGC standards to support semantic interoperability, and
 - the wider community routinely addresses semantic interoperability with solutions covered by OGC standards.

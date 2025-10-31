@@ -10,7 +10,4 @@ The anticipated audience is:
 
 - data publishers needing to better describe data
 
-
-
-
-
+- terminology developers requiring OGC publication of their work
