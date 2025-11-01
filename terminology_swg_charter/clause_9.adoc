@@ -4,7 +4,7 @@
 [PROF] Web: W3C: Profiles Vocabulary (DCAT), https://www.w3.org/TR/dx-prof/
 
 [[OAR]]
-[OAR]: DRAFT OGC API - Records - Part 1: Core, http://docs.ogc.org/DRAFTS/20-004.html
+[OAR]: DRAFT OGC API — Records — Part 1: Core, http://docs.ogc.org/DRAFTS/20-004.html
 
 [[STAC]]
 [STAC]: Spatio Temporal Asset Catalogs (STAC), https://stacspec.org/en
