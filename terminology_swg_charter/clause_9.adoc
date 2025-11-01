@@ -1,22 +1,10 @@
 == References
 
-[[DCAT]]
-[DCAT] Web: W3C: Data Catalog Vocabulary (DCAT) — Version 2, https://www.w3.org/TR/vocab-dcat-2/ (2020)
-
-[[DCAT3]]
-[DCAT3] Web: W3C: Data Catalog Vocabulary (DCAT) — Version 3, https://www.w3.org/TR/vocab-dcat-3/
-
-[[SDWBP]]
-[SDWBP]  Web: OGC & W3C: Spatial Data on the Web Best Practices, https://www.w3.org/TR/sdw-bp/
-
 [[PROF]]
 [PROF] Web: W3C: Profiles Vocabulary (DCAT), https://www.w3.org/TR/dx-prof/
 
-[[ISO19115]]
-[ISO19115]: ISO 19115-1:2014. Geographic information — Metadata — Part 1: Fundamentals, https://www.iso.org/standard/53798.html
-
 [[OAR]]
-[OAR]: DRAFT OGC API - Records - Part 1: Core, http://docs.ogc.org/DRAFTS/20-004.html
+[OAR]: DRAFT OGC API — Records — Part 1: Core, http://docs.ogc.org/DRAFTS/20-004.html
 
 [[STAC]]
 [STAC]: Spatio Temporal Asset Catalogs (STAC), https://stacspec.org/en
