@@ -1,6 +1,6 @@
 == Scope of Work
 
-This will SWG will define standards for a range of mechanisms to enable semantic interoperability of content provided by OGC API and data standards, including:
+This SWG will define standards for a range of mechanisms to enable semantic interoperability of content provided by OGC API and data standards, including the following:
 
 - reusable schema "Building Blocks" for referencing terminology resources as Linked Data
 - reusable schema "Building Blocks" for minimal profiles (as per <<PROF, PROF>>) of terminology definition standards - including at least the SKOS standard
