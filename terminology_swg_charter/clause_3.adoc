@@ -52,5 +52,5 @@ NOTE:: The OGC RAINBOW service will _implement_ relevant outputs of this SWG, bu
 
 If and when:
 
-- Building Blocks have been defined and it an adopted OGC policy to use these in new OGC standards to support semantic interoperability, and
+- Building Blocks have been defined and it is an adopted OGC policy to use these in new OGC standards to support semantic interoperability.
 - the wider community routinely addresses semantic interoperability with solutions covered by OGC standards.
