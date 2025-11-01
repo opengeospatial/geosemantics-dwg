@@ -37,7 +37,7 @@ NOTE:: The OGC RAINBOW service will _implement_ relevant outputs of this SWG, bu
 - GML and ISO XML schemas for dictionaries
 - [SKOS JSON schema draft "Building Block"](https://ogcincubator.github.io/bblocks-skos/)
 - [OGC Building Blocks profiling](https://ogcincubator.github.io/bblocks-docs/overview/profiles)
-- STAC extensions - embedded vocabularies
+- STAC extensions — embedded vocabularies
 - BuildingSmartInternational BSI Data Dictionary
 - other approaches such as Ontoportal Alliance federated vocabulary services (software specific)
 - classification terminology or a metamodel for terminological objects
