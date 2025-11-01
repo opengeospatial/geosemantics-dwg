@@ -7,7 +7,7 @@
 
 NOTE: These Building Blocks will include canonical resources with persistent URL locations, validation resources, examples, and transformation rules with testing.
 
-Profiles of existing OGC standards will be described as Building Blocks supported further profiling and combination using the same mechanisms as profile constraint specifications (i.e. a scalable, reusable solution)
+Profiles of existing OGC standards will be described as Building Blocks supporting further profiling and combinations using the same mechanisms as profile constraint specifications (i.e., a scalable, reusable solution)
 
 === Initial Deliverables
 
