@@ -5,7 +5,7 @@
 - Ontology Building Blocks for profiling and extending SKOS to support federation and terminology provenance
 - organisation of Building Blocks and other semantic terminology objects within a classification vocabulary of themes or a terminology metamodel
 
-NOTE:: These Building Blocks will include canonical resources with persistent URL locations, validation resources, examples and transformation rules with testing.
+NOTE: These Building Blocks will include canonical resources with persistent URL locations, validation resources, examples, and transformation rules with testing.
 
 Profiles of existing OGC standards will be described as Building Blocks supported further profiling and combination using the same mechanisms as profile constraint specifications (i.e. a scalable, reusable solution)
 
