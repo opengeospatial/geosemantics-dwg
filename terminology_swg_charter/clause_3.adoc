@@ -6,10 +6,10 @@ This SWG will define standards for a range of mechanisms to enable semantic inte
 - reusable schema "Building Blocks" for minimal profiles (as in <<PROF, PROF>>) of terminology definition standards — including at least the SKOS standard
 - mappings or translations between legacy and external standards and the preferred canonical schemas
 - a terminology access API compatible with OGC API common collections and items model
-- terminology service subscription mechanisms - possibly as an example of PubSub
+- terminology service subscription mechanisms — possibly as an example of PubSub
 - terminology service federation mechanisms supporting geographically relevant subsets of vocabularies.
 - extension of terminology with rich object models
-- specification of OGC APIs (i.e. methods), if required, for specific terminology object models key to the OGC domain, including Feature Types, Observable Properties, CRS
+- specification of OGC APIs (i.e., methods), if required, for specific terminology object models key to the OGC domain, including Feature Types, Observable Properties, CRS
 - terminology meta-classification: theme/subject vocabularies for the classification and organisation of terminology objects
 
 An example scenario: an application may need to standardise content with a combination of a subset of terminology from a large dataset augmented with a subset of terminology from another source. Perhaps a planning authority needs to combine a subset of land use categories from the _International Urban and Regional Information Systems Association (URISA) Land Use Classification_ with a subset of cultural land uses relevant to their region.
