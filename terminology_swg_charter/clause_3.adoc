@@ -3,7 +3,7 @@
 This SWG will define standards for a range of mechanisms to enable semantic interoperability of content provided by OGC API and data standards, including the following:
 
 - reusable schema "Building Blocks" for referencing terminology resources as Linked Data
-- reusable schema "Building Blocks" for minimal profiles (as per <<PROF, PROF>>) of terminology definition standards - including at least the SKOS standard
+- reusable schema "Building Blocks" for minimal profiles (as in <<PROF, PROF>>) of terminology definition standards — including at least the SKOS standard
 - mappings or translations between legacy and external standards and the preferred canonical schemas
 - a terminology access API compatible with OGC API common collections and items model
 - terminology service subscription mechanisms - possibly as an example of PubSub
