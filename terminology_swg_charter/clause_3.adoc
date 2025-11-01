@@ -33,7 +33,7 @@ NOTE:: The OGC RAINBOW service will _implement_ relevant outputs of this SWG, bu
 === Specific Existing Work Used as Starting Point
 
 - Keyword and theme references in OGC API Records <<OAR, OAR>> schemas
-- <<STAC, STAC>> extensions [Themes](https://github.com/stac-extensions/themes) - and fields in many extensions that could or should use controlled terminology.
+- <<STAC, STAC>> extensions [Themes](https://github.com/stac-extensions/themes) — and fields in many extensions that could or should use controlled terminology.
 - GML and ISO XML schemas for dictionaries
 - [SKOS JSON schema draft "Building Block"](https://ogcincubator.github.io/bblocks-skos/)
 - [OGC Building Blocks profiling](https://ogcincubator.github.io/bblocks-docs/overview/profiles)
