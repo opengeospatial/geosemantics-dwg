@@ -22,6 +22,6 @@ The larger geospatial community will benefit from an ability to achieve semantic
 The OGC is also providing terminology services to other organisations within the geospatial community, such as the ISO's Technical Committee 211 for which the OGC hosts codelist vocabularies via the OGC Rainbow. This SWG will provide those users of OGC terminology services with direction and ultimately certainty regarding how their content should be presented to maximise its interoperability with the larger set of OGC terminology. Current arrangements with such OGC service users are informal and not standardised.
 
 === Value to the wider IT community
-This is a problem not solved in the wider IT community: OpenAPI for example has stated a desire to look to OGC for understanding of requirements.  This is natural, since terminology differences are inherent in geography, both in terms of formal jurisdictions and social context.
+This is a problem not solved in the wider IT community: for example, OpenAPI has stated a desire to look to OGC for understanding of requirements.  This is natural, since terminology differences are inherent in geography, both in terms of formal jurisdictions and social context.
 
 By demonstrating approaches relevant to OGC standards, which in turn build on wider IT community standards, this SWG can support a "design pattern" approach, or more formal interactions with other specifications.
